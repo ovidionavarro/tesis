@@ -1,0 +1,91 @@
+\documentclass[12pt]{report}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc} % Codificación UTF-8
+\usepackage[spanish]{babel} % Idioma español
+\usepackage{graphicx}       % Para incluir imágenes
+\usepackage{hyperref}       % Hipervínculos
+\usepackage{geometry}       % Configurar márgenes
+\usepackage{titlesec}       % Modificar títulos
+\usepackage{fancyhdr}       % Encabezados y pies de página
+
+% Configuración de márgenes
+\geometry{a4paper, margin=1in}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={Título de la Tesis},
+    pdfauthor={Tu Nombre}
+}
+
+% Configuración del encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Título de la Tesis}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{Nombre del Autor}
+
+% Configuración de los títulos
+\titleformat{\chapter}[hang]{\bfseries\Large}{\thechapter.}{1em}{}
+
+% Inicio del documento
+\begin{document}
+
+% Portada
+\begin{titlepage}
+    \centering
+    {\Large \textbf{Universidad X}}\\[2cm]
+    {\Huge \textbf{Título de la Tesis}}\\[1.5cm]
+    {\large Por}\\[0.5cm]
+    {\Large \textbf{Tu Nombre}}\\[2cm]
+    \vfill
+    {\large \textbf{Fecha:} \today}
+\end{titlepage}
+
+% Índice
+\tableofcontents
+\newpage
+
+% Capítulos
+\chapter{Introducción}
+Escribe aquí la introducción de tu tesis. Explica el contexto, los objetivos y la estructura general del documento.
+
+\chapter{Marco Teórico}
+Incluye el marco teórico, revisiones de la literatura y conceptos clave relacionados con tu trabajo.
+\section{Conceptos Fundamentales}
+En esta sección se definen los conceptos clave que son relevantes para este trabajo. 
+
+\subsection{Definición del Término A}
+El término A se refiere a...
+
+\subsection{Definición del Término B}
+El término B, por otro lado, se entiende como...
+
+\section{Teorías Relacionadas}
+Esta sección presenta las teorías principales que fundamentan el estudio.
+\chapter{Metodología}
+Describe la metodología utilizada en tu investigación, incluyendo los métodos, herramientas y procedimientos.
+
+\chapter{Resultados}
+Presenta los resultados obtenidos durante tu investigación.
+
+\chapter{Discusión}
+Analiza los resultados y compara con otros estudios o referencias relevantes.
+
+\chapter{Conclusiones y Recomendaciones}
+Resume los hallazgos principales y ofrece recomendaciones futuras.
+
+% Bibliografía
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{plain}
+\bibliography{referencias}
+
+% Anexos (opcional)
+\appendix
+\chapter{Anexo A}
+Incluye aquí cualquier información adicional como encuestas, gráficos, o tablas complementarias.
+
+\end{document}
