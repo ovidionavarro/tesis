@@ -1,13 +1,13 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Introducción}{2}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Marco Teórico}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Conceptos Fundamentales}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Definición del Término A}{3}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Definición del Término B}{3}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Teorías Relacionadas}{3}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Metodología}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Resultados}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Discusión}{6}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{7}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{7}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Anexo A}{9}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {1}Marco Teórico}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Conceptos Fundamentales}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Definición del Término A}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Definición del Término B}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Teorías Relacionadas}{4}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Metodología}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Resultados}{6}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Discusión}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{8}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Anexo A}{10}{appendix.Alph1}%
