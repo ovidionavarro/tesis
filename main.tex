@@ -14,7 +14,7 @@
 %\setlength{\parindent}{1.5em}
 % Configuración de márgenes
 \geometry{a4paper, margin=1in}
-
+\graphicspath{{img/}}
 
 % Configuración de hipervínculos
 
@@ -43,12 +43,27 @@
 % Portada
 \begin{titlepage}
     \centering
-    {\Large \textbf{Universidad X}}\\[2cm]
-    {\Huge \textbf{Título de la Tesis}}\\[1.5cm]
-    {\large Por}\\[0.5cm]
-    {\Large \textbf{Tu Nombre}}\\[2cm]
-   
-    {\large \textbf{Fecha:} \today}
+    {\Huge {Universidad de la Habana}}\\[1cm]
+    {\Huge {Facultad de Matemática y Computación }}\\[0.5cm]
+ 
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics[width=0.3\textwidth]{logoUH.png}
+    \end{figure}
+    {\noindent\hrulefill}\\[0.2cm]
+    
+    {\Large\textbf{{Test para la detección de patrones DIAG y LINE  en las contraseñas gráficas de PassPoint, basada en la cantidad de triángulos de Delaunay }}}\\[0.1cm]
+    {\noindent\hrulefill}\\[1.0cm]
+    
+    
+ 
+    
+    {\Large {Autor: Ovidio Navarro Pazos}}\\[2cm]
+   	{\Large {Tutor(es): MrS.Lisset Suárez Plasencia}}\\
+   	\hspace{8.5em}{\Large{MrS.Joaquín A. Herrera Macías}}\\[2.0cm]
+   	
+   	{\large{La Habana, Cuba}}\\
+    {\large  \today}
 \end{titlepage}
 
 % Índice
@@ -70,43 +85,50 @@
 	La tendencia de los usuarios a crear patrones entre los puntos seleccionados, ya sea de manera independiente o en combinación con Hotspots, constituye una debilidad importante. Esto hace que las contraseñas generadas sean menos aleatorias y más susceptibles a ataques basados en diccionarios específicos. Por ello, resulta fundamental desarrollar pruebas que detecten la existencia de estos patrones en las contraseñas antes de su uso, ya que contribuirían significativamente a mejorar la seguridad de la técnica PassPoint.
 	
 	
-	
-	
-	
-	
-	
-	%%%de la tesis de liset arreglar
-	%Se han encontrado pocas investigaciones dirigidas en este aspecto durante los ultimos años. Tres de los test más empleados para comprobar Aleatoriedad Espacial Completa  son: el test de la funciónK-Ripley, el test de la función G o de la distancia al vecino más cercano y el test de la función F o de la distancia de espacio vacío; sin embargo, en [9-10 sensor] se demuestra que en el escenario de PassPoint dos de  estos tests resultan ser inefectivos en la detección de contraseñas gráficas formadas por patrones agrupados, mientras que en [15, 16] demuestran que los tres test son inefectivos tanto para detectar agrupamiento como regularidad en las contraseñas de este escenario.\textbf{ARREGLAR}. Hasta el momento en la bibliografia consultada se encuentran dos test efectivos(tesis lisset y joakin) para detectar contraseñas no aleatorias formadas por patrones agrupados o regulares e el escenario PassPoint, basados en (tesis de liset) en la distancia promedio de los perímetros de los triángulos de Delaunay y (joakin)en distancia media entre 5 puntos.
+
 	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el test de la función K-Ripley, el test de la función G, que analiza la distancia al vecino más cercano, y el test de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en [9-10 sensor] se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en [15, 16] se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado dos tests efectivos (tesis de Liset y Joakin) para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de (Liset), en la distancia promedio de los perímetros de los triángulos de Delaunay, y, en el caso de (Joakin), en la distancia media entre cinco puntos.
 	
-	%bibliografia de sensor
-	%Teneindo en cuenta que las caracteristicas de una triangulacion de delaunay permiten extraer informacion sobre la dependencia entre puntos ,se ha utilizado como herramienta a mediados de la decada de 1980 para dectectar patrones de puntos. En[22]  Chiu utilizo varias de estas caracteristicas para detectar la agrupacion y la regularidad entre los puntos. En particular, la caracteristica del angulo maximo de un triangulo de delaynay, en la bibliografia consultada ,nunca se habia utilizado para detactar otro tipo de patrones ademas de los agrupados o regulares . Sin embargo dado que los patrones diag o line se caracterizan por tener un angulo cercano a 0 entre dos segmentos consecutivos , en [sensor] se planteo  y se demostro que la media de los angulos maximos de los triangulos de delaunay formados a partir de los puntos de las contraseñas graficas de PassPiont  ,es un estadigrafo eficas para detectar la existencia de patrones DAIG y LINE,a pesar de un numero reducido de puntos .
-	Teniendo en consideración que las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu [22], se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones ``DIAG " y ``LINE " se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos, en [sensor] se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones ``DAIG" y ``LINE", incluso con un número limitado de puntos.
-	En [15] se entendía como el ángulo formado entre dos segmentos consecutivos ,el menor de los dos ángulos que forman la intersección de la prolongacin de los segmentos de una contraseña.Nos referiremos al mayor de estos dos angulos como el angulo adyacente entre dos segmentos .
+	Teniendo en consideración que las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu [22], se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos, en [sensor] se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos.
+	En [15] se entendía como el ángulo formado entre dos segmentos consecutivos ,el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña.Nos referiremos al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
+
 
 	
-
+	Según los resultados obtenidos en (sensor) se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay pero realizando análisis independientes según la cantidad de triángulos en su triangulación (3,4,5) y realizar un análisis comparativo respecto a los resultados obtenidos en (sensor).\\
 	
-%	Existen varios articulos publicados sobre el tema en los ultimos años, en (articulo legon2019)se propone un modelo probabilisto de autenticación gráfica que permite medir en la practica el nivel de autenticidad de el usuario en alto, medio y bajo ,.En (sensor) se realiza un test de deteccion de  patrones suaves  DIAG y LINE basado en el promedio angulos maximos de sus triangulos de delaunay, según los resultados obtenidos se demostró que el promedio de los angulos maximos de los triangulos de delaunay es un estadistico eficas para detectar contraseñas que sigan un patron DIAG o LINE
-	
-	Según los resultados obtenidos en sensor se sugiere investigar la eficacia de un test de detección de los patrones diag y line utilizando como estadigrafo el promedio de los angulos maximos de los triangulos de delaunay pero realizando un analisis independientes segun la cantidad de triangulos en su triangulacion (3,4,5) y realizar un analisis comparativo respcto a los resultados obtenidos en s(sensor).\\
-	
-	\large{\textbf{Problema de investigacion:}}\\
+	\large{\textbf{Problema de investigación:}}\\
+	\normalsize{	Detectión contraseñas que sigan los patrones suaves DIAG y LINE en PassPoint, basada en la cantidad de triángulos de Delaunay.}\\
 	
 	\large{\textbf{Objetivo de estudio:}}\\
+	\normalsize{Comprobar si el estadígrafo  ``promedio de los ángulos máximos de las triangulaciones de Delaunay ",  es más eficaz si se trabaja individualmente sobre las distintas cantidades de triángulos existentes en las triangulaciones.}\\
 	
-	\large{\textbf{Campo de accion:}}\\
+		   
+	\large{\textbf{Campo de acción:}}\\
+	\normalsize{Detección de contraseñas gráficas no aleatorias en el escenario PassPoint utilizando las triangulaciones de Delaunay}.\\
+	 
+	\large{\textbf{Hipótesis:}}\\
+	\normalsize{Es posible que utilizar el estadígrafo ``promedio de los ángulos máximos de las triangulaciones de Delaunay"  de manera individual sobre las distintas cantidades de triángulos existentes en las triangulaciones es mas eficaz que trabajarlo de manera general.\\
+	}	
 	
-	\large{\textbf{Hipotesis:}}\\
+	\large{\textbf{Idea de la solución:}}\\
+	\normalsize{
+		Para cada cantidad de triángulos  en las triangulaciones de Delaunay para 5 puntos:
+		\begin{itemize}
+			\item Encontrar como distribuyen las contraseñas aleatorias
+			\item Realizar un análisis estadístico obteniendo los errores tipo I y II
+			\item Realizar una comparación  con los resultados obtenidos en (SENSOR).
+		
+		\end{itemize}
 	
-	\large{\textbf{Idea de la solucion:}}\\
+	
+	
+	}
 	
 	\large{\textbf{Objetivos}}\\
-	\normalsize{\textbf{Objetivos generales}}:Detectar\cite{1} la no aleatoriedad en las constraseñas graficas que siguen patrones DIAG o LINE en PassPoint para cada numero de triangulos en una triangulacion de delaunay\\
-	\normalsize{\textbf{Objetivos especificos}}:
+	\normalsize{\textbf{Objetivos generales}}:Detectar\cite{1} la no aleatoriedad en las contraseñas gráficas que siguen patrones DIAG o LINE en PassPoint para cada número de triángulos en una triangulación de Delaunay\\
+	\normalsize{\textbf{Objetivos específicos}}:
 	\begin{itemize}
-		\item Crear un criterio de desicion basado en el promedio de los angulos maximos de los triangulos de delaunay para cada posible cantidad de triangulos en su triangulacion
-		\item  Para cada cada cantidad de triangulos, obtener stimaciones treoricas del numero esperado de fallos en la deteccion de contraseñas graficas debiles
+		\item Crear un criterio de desición basados en el promedio de los ángulos máximos de los triángulos de Delaunay para cada posible cantidad de triángulos en su triangulación.
+		\item  Para cada cantidad de triángulos, obtener estimaciones teóricas del número esperado de fallos en la detección de contraseñas gráficas débiles.
 	\end{itemize}
 	
 	
