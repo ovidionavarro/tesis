@@ -141,13 +141,58 @@ Incluye el marco teórico, revisiones de la literatura y conceptos clave relacio
 \section{Conceptos Fundamentales}
 En esta sección se definen los conceptos clave que son relevantes para este trabajo. 
 
-\subsection{Definición del Término A}
-El término A se refiere a...
+\subsection{PassPoint}
+	La técnica PassPoint diseñada por Wiedenbeck(77 osviel) destaca entre los sistemas de autenticacion grafica del tipo cued-recall por su usabilidad y seguridad(rodrigez et al..2018 comparacion pag3) .
+	%usabilidad
+	La tecnica consiste en que  en su fase de registro el
+	usuario debe seleccionar 5 puntos(pixeles) de una imagen ya sea seleccionadda por el o dada por el sistema  y en el proceso de
+	autentificaci´on este debe seleccionar en el mismo orden una vecindad o region de tolerancia de los puntos escogidos en la fase de registro.
+	%parte de hotspot
+	Wiedenbeck su investigacion (77 osviel) asegura que las imagenes mas deseadas para el proceso debian tener contenido que tuviera significado para el usuario por lo que debian tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos mas probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogenea
+	,pero existe el problema de que en el momento de autentificaci´on el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretizaci´on, la discretizaci´on se encarga de establecer una tolerancia alrededor de cadapunto por tanto esto disminuye el espacio de contrase˜nas y aumenta informaci´on relevante a la hora de los ataques de diccionarios.
+	
+	%modelo para hotspot
+	En el trabajo (3 sensor) se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio (4 sensor) se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.    
 
-\subsection{Definición del Término B}
+	%espacio de contrase;as osviel
+	En cuanto al espacio, segun (77 osviel) no se necesitarian muchos puntos para hacer la contraseña segura, con 5 o 6(en una imagen de 1024x725) se puede lograr mas que contraseñas que con 8 caracteres dentro del un alfebeto estandar de 64 letras. En la tabla (graphical vs alphanumeric) tomada de una investigacion se puede apreciar una comparacion entre los espacios de contraseñas graficas y alfanumericas variando el alfabeto , la longitud de la contraseña,tolerancia y tamaño de la imagen. Se puede apreciar que para 5 puntos y un tamaño de imgen razonable las contraseñas gráficas conservan un espacio de clave superior a las alfanumericas
+	
+	
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+				 	 
+		         		 & Image size &   Grid square &	Alphabet size/ &Lenght/No.  & Password \\ 
+		                &           &  size(pixels)  & No.squares& click points & space size \\ \hline
+		Alfanumérica    & N/A       & N/A     & 64   & 8  & 2.8x \\ \hline
+		Alfanumérica    & N/A       & N/A     & 72   & 8  & 7.2x10 \\ \hline
+		Alfanumérica    & N/A       & N/A     & 96   & 8  & 7.2x10 \\ \hline
+		Gráficas        & 451x331   & 20x20   & 373  & 5  & 7.2x10 \\ \hline
+		Gráficas        & 1024x752  & 20x20   & 1925 & 5  & 2.6x10 \\ \hline
+		Gráficas        & 1024x752  & 14x14   & 3928 & 5  & 9.3x10 \\ \hline
+		Gráficas(1/2   & 1024x752  & 14x14   & 1964 & 5  & 2.9x10 \\ 
+		screen used)   &   &    &  &  &  \\ \hline
+	\end{tabular}
+	\caption{Título de la tabla}
+	\label{tabla:ejemplo}
+\end{table}
+
+
+	%tolerancia(discretizacion)
+	
+
+	
+	
+	
+	%vantajas y desventajas
+	
+	%Gran n´umero de usuarios en las contrase˜nas gr´aficas tienden a seleccionar contrase˜nas que siguen determinados patrones, esto ayuda a la memorabilidad de las contrase˜nas pero al mismo tiempo contribuye a que sea relativamente f´acil encontrar un diccionario de ataque a este tipo de patrones. Como siguen cierto patr´on se les denomina contrase˜nas d´ebiles porque carecen de aleatoriedad. Ahora veremos cuales son los distintos patrones que tienden a seleccionar los usuarios a la hora de confeccionar sus contrase˜nas[3]
+
+\subsection{Patrones suaves}
 El término B, por otro lado, se entiende como...
 
-\section{Teorías Relacionadas}
+\section{Triangulaciones de Delaunay}
 Esta sección presenta las teorías principales que fundamentan el estudio.
 \chapter{Metodología}
 Describe la metodología utilizada en tu investigación, incluyendo los métodos, herramientas y procedimientos.
@@ -167,7 +212,7 @@ Resume los hallazgos principales y ofrece recomendaciones futuras.
 \begin{thebibliography}{9}
 	\bibitem{1} Autor A, et al. Título del artículo. Revista, año.
 \end{thebibliography}
-\bibliography{referencias}
+
 
 % Anexos (opcional)
 \appendix

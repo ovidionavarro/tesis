@@ -2,12 +2,12 @@
 \contentsline {chapter}{Introducción}{2}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Marco Teórico}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Conceptos Fundamentales}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Definición del Término A}{5}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Definición del Término B}{5}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Teorías Relacionadas}{5}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Metodología}{6}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Resultados}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Discusión}{8}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{9}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{9}{chapter.5}%
+\contentsline {subsection}{\numberline {1.1.1}PassPoint}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Patrones suaves}{6}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Triangulaciones de Delaunay}{6}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Metodología}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Resultados}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Discusión}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{10}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{10}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Anexo A}{12}{appendix.Alph1}%
