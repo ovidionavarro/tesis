@@ -15,6 +15,8 @@
 % Configuración de márgenes
 \geometry{a4paper, margin=1in}
 \graphicspath{{img/}}
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de Tablas}}
 
 % Configuración de hipervínculos
 
@@ -69,6 +71,9 @@
 % Índice
 \tableofcontents
 \newpage
+\listoffigures
+\newpage
+\listoftables
 
 % Capítulos
 \chapter*{Introducción}
@@ -149,14 +154,23 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 	autentificaci´on este debe seleccionar en el mismo orden una vecindad o region de tolerancia de los puntos escogidos en la fase de registro.
 	%parte de hotspot
 	Wiedenbeck su investigacion (77 osviel) asegura que las imagenes mas deseadas para el proceso debian tener contenido que tuviera significado para el usuario por lo que debian tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos mas probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogenea
-	,pero existe el problema de que en el momento de autentificaci´on el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretizaci´on, la discretizaci´on se encarga de establecer una tolerancia alrededor de cadapunto por tanto esto disminuye el espacio de contrase˜nas y aumenta informaci´on relevante a la hora de los ataques de diccionarios.
+	,pero existe el problema de que en el momento de autentificaci´on el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretizaci´on, la discretizaci´on se encarga de establecer una tolerancia alrededor de cada punto por tanto esto disminuye el espacio de contrase˜nas y aumenta informaci´on relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en [75, 76, 77 Lisset]. Por otro lado, en [75, 76, 77, 78 Liset] se describen los distintos métodos de discretización que se han desarrollado hasta ahora.\\
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{passpoint.png}
+		\caption{PassPoint.}
+		\label{fig:PassPoint}
+	\end{figure}
+	
+	%Una discusion acerca de la importancia del mecanismo de discretizacion en los esquemas de contrsaseñas graficas puede verse en [75,76,77 lisset], mientras que en [75,76,77,78 liset] pueden verse los diferentes metodos de discretizacion conocidos hasta el momento
 	
 	%modelo para hotspot
 	En el trabajo (3 sensor) se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio (4 sensor) se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.    
 
 	%espacio de contrase;as osviel
-	En cuanto al espacio, segun (77 osviel) no se necesitarian muchos puntos para hacer la contraseña segura, con 5 o 6(en una imagen de 1024x725) se puede lograr mas que contraseñas que con 8 caracteres dentro del un alfebeto estandar de 64 letras. En la tabla (graphical vs alphanumeric) tomada de una investigacion se puede apreciar una comparacion entre los espacios de contraseñas graficas y alfanumericas variando el alfabeto , la longitud de la contraseña,tolerancia y tamaño de la imagen. Se puede apreciar que para 5 puntos y un tamaño de imgen razonable las contraseñas gráficas conservan un espacio de clave superior a las alfanumericas
+	%En cuanto al espacio, segun (77 osviel) no se necesitarian muchos puntos para hacer la contraseña segura, con 5 o 6(en una imagen de 1024x725) se puede lograr mas que contraseñas que con 8 caracteres dentro del un alfebeto estandar de 64 letras. En la tabla (graphical vs alphanumeric) tomada de una investigacion se puede apreciar una comparacion entre los espacios de contraseñas graficas y alfanumericas variando el alfabeto , la longitud de la contraseña,tolerancia y tamaño de la imagen. Se puede apreciar que para 5 puntos y un tamaño de imgen razonable las contraseñas gráficas conservan un espacio de clave superior a las alfanumericas
 	
+	En relación al espacio de contraseñas, según (77 Osviel), no sería necesario utilizar muchos puntos para crear una contraseña segura. Con solo 5 o 6 puntos (en una imagen de 1024x725), se podría lograr mayor seguridad que con contraseñas de 8 caracteres dentro de un alfabeto estándar de 64 símbolos. En la tabla (Graphical vs Alphanumeric), se muestra una comparación entre los espacios de contraseñas gráficas y alfanuméricas, considerando factores como el alfabeto, la longitud de la contraseña, la tolerancia y el tamaño de la imagen. Se observa que, con 5 puntos y un tamaño de imagen razonable, las contraseñas gráficas mantienen un espacio de clave superior al de las contraseñas alfanuméricas.
 	
 \begin{table}[h!]
 	\centering
@@ -174,8 +188,8 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 		Gráficas(1/2   & 1024x752  & 14x14   & 1964 & 5  & 2.9x10 \\ 
 		screen used)   &   &    &  &  &  \\ \hline
 	\end{tabular}
-	\caption{Título de la tabla}
-	\label{tabla:ejemplo}
+	\caption{Alfanuméricas vs Gráficas}
+	\label{tabla:Alfanuméricas vs Gráficashhh}
 \end{table}
 
 
