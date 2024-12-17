@@ -11,6 +11,7 @@
 \usepackage{gensymb}
 \usepackage{textcomp}
 \usepackage{upquote}
+\usepackage{svg}
 %\setlength{\parindent}{1.5em}
 % Configuración de márgenes
 \geometry{a4paper, margin=1in}
@@ -81,60 +82,69 @@
 \hypertarget{introduccion}{}
 
 
-	En la actualidad, una gran mayoría de los usuarios tiende a ignorar las recomendaciones de seguridad al momento de crear contraseñas alfanuméricas. Es común observar el uso de contraseñas cortas y cargadas de información personal, lo cual facilita su memorización, pero también aumenta significativamente su vulnerabilidad frente a ataques de fuerza bruta o de diccionario [[1,4,5,6]].
+	En la actualidad, la gran mayoría de los usuarios tienden a ignorar las recomendaciones de seguridad al momento de crear sus contraseñas. Es común observar el uso por los usuarios de contraseñas cortas y cargadas de información personal, lo cual facilita su memorización, pero aumenta significativamente su vulnerabilidad frente a ataques de fuerza bruta o de diccionario [[1,4,5,6]].
 	
-	Para abordar estas debilidades, se han desarrollado nuevas alternativas, entre las cuales destacan las contraseñas gráficas. Este enfoque se basa en la capacidad humana de recordar patrones visuales en una imagen con mayor facilidad que largas cadenas de caracteres alfanuméricos. En este tipo de contraseñas, el usuario debe recordar una imagen o partes específicas de ella mediante la selección  de determinados puntos, imágenes que dadas sus características posean un amplio espacio para la construcción de sus contraseñas y de este modo ser más resistentes a los ataques de diccionarios, obteniendo un espacio de búsqueda mucho más amplio y resistente a los ataques comunes.
+	Debido a esta inherente contradición entre facilidad y seguridad, se han desarrollado nuevos métodos alternativos de autenticación, entre los que se encuentran los métodos basados  en contraseñas gráficas . Este nuevo enfoque surge por la capacidad humana de recordar patrones visuales en una imagen con mayor facilidad que largas cadenas de caracteres alfanuméricos aleatorios. En este tipo de contraseñas, el usuario debe recordar una imagen o partes específicas de ella mediante la selección  de determinados puntos.
+	% No obstante, no cualquier imagen  puede ser seleccionada para emplearse en este metodo, se deben escoger imágenes que posean cientos de Hotspots[6](puntos probales de ser seleccionados) dispersos en la misma. Lo que equivale a decir que posea un amplio tamaño de espacio de contraselas, y de este modo ser más resistentes a los ataques comunes.
+	%tratar de agregar hospoto puntos probabless
+	%$imágenes que dadas sus características posean un amplio espacio para la construcción de sus contraseñas y de este modo ser más resistentes a los ataques de diccionarios, obteniendo un espacio de búsqueda mucho más amplio y resistente a los ataques comunes.
 	
-	En este trabajo, específicamente, vamos a trabajar sobre el PassPoint[1], una técnica de autenticación gráfica que en su fase de registro consiste en seleccionar cinco puntos de una imagen elegida por el usuario. Durante la autenticación, el usuario debe hacer clic en una determinada vecindad y en el mismo orden de los puntos registrados. Entre las debilidades de esta técnica se encuentran los Hotspots[6](puntos más probables a seleccionar por el usuario), además diversos patrones predefinidos que los usuarios tienden a seguir durante el registro para facilitar la memorización. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares, y patrones LOD, DIAG o LINE (formas de línea o diagonales).
+	El sistema PassPoint[1] es un método de autenticación gráfica que detaca por su usabilidad y segurirdad. Este método consiste  en que el usuario seleccione en la fase de registro  cinco puntos de una imagen elegida por el usuario o dada por el sistema. Durante la autenticación, el usuario debe hacer click en una determinada vecindad y en el mismo orden de los puntos seleccionados en la fase de  registro. Una de las debilidades de este sitema es que los usuarios tienden a seleccionar los Hotspots(puntos más probables a seleccionar en una imagen), por esta razón las imágenes usadas en el sistema tienen que poseer cientos de Hotspots dispersos de manera homegénea, además existen un conjunto de patrones no aleatorios que tienden a seguir los usuarios y su combinación con los Hotspots sería un grave error pues hace que la contraseña sea muy susceptible a ataques de diccionarios. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares y los que más suelen seleccionar los usuarios  que son los  patrones DIAG o LINE(chiasson)(formas de línea o diagonales)
 	
-	La tendencia de los usuarios a crear patrones entre los puntos seleccionados, ya sea de manera independiente o en combinación con Hotspots, constituye una debilidad importante. Esto hace que las contraseñas generadas sean menos aleatorias y más susceptibles a ataques basados en diccionarios específicos. Por ello, resulta fundamental desarrollar pruebas que detecten la existencia de estos patrones en las contraseñas antes de su uso, ya que contribuirían significativamente a mejorar la seguridad de la técnica PassPoint.
+	%Entre las debilidades de esta técnica se encuentran los Hotspots[6](puntos más probables a seleccionar por el usuario), además diversos patrones predefinidos que los usuarios tienden a seguir durante el registro para facilitar la memorización. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares, y patrones LOD, DIAG o LINE (formas de línea o diagonales).
+	
+	La tendencia de los usuarios a crear patrones entre los puntos seleccionados, ya sea de manera independiente o en combinación con Hotspots, constituye una debilidad importante. Esto hace que las contraseñas generadas carezcan de aleatoriedad y sean susceptibles a ataques basados en diccionarios específicos. Por ello, resulta fundamental desarrollar tests que detecten la existencia de estos patrones en las contraseñas antes de su uso, ya que contribuirían significativamente a mejorar la seguridad de la técnica PassPoint.
 	
 	
 
-	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el test de la función K-Ripley, el test de la función G, que analiza la distancia al vecino más cercano, y el test de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en [9-10 sensor] se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en [15, 16] se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado dos tests efectivos (tesis de Liset y Joakin) para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de (Liset), en la distancia promedio de los perímetros de los triángulos de Delaunay, y, en el caso de (Joakin), en la distancia media entre cinco puntos.
+	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el test de la función K-Ripley, el test de la función G, que analiza la distancia al vecino más cercano, y el test de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en [9-10 sensor] se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en [15, 16] se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado 4 tests efectivos (Liset, Joakin,aplicacion conjunta, reciente ) para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de (Liset), en el promedio de los perímetros de los triángulos de Delaunay, en  (Joakin) en la distancia media entre cinco puntos, para el caso de (conjunta) es una aplicación conjunta de los tests (lisset y joakin), y (reciente) basado en en el perimetro de la envoltura convexa. De estos tests (reciente) es el mas efectivo encontrado en la literatura y el segundo mas eficiente después de (joakin)
 	
-	Teniendo en consideración que las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu [22], se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos, en [sensor] se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos.
-	En [15] se entendía como el ángulo formado entre dos segmentos consecutivos ,el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña.Nos referiremos al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
+	Teniendo en consideración(chiu22), las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu [22], se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos o en otras palabras que las curvas formadas entre los 5 puntos sean curvas suaves, es decir, que carezca de picos.  De ahí que, en [sensor] se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos.En [15] se entendía como el ángulo formado entre dos segmentos consecutivos, el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña. En este trabajo se referirá al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
 
 
 	
-	Según los resultados obtenidos en (sensor) se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay pero realizando análisis independientes según la cantidad de triángulos en su triangulación (3,4,5) y realizar un análisis comparativo respecto a los resultados obtenidos en (sensor).\\
+	Según los resultados obtenidos en (sensor) se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay pero realizando análisis independientes según el numero de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en (sensor).\\
+	\textbf{Propiedades de la laptop y estructura}
 	
-	\large{\textbf{Problema de investigación:}}\\
-	\normalsize{	Detectión contraseñas que sigan los patrones suaves DIAG y LINE en PassPoint, basada en la cantidad de triángulos de Delaunay.}\\
+	\large{\textbf{Problema de investigación:}}
 	
-	\large{\textbf{Objetivo de estudio:}}\\
-	\normalsize{Comprobar si el estadígrafo  ``promedio de los ángulos máximos de las triangulaciones de Delaunay ",  es más eficaz si se trabaja individualmente sobre las distintas cantidades de triángulos existentes en las triangulaciones.}\\
+	\normalsize{¿Como  detectar contraseñas gráficas que sigan patrones DIAG y LINE  en el sistema de autenticación gráfica Passpoint, teniendo en cuenta la cantidad de triángulos de Delaunay?}\\
+	
+	\large{\textbf{Objeto de estudio:}}
+	
+	\normalsize{Cantidad de triángulos de las  triangulaciones de Delaunay  en autentificación gráfica}\\
 	
 		   
-	\large{\textbf{Campo de acción:}}\\
-	\normalsize{Detección de contraseñas gráficas no aleatorias en el escenario PassPoint utilizando las triangulaciones de Delaunay}.\\
+	\large{\textbf{Campo de acción:}}
+	
+	\normalsize{Detección de contraseñas gráficas que sigan patones DIAG y LINE en el escenario PassPoint   utilizando  la cantidad de triángulos de las triagulaciones de Delaunay}.\\
 	 
-	\large{\textbf{Hipótesis:}}\\
-	\normalsize{Es posible que utilizar el estadígrafo ``promedio de los ángulos máximos de las triangulaciones de Delaunay"  de manera individual sobre las distintas cantidades de triángulos existentes en las triangulaciones es mas eficaz que trabajarlo de manera general.\\
-	}	
-	
-	\large{\textbf{Idea de la solución:}}\\
-	\normalsize{
-		Para cada cantidad de triángulos  en las triangulaciones de Delaunay para 5 puntos:
-	
-		\begin{itemize}
-			\item Encontrar como distribuyen las contraseñas aleatorias
-			\item Realizar un análisis estadístico obteniendo los errores tipo I y II
-			\item Realizar una comparación  con los resultados obtenidos en (SENSOR).
+	\large{\textbf{Hipótesis:}}
+
+	\normalsize{Es posible detectar contraseñas gráficas que sigan patrones DIAG y LINE en el sistema de autenticación gráfica Passpoint, teniendo en cuenta la cantidad de triángulos  de las triangulaciones de Delaunay}.\\
 		
-		\end{itemize}
 	
+	\large{\textbf{Idea de la solución:}}
 	
+	\normalsize{
+		%Para cada cantidad de triángulos  en las triangulaciones de Delaunay para 5 puntos:
+		Teniendo en cuenta que en la bibliografía existe un test capaz de detectar patrones DIAG y LINE en las contraseñas gráficas de PassPoint basado en el promedio de los ángulos máximos de los triángulos de Delaunay. Se propone construir un test para detectar este tipo de patrones en las contraseñas gráficas en dicho escenario, pero teniendo en cuenta la cantidad de triángulos de la triangulación de Delaunay correspondiente. Con el fin de llegar a comparar ambos test en cuanto a efectividad, y realizar la aplicación conjunta de ambos si es posible para lograr una mayor efectividad en la detección de estos tipos de patrones.
+		}\\
+
+	\large{\textbf{Objetivos:}}
 	
-	}
+	\normalsize{\textbf{Objetivos generales}}:Detectar\cite{1} las contraseñas gráficas que siguen patrones DIAG o LINE en PassPoint para cada número de triángulos en una triangulación de Delaunay\cite{1}.
 	
-	\large{\textbf{Objetivos}}\\
-	\normalsize{\textbf{Objetivos generales}}:Detectar\cite{1} la no aleatoriedad en las contraseñas gráficas que siguen patrones DIAG o LINE en PassPoint para cada número de triángulos en una triangulación de Delaunay\\
 	\normalsize{\textbf{Objetivos específicos}}:
+	Para cada numero de triángulos  en las triangulaciones de Delaunay de 5 puntos:
+	
 	\begin{itemize}
-		\item Crear un criterio de desición basados en el promedio de los ángulos máximos de los triángulos de Delaunay para cada posible cantidad de triángulos en su triangulación.
-		\item  Para cada cantidad de triángulos, obtener estimaciones teóricas del número esperado de fallos en la detección de contraseñas gráficas débiles.
+		\item Encontrar como distribuye el promedio de los ángulos máximos de la triangulación de Delaunay en contraseñas aleatorias.
+		 
+		\item Realizar un análisis estadístico con las estimaciones de los errores tipo I y tip II cometidos.
+		
+		\item Realizar una comparación con los resultados obtenidos en (sensor)
+		
 	\end{itemize}
 	
 	
@@ -150,10 +160,9 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 	La técnica PassPoint diseñada por Wiedenbeck(77 osviel) destaca entre los sistemas de autenticación gráfica del tipo cued-recall por su usabilidad y seguridad(rodrigez et al..2018 comparacion pag3) .
 	%usabilidad
 	Esta técnica consiste en que  en su fase de registro el
-	usuario debe seleccionar 5 puntos(pixeles) de una imagen ya sea seleccionada por el o dada por el sistema  y en el proceso de autentificación este debe hacer click en el mismo orden y en determinada  vecindad o región de tolerancia de los puntos escogidos en la fase de registro.
+	usuario debe seleccionar 5 puntos(pixeles) de una imagen ya sea seleccionada por el mismo usuario o dada por el sistema  y en el proceso de autenticación este debe hacer click en el mismo orden y en determinada  vecindad o región de tolerancia de los puntos escogidos en la fase de registro.
 	%parte de hotspot
-	Wiedenbeck su investigación (77 osviel) asegura que las imágenes más deseadas para el proceso debían tener contenido que tuviera significado para el usuario por lo que debían tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogenea
-	,pero existe el problema de que en el momento de autentificación el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretización, la discretización se encarga de establecer una tolerancia alrededor de cada punto por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en [75, 76, 77 Lisset]. Por otro lado, en [75, 76, 77, 78 Liset] se describen los distintos métodos de discretización que se han desarrollado hasta ahora.\\
+	Wiedenbeck su investigación (77 osviel) asegura que las imágenes más deseadas para el proceso debían tener contenido que tuviera significado para el usuario por lo que debían tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogénea, pero existe el problema de que en el momento de autentificación el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretización, esta se encarga de establecer una tolerancia alrededor de cada punto, por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en [75, 76, 77 Liset]. Por otro lado, en [75, 76, 77, 78 Liset] se describen los distintos métodos de discretización que se han desarrollado hasta ahora.\\
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=0.5\textwidth]{passpoint.png}
@@ -164,7 +173,7 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 	%Una discusion acerca de la importancia del mecanismo de discretizacion en los esquemas de contrsaseñas graficas puede verse en [75,76,77 lisset], mientras que en [75,76,77,78 liset] pueden verse los diferentes metodos de discretizacion conocidos hasta el momento sad
 	
 	%modelo para hotspot
-	En el trabajo (3 sensor) se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio (4 sensor) se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.    
+	En el trabajo (3 sensor) se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (Hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio (4 sensor) se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.    
 
 	%espacio de contrase;as osviel
 	%En cuanto al espacio, segun (77 osviel) no se necesitarian muchos puntos para hacer la contraseña segura, con 5 o 6(en una imagen de 1024x725) se puede lograr mas que contraseñas que con 8 caracteres dentro del un alfebeto estandar de 64 letras. En la tabla (graphical vs alphanumeric) tomada de una investigacion se puede apreciar una comparacion entre los espacios de contraseñas graficas y alfanumericas variando el alfabeto , la longitud de la contraseña,tolerancia y tamaño de la imagen. Se puede apreciar que para 5 puntos y un tamaño de imgen razonable las contraseñas gráficas conservan un espacio de clave superior a las alfanumericas
@@ -178,13 +187,13 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 				 	 
 		         		 & Image size &   Grid square &	Alphabet size/ &Lenght/No.  & Password \\ 
 		                &           &  size(pixels)  & No.squares& click points & space size \\ \hline
-		Alfanumérica    & N/A       & N/A     & 64   & 8  & 2.8x \\ \hline
-		Alfanumérica    & N/A       & N/A     & 72   & 8  & 7.2x10 \\ \hline
-		Alfanumérica    & N/A       & N/A     & 96   & 8  & 7.2x10 \\ \hline
-		Gráficas        & 451x331   & 20x20   & 373  & 5  & 7.2x10 \\ \hline
-		Gráficas        & 1024x752  & 20x20   & 1925 & 5  & 2.6x10 \\ \hline
-		Gráficas        & 1024x752  & 14x14   & 3928 & 5  & 9.3x10 \\ \hline
-		Gráficas(1/2   & 1024x752  & 14x14   & 1964 & 5  & 2.9x10 \\ 
+		Alphanumeric    & N/A       & N/A     & 64   & 8  & 2.8x \\ \hline
+		Alphanumeric    & N/A       & N/A     & 72   & 8  & 7.2x10 \\ \hline
+		Alphanumeric    & N/A       & N/A     & 96   & 8  & 7.2x10 \\ \hline
+		Graphical        & 451x331   & 20x20   & 373  & 5  &7.2x10 \\ \hline
+		Graphical        & 1024x752  & 20x20   & 1925 & 5  &2.6x10 \\ \hline
+		Graphical        & 1024x752  & 14x14   & 3928 & 5  &9.3x10 \\ \hline
+		Graphical(1/2   & 1024x752  & 14x14   & 1964 & 5  & 2.9x10 \\ 
 		screen used)   &   &    &  &  &  \\ \hline
 	\end{tabular}
 	\caption{Alfanuméricas vs Gráficas}
@@ -203,15 +212,23 @@ En esta sección se definen los conceptos clave que son relevantes para este tra
 	%Gran n´umero de usuarios en las contrase˜nas gr´aficas tienden a seleccionar contrase˜nas que siguen determinados patrones, esto ayuda a la memorabilidad de las contrase˜nas pero al mismo tiempo contribuye a que sea relativamente f´acil encontrar un diccionario de ataque a este tipo de patrones. Como siguen cierto patr´on se les denomina contrase˜nas d´ebiles porque carecen de aleatoriedad. Ahora veremos cuales son los distintos patrones que tienden a seleccionar los usuarios a la hora de confeccionar sus contrase˜nas[3]
 
 \section{Patrones en contraseñas gráficas}
-Además de los Hotspots, las contraseñas graficas presentan otro tipo de debilidades como son leyes de percepcion, modelos de atención y distintos tipos de patrones, estas formas de seleccion son comunmente utlizadas por los usuarios para garantizar una mejor momorabilidad, lo que hace que sea mas facil contruir diccionarios de ataques estas contraseñas.
+Además de la inclusión por parte de los usuarios de los Hotspots en las contraseñas, estas presentan otro tipo de debilidades como son los distintos tipos de patrones, leyes psicológicas o modelos de atención visual, los cuales son comunmente utlizados por los usuarios para garantizar una mejor memorabilidad, lo que hace que sea más fácil contruir diccionarios de ataques estas contraseñas.
+Algunos de los patrones reportados en la literatura[15-21 sensor] son: los patrones con una forma predeterminada(Z, W, V, C), los agrupados,  los regulares,y los patrones LOD y DIAG(o patrones diagonales) en los que se encuentran los patrones LINE(forma de línea). 
+Los patrones DIAG y LINE(fig de diag y line) se encuentran entre los que más tienden a seguir los suarios, en[16-21 sensors] caracterizan los patrones DIAG  por ser puntos que se encuentran formando arcos tanto horizontal como verticalmente y la suma de los valores absolutos de los ángulos es menor que 15\degree[7 informe de sensor], en cambio los LINE se caracterizan por ser lineas horizontales y verticales y se definen como un subconjunto de los DIAG. 
+\textbf{FIGURA DE DIAG Y LINE}.
+\\
+En[17,18 sensor] tras realizar un estudio de 223 contraseñas graficas en el escenario PassPoint seleccionadas por estudiantess en dos imagenes diferentes con un numero asequible de Hotspots distribuidos uniformemente en cada una de ellas, los autores consiguieron obtener del 48.2\% al 54.1\% de las mismas utilzando un ataque de diccionario de 235.26 entradas utilizando patrones  DIAG y del 23.7\% al 52.3\% de dichas contraseñas utilizando un ataque de 229.02 entradas utilizando  patrones LINE 
+
+
+%que me diga esto con otras palabras 
 %toda la biblio de estas subsecciones son de  2018 scnc
-\subsection{Modelos de atención}
-Los Modelos Visuales De Atencion(MVA) estudian la forma en que las personas observan una imagen. Se estima que un grupo significativo de usuariios escoge los puntos siguiendo estos patrones (14). De esta manera se pueden construir dicccionarios con los grupos de puntos mas probables a seleccionar por el usuario.
-Los modelos computacionales de atencion Botton-Up, se definen normalmente por caracteristicas de las imagenes digitales tales como: la intensidad, el color y la orientacion(9,12). Por otra partelos modelos computacionales TopDown, pueden ser definidos por entrenamiento. La dificultad de estos ultimos se basa en que la tarea Top-down debe ser predefinida(ej.encontrar personas en una imagen) en um grupo de imagenes que se etiquetan con areas que contienen a los sujetos (14). Nos enfocaremos en la la propuesta de Itti(8,9) ya que exsite evidencia empírica  de que este captura la forma en que las persinas observan una imagen desde lo profundo hacia arriba(botton-up)(13). La idea principal de esta propuesta es que algunas areas de una imagen, son salientes o de alguna manera resaltan por que difieren del resto de su entorno. De esta manera dada una imagen  ek modelo devuelve las localizzaciones y el orden en que el ser humano de forma insconciente y automatica la observa. El proceso se compone de dos etapas. En la primera se crea un mapa de salientes basados en las caracteristicas visuales. En la segunda etapa se usa una red neuronal 'winner-take-wall' con el objetivo de replicar la forma en que el usuario observaria la imagen. En(15) se desarrolla un ataque automatico de diccionario que se basaba solo en variaciones de la primera etapa donde utilizaba deteccion de esquinas para encontrar puntos referenciables, luego en (14) se describe como seria la segunda etapa del proceso.
-La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tecnocas de analisis y procesamiento de imagenes. Estas se vasen en la deteccion de esquinas y centroides asi como la plicacion de herramientas y algoritmos de inteligencia artificial para detectar objetos en imagenes
+%\subsection{Modelos de atención}
+%Los Modelos Visuales De Atencion(MVA) estudian la forma en que las personas observan una imagen. Se estima que un grupo significativo de usuariios escoge los puntos siguiendo estos patrones (14). De esta manera se pueden construir dicccionarios con los grupos de puntos mas probables a seleccionar por el usuario.
+%Los modelos computacionales de atencion Botton-Up, se definen normalmente por caracteristicas de las imagenes digitales tales como: la intensidad, el color y la orientacion(9,12). Por otra partelos modelos computacionales TopDown, pueden ser definidos por entrenamiento. La dificultad de estos ultimos se basa en que la tarea Top-down debe ser predefinida(ej.encontrar personas en una imagen) en um grupo de imagenes que se etiquetan con areas que contienen a los sujetos (14). Nos enfocaremos en la la propuesta de Itti(8,9) ya que exsite evidencia empírica  de que este captura la forma en que las persinas observan una imagen desde lo profundo hacia arriba(botton-up)(13). La idea principal de esta propuesta es que algunas areas de una imagen, son salientes o de alguna manera resaltan por que difieren del resto de su entorno. De esta manera dada una imagen  ek modelo devuelve las localizzaciones y el orden en que el ser humano de forma insconciente y automatica la observa. El proceso se compone de dos etapas. En la primera se crea un mapa de salientes basados en las caracteristicas visuales. En la segunda etapa se usa una red neuronal 'winner-take-wall' con el objetivo de replicar la forma en que el usuario observaria la imagen. En(15) se desarrolla un ataque automatico de diccionario que se basaba solo en variaciones de la primera etapa donde utilizaba deteccion de esquinas para encontrar puntos referenciables, luego en (14) se describe como seria la segunda etapa del proceso.
+%La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tecnocas de analisis y procesamiento de imagenes. Estas se vasen en la deteccion de esquinas y centroides asi como la plicacion de herramientas y algoritmos de inteligencia artificial para detectar objetos en imagenes
 
 \section{Triangulaciones de Delaunay}
-\textbf{Definición(Triángulación de Delaunay):}Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay,si y sólo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto p en su interior,como muestra la figura(triangulacionnes ). Esta condición es conocida como condición de Delaunay.[23,45,46 lisset].    
+\textbf{Definición(Triángulación de Delaunay):}Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y sólo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto p en su interior,como muestra la figura(triangulacionnes ). Esta condición es conocida como condición de Delaunay.[23,45,46 lisset].    
 
 		\large{\textbf{Propiedades elementales de las triangulaciones de Delaunay}}\\
 
@@ -219,17 +236,32 @@ La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tec
 	
 	\begin{enumerate}
 		\item La frontera externa de la triangulación de Delaunay forma la envoltura convexa del conjunto de puntos.
-		\item El ángulo mínimo dentro de todos los triangulos de Delaunay esta maximizado, es decir , se evita obtener resultados con angulos demasiados agudos. Como consecuencia de lo anterior, los Triangulos generados en una triangulacion tienden a ser lo mas equilatero posible. Esto  es debido a que todo triangulo no equilatero siempre tine algun angulo menor que 60{\degree }.
-		\item La triangulacion es unica cuando ningun borde de la circunferencia circunferencia circunscrita contiene mas de tres vertices de la red 
+		\item El ángulo mínimo dentro de todos los triángulos de Delaunay esta maximizado, es decir , se evita obtener resultados con ángulos demasiados agudos. Como consecuencia de lo anterior, los triangulos generados en una triangulación tienden a ser lo más equilatero posible. Esto  es debido a que todo triángulo no equilatero siempre tiene algún ángulo menor que 60{\degree }.
+		\item La triangulación es única cuando ningún borde de la circunferencia circunscrita contiene más de tres vértices de la red. 
 	
 	\end{enumerate}
 		
-		\begin{figure}[ht]
+
+	
+	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.7\textwidth]{delaunay.png}
-		\caption{poner esta img como si fueran 2}
-		\label{fig:Triangulacion de Delunay}
+		\begin{minipage}{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.44\linewidth]{no_td.png}  % Inserta la primera imagen
+			\caption{Primera imagen}
+			
+		\end{minipage}\hfill
+		\begin{minipage}{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.5\linewidth]{si_td.png}  % Inserta la segunda imagen
+			\caption{Segunda imagen}
+		\end{minipage}
 	\end{figure}
+
+	
+	Un resultado importante es analizar si una triangulación de Delaunay es correcta o no, para esto se utiliza la fórmula de Euler ya que dado un conjunto P de n puntos , si una cantidad h de ellos se encuentran en la envoltura convexa se optiene por dicha fórmula que  la triangulación de Delaunay tiene 2n-2-h triángulos y 3n-3-h aristas(30 sensor)
+	
+\section{Test de detección de patrones DIAG y LINE en el sistema PassPoint basado en los ángulos máximos de los triángulos de Delaunay  }
 	
 \chapter{Metodología}
 Describe la metodología utilizada en tu investigación, incluyendo los métodos, herramientas y procedimientos.
