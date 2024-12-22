@@ -62,8 +62,10 @@
  
     
     {\Large {Autor: Ovidio Navarro Pazos}}\\[2cm]
-   	{\Large {Tutor(es): MrS.Lisset Suárez Plasencia}}\\
-   	\hspace{8.5em}{\Large{MrS.Joaquín A. Herrera Macías}}\\[2.0cm]
+   	{\Large {Tutor(es): M.Sc. Lisset Suárez Plasencia}}\\
+   	\hspace{8.5em}{\Large{M.Sc. Joaquín A. Herrera Macías}}\\
+   	\hspace{8.5em}{\Large{Dr.C. Carlos Miguel Legón Pérez}}\\
+   	[2.0cm]
    	
    	{\large{La Habana, Cuba}}\\
     {\large  \today}
@@ -82,14 +84,14 @@
 \hypertarget{introduccion}{}
 
 
-	En la actualidad, la gran mayoría de los usuarios tienden a ignorar las recomendaciones de seguridad al momento de crear sus contraseñas. Es común observar el uso por los usuarios de contraseñas cortas y cargadas de información personal, lo cual facilita su memorización, pero aumenta significativamente su vulnerabilidad frente a ataques de fuerza bruta o de diccionario [[1,4,5,6]].
+	En la actualidad, la gran mayoría de los usuarios tienden a ignorar las recomendaciones de seguridad al momento de crear sus contraseñas. Es común observar el uso por los usuarios de contraseñas cortas y cargadas de información personal, lo cual facilita su memorización, pero aumenta significativamente su vulnerabilidad frente a ataques de fuerza bruta o de diccionario \cite{1,2,3,4}.
 	
 	Debido a esta inherente contradición entre facilidad y seguridad, se han desarrollado nuevos métodos alternativos de autenticación, entre los que se encuentran los métodos basados  en contraseñas gráficas . Este nuevo enfoque surge por la capacidad humana de recordar patrones visuales en una imagen con mayor facilidad que largas cadenas de caracteres alfanuméricos aleatorios. En este tipo de contraseñas, el usuario debe recordar una imagen o partes específicas de ella mediante la selección  de determinados puntos.
 	% No obstante, no cualquier imagen  puede ser seleccionada para emplearse en este metodo, se deben escoger imágenes que posean cientos de Hotspots[6](puntos probales de ser seleccionados) dispersos en la misma. Lo que equivale a decir que posea un amplio tamaño de espacio de contraselas, y de este modo ser más resistentes a los ataques comunes.
 	%tratar de agregar hospoto puntos probabless
 	%$imágenes que dadas sus características posean un amplio espacio para la construcción de sus contraseñas y de este modo ser más resistentes a los ataques de diccionarios, obteniendo un espacio de búsqueda mucho más amplio y resistente a los ataques comunes.
 	
-	El sistema PassPoint[1] es un método de autenticación gráfica que detaca por su usabilidad y segurirdad. Este método consiste  en que el usuario seleccione en la fase de registro  cinco puntos de una imagen elegida por el usuario o dada por el sistema. Durante la autenticación, el usuario debe hacer click en una determinada vecindad y en el mismo orden de los puntos seleccionados en la fase de  registro. Una de las debilidades de este sitema es que los usuarios tienden a seleccionar los Hotspots(puntos más probables a seleccionar en una imagen), por esta razón las imágenes usadas en el sistema tienen que poseer cientos de Hotspots dispersos de manera homegénea, además existen un conjunto de patrones no aleatorios que tienden a seguir los usuarios y su combinación con los Hotspots sería un grave error pues hace que la contraseña sea muy susceptible a ataques de diccionarios. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares y los que más suelen seleccionar los usuarios  que son los  patrones DIAG o LINE(chiasson)(formas de línea o diagonales)
+	El sistema PassPoint\cite{1} es un método de autenticación gráfica que detaca por su usabilidad y segurirdad. Este método consiste  en que el usuario seleccione en la fase de registro  cinco puntos de una imagen elegida por el usuario o dada por el sistema. Durante la autenticación, el usuario debe hacer click en una determinada vecindad y en el mismo orden de los puntos seleccionados en la fase de  registro. Una de las debilidades de este sitema es que los usuarios tienden a seleccionar los Hotspots\cite{4}(puntos más probables a seleccionar en una imagen), por esta razón las imágenes usadas en el sistema tienen que poseer cientos de Hotspots dispersos de manera homegénea, además existen un conjunto de patrones no aleatorios que tienden a seguir los usuarios y su combinación con los Hotspots sería un grave error pues hace que la contraseña sea muy susceptible a ataques de diccionarios. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares y los que más suelen seleccionar los usuarios  que son los  patrones DIAG o LINE\cite{5}(formas de línea o diagonales)
 	
 	%Entre las debilidades de esta técnica se encuentran los Hotspots[6](puntos más probables a seleccionar por el usuario), además diversos patrones predefinidos que los usuarios tienden a seguir durante el registro para facilitar la memorización. Estos patrones incluyen formas específicas como Z, W, C, V, patrones agrupados o regulares, y patrones LOD, DIAG o LINE (formas de línea o diagonales).
 	
@@ -97,13 +99,13 @@
 	
 	
 
-	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el test de la función K-Ripley, el test de la función G, que analiza la distancia al vecino más cercano, y el test de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en [9-10 sensor] se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en [15, 16] se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado 4 tests efectivos (Liset, Joakin,aplicacion conjunta, reciente ) para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de (Liset), en el promedio de los perímetros de los triángulos de Delaunay, en  (Joakin) en la distancia media entre cinco puntos, para el caso de (conjunta) es una aplicación conjunta de los tests (lisset y joakin), y (reciente) basado en en el perimetro de la envoltura convexa. De estos tests (reciente) es el mas efectivo encontrado en la literatura y el segundo mas eficiente después de (joakin)
+	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el test de la función K-Ripley, el test de la función G, que analiza la distancia al vecino más cercano, y el test de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en \cite{6,7} se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en \cite{7,8} se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado 4 tests efectivos \cite{7,9,10,11} para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de \cite{9}, en el promedio de los perímetros de los triángulos de Delaunay, en  \cite{7} en la distancia media entre cinco puntos, para el caso de \cite{10} es una aplicación conjunta de los tests \cite{7,9}, y \cite{11} basado en  el perímetro de la envoltura convexa. De estos tests \cite{11} es el más efectivo encontrado en la literatura y el segundo más eficiente después de \cite{7}
 	
-	Teniendo en consideración(chiu22), las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu [22], se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos o en otras palabras que las curvas formadas entre los 5 puntos sean curvas suaves, es decir, que carezca de picos.  De ahí que, en [sensor] se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos.En [15] se entendía como el ángulo formado entre dos segmentos consecutivos, el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña. En este trabajo se referirá al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
+	Teniendo en consideración \cite{12}, las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu \cite{12}, se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del`` ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos o en otras palabras que las curvas formadas entre los 5 puntos sean curvas suaves, es decir, que carezca de picos.  De ahí que, en \cite{13} se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos.En \cite{5} se entendía como el ángulo formado entre dos segmentos consecutivos, el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña. En este trabajo se referirá al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
 
 
 	
-	Según los resultados obtenidos en (sensor) se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay pero realizando análisis independientes según el numero de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en (sensor).\\
+	Según los resultados obtenidos en \cite{13} se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay pero realizando análisis independientes según el numero de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en (sensor).\\
 	\textbf{Propiedades de la laptop y estructura}
 	
 	\large{\textbf{Problema de investigación:}}
@@ -133,7 +135,7 @@
 
 	\large{\textbf{Objetivos:}}
 	
-	\normalsize{\textbf{Objetivos generales}}:Detectar\cite{1} las contraseñas gráficas que siguen patrones DIAG o LINE en PassPoint para cada número de triángulos en una triangulación de Delaunay\cite{1}.
+	\normalsize{\textbf{Objetivos generales}}:Detectar las contraseñas gráficas que siguen patrones DIAG o LINE en PassPoint para cada número de triángulos en una triangulación de Delaunay.
 	
 	\normalsize{\textbf{Objetivos específicos}}:
 	Para cada numero de triángulos  en las triangulaciones de Delaunay de 5 puntos:
@@ -143,7 +145,7 @@
 		 
 		\item Realizar un análisis estadístico con las estimaciones de los errores tipo I y tip II cometidos.
 		
-		\item Realizar una comparación con los resultados obtenidos en (sensor)
+		\item Realizar una comparación con los resultados obtenidos en \cite{13}
 		
 	\end{itemize}
 	
@@ -279,7 +281,44 @@ Resume los hallazgos principales y ofrece recomendaciones futuras.
 \addcontentsline{toc}{chapter}{Bibliografía}
 \bibliographystyle{plain}
 \begin{thebibliography}{9}
-	\bibitem{1} Autor A, et al. Título del artículo. Revista, año.
+	\normalsize{
+	\bibitem{1} Wiedenbeck, S.; Waters, J.; Birget, J.C.; Brodskly, A.; Memon, N.:\textit{ Passpoints: Design and
+	longitudinal evaluation of a graphical pass- word system}. International Journal of Human-Computer
+	Studies, Vol. 63(1-2):102-127, 2005.
+
+	\bibitem{2} Sunil, S.S; Prakash, D.; Shivaji, Y.R.:\textit{ Cued click points: Graphical password authentication technique
+	for security.} International Journal of Computer Science and Information Technologies, 5(2), 2014.
+
+	\bibitem{3} Rodríguez, O.:\textit{Algoritmo para la detección de claves débiles en la técnica de autenticación gráfica passpoints}. Tesis presentada en opción al título Máster en Ciencias Matemáticas, Universidad de la
+	Habana, Facultad de Matemática y Computación, Instituto de Criptografía, 2019.
+
+	\bibitem{4} Rodríguez, O.; Legón, C.M.; Socorro, R.: \textit{Seguridad y usabilidad de los esquemas y técnicas de autenticación gráfica.} Revista Cubana de Ciencias Informáticas, Vol. 12, No. Especial UCIENCIA,
+	13-27, 2018.
+	
+	\bibitem{5} Sonia Chiasson; Alain Forge; Robert Biddle:\textit{User interface design affects security:Patterns in
+	click-based graphical passwords}.School of Computer Science and Human Oriented Technology
+	Lab.Carleton University
+	
+	\bibitem{6}Herrera, J.A.; Suárez, L.; Legón, C.M.; Piñeiro, L.R.; Rojas, O.; Sosa, G.\textit{ Effectiveness of Some Tests of Spatial Randomness in the Detection ofWeak Graphical Passwords in Passpoint}. In \textit{Computer Science and Health Engineering in Health Services}; Marmolejo-Saucedo, J.A., Vasant, P., Litvinech, I., Rodriguez-Aguilar, R., Martinez-Rios, F., Eds.; COMPSE 2020; Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering; Springer: Cham, Switzerland, 2020; Volume 359.
+	
+	\bibitem{7}Herrera, J.A.; Legón, C.M.; Suárez, L.; Piñeiro, L.R.; Rojas, O.; Sosa, G. Test for Detection of Weak Graphic Passwords in Passpoint Based on the Mean Distance between Points.\textit{ Symmetry} 2021,13, 777
+	
+	\bibitem{8}Suárez, L; Legón, C.M.; Herrera, J.A; Socorro, R.; Rojas, O.; Sosa,
+	G.: \textit{Weak PassPoint passwords detected by the perimeter of Delaunay triangles}. Enviado a publicación 16 Marzo 2021, Journal Sensors. Se	encuentra en fase de revisin, pendiente de aceptación.
+	
+	\bibitem{9}L. Suárez. \textit{Test para la detección de contraseñas gráficas débiles en PassPoint, basado en el promedio de los	perímetros de los triángulos de Delaunay}. Master’s thesis, Universidad de la Habana, 2021.
+	
+	\bibitem{10} Aplicacion conjunta
+	
+	\bibitem{11} Herrera, J.A.; Suárez, L.; Legón, C.M.; Sosa, G. and O. Rojas: \textit{New test to detect clustered graphical passwords   in Passpoints, based on the perimeter of the convex hull}. Information 2024, 15, 447
+	
+	\bibitem{12} Chiu, S.N.\textit{ Spatial point pattern analysis by using Voronoi diagrams and Delaunay tessellations-A comparative study.} Biometr. J.
+	2003, 45, 367–376.
+	
+	\bibitem{13} L. Suárez, J. A. Herrera, C. M. Legón, G. Sosa, and O. Rojas. \textit{Detection of DIAG and LINE Patterns in PassPoints Graphical Passwords Based on the Maximum Angles of Their Delaunay Triangles}.\textit{Sensors}, 22
+	(5), 2022a.
+	
+}
 \end{thebibliography}
 
 

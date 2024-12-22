@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  17 DEC 2024 02:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  22 DEC 2024 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,7 +563,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \newpage
+l.76 \newpage
               [1
 
 ] (main.lof
@@ -587,53 +587,53 @@ LaTeX Info: Redefining \% on input line 1.
 ] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 [6]
 Cap\'{\i }tulo 1.
-<img//passpoint.png, id=117, 269.50688pt x 200.24812pt>
+<img//passpoint.png, id=156, 269.50688pt x 200.24812pt>
 File: img//passpoint.png Graphic file (type png)
 <use img//passpoint.png>
-Package pdftex.def Info: img//passpoint.png  used on input line 168.
+Package pdftex.def Info: img//passpoint.png  used on input line 170.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
 [7
 
 ] [8 <./img//passpoint.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-<img//no_td.png, id=127, 223.43475pt x 224.63925pt>
+<img//no_td.png, id=166, 223.43475pt x 224.63925pt>
 File: img//no_td.png Graphic file (type png)
 <use img//no_td.png>
-Package pdftex.def Info: img//no_td.png  used on input line 250.
+Package pdftex.def Info: img//no_td.png  used on input line 252.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
-<img//si_td.png, id=128, 231.264pt x 210.18526pt>
+<img//si_td.png, id=167, 231.264pt x 210.18526pt>
 File: img//si_td.png Graphic file (type png)
 <use img//si_td.png>
-Package pdftex.def Info: img//si_td.png  used on input line 256.
+Package pdftex.def Info: img//si_td.png  used on input line 258.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
 [9 <./img//no_td.png> <./img//si_td.png>] [10]
 Cap\'{\i }tulo 2.
@@ -653,9 +653,9 @@ Cap\'{\i }tulo 5.
 
 ] [15
 
-]
+] [16]
 Ap\'{e}ndice A.
-[16
+[17
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -665,22 +665,23 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AF8CB80A1448BF6FC680FE6BD489A5B2;2185.
  ) 
 Here is how much of TeX's memory you used:
- 13339 strings out of 475385
- 230159 string characters out of 2776906
- 622798 words of memory out of 3000000
- 34448 multiletter control sequences out of 15000+600000
- 475167 words of font info for 47 fonts, out of 8000000 for 9000
+ 13366 strings out of 475385
+ 230303 string characters out of 2776906
+ 623082 words of memory out of 3000000
+ 34461 multiletter control sequences out of 15000+600000
+ 475514 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,92p,1582b,483s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 94i,8n,92p,1594b,618s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1440.pk> <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (17 pages, 476801 bytes).
+nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (18 pages, 507396 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
