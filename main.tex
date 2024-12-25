@@ -55,7 +55,7 @@
     \end{figure}
     {\noindent\hrulefill}\\[0.2cm]
     
-    {\Large\textbf{{Test para la detección de patrones DIAG y LINE  en las contraseñas gráficas de PassPoint, basada en el número de triángulos de Delaunay }}}\\[0.1cm]
+    {\Large\textbf{{Test para detectar patrones DIAG y LINE  en las contraseñas gráficas de PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay, condicionado al número de triángulos }}}\\[0.1cm]
     {\noindent\hrulefill}\\[1.0cm]
     \begin{minipage}{0.8\textwidth}
     \begin{center}
@@ -131,7 +131,8 @@
 
 
 	
-	Según los resultados obtenidos en \cite{13} se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay, pero realizando análisis independientes según el número de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en \cite{13}.\\
+	Según los resultados obtenidos en \cite{13}, la distribución del promedio de los triángulos de  Delaunay de las contraseñas gráficas aleatorias, sin tener en cuenta el número específico de triángulos sigue una distribución Normal, por lo que se plantea la hipótesis de que cada una de las distribuciones de los conjuntos cuyas triangulaciones contienen 3, 4 o 5 triángulos también distribuirán Normal pero con diferentes parámetros. Suponiendo que esta hipótesis se cumpla, dada una contraseña ingresada por un usuario se verificará a que distibución pertenece y se aplicará el test con la distribución adecuada. Esto debería mejorar el ajuste de los datos a los test de bondad de ajuste y aumentar la efectividad del test.
+	% se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay, pero realizando análisis independientes según el número de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en \cite{13}.\\
 	
 	\large{\textbf{Problema de investigación:}}
 	
