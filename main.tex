@@ -195,8 +195,7 @@
 %%buscar en tesis de lisset los tipos de ataques
 \setcounter{chapter}{0}
 \chapter{Marco Teórico}
-Incluye el marco teórico, revisiones de la literatura y conceptos clave relacionados con tu trabajo.
-En esta sección se definen los conceptos clave que son relevantes para este trabajo. 
+En este capitulo se presentan los principales conceptos asociados al dominio del problema que sustentan la investigacion y contribuyen a la comprension de su contenido. 
 
 \section{PassPoint}
 	La técnica PassPoint diseñada por Wiedenbeck(77 osviel) destaca entre los sistemas de autenticación gráfica del tipo cued-recall por su usabilidad y seguridad(rodrigez et al..2018 comparacion pag3) .
@@ -258,7 +257,14 @@ Además de la inclusión por parte de los usuarios de los Hotspots en las contra
 Algunos de los patrones reportados en la literatura[15-21 sensor] son: los patrones con una forma predeterminada(Z, W, V, C), los agrupados,  los regulares,y los patrones LOD y DIAG(o patrones diagonales) en los que se encuentran los patrones LINE(forma de línea). 
 Los patrones DIAG y LINE(fig de diag y line) se encuentran entre los que más tienden a seguir los suarios, en[16-21 sensors] caracterizan los patrones DIAG  por ser puntos que se encuentran formando arcos tanto horizontal como verticalmente y la suma de los valores absolutos de los ángulos es menor que 15\degree[7 informe de sensor], en cambio los LINE se caracterizan por ser lineas horizontales y verticales y se definen como un subconjunto de los DIAG. 
 \textbf{FIGURA DE DIAG Y LINE}.
-\\
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{DIAG_LINE.png}
+	\caption{DIAG-LINE.}
+	\label{fig:DIAG_LINE}
+\end{figure}
+
+
 En[17,18 sensor] tras realizar un estudio de 223 contraseñas graficas en el escenario PassPoint seleccionadas por estudiantess en dos imagenes diferentes con un numero asequible de Hotspots distribuidos uniformemente en cada una de ellas, los autores consiguieron obtener del 48.2\% al 54.1\% de las mismas utilzando un ataque de diccionario de 235.26 entradas utilizando patrones  DIAG y del 23.7\% al 52.3\% de dichas contraseñas utilizando un ataque de 229.02 entradas utilizando  patrones LINE 
 
 
@@ -270,9 +276,9 @@ En[17,18 sensor] tras realizar un estudio de 223 contraseñas graficas en el esc
 %La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tecnocas de analisis y procesamiento de imagenes. Estas se vasen en la deteccion de esquinas y centroides asi como la plicacion de herramientas y algoritmos de inteligencia artificial para detectar objetos en imagenes
 
 \section{Triangulaciones de Delaunay}
-\textbf{Definición(Triángulación de Delaunay):}Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y sólo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto p en su interior,como muestra la figura(triangulacionnes ). Esta condición es conocida como condición de Delaunay.[23,45,46 lisset].    
+\textbf{Definición(Triángulación de Delaunay):}Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y sólo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto p en su interior,como muestra la figura(triangulacionnes ). Esta condición es conocida como condición de Delaunay.[23,45,46 lisset].\\    
 
-		\large{\textbf{Propiedades elementales de las triangulaciones de Delaunay}}\\
+		{\large{\textbf{Propiedades elementales de las triangulaciones de Delaunay}}}\\
 
 	Una triangulación de Delaunay presenta las siguientes tres propiedades elementales:
 	
@@ -303,7 +309,29 @@ En[17,18 sensor] tras realizar un estudio de 223 contraseñas graficas en el esc
 	
 	Un resultado importante es analizar si una triangulación de Delaunay es correcta o no, para esto se utiliza la fórmula de Euler ya que dado un conjunto P de n puntos , si una cantidad h de ellos se encuentran en la envoltura convexa se optiene por dicha fórmula que  la triangulación de Delaunay tiene 2n-2-h triángulos y 3n-3-h aristas(30 sensor)
 	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.3\textwidth]{td_10pts.png}
+		\caption{Triangulación de Delaunay para 10 puntos}
+		\label{fig:Triangulación de Delaunay para 10 puntos}
+	\end{figure}
+	
 \section{Test de detección de patrones DIAG y LINE en el sistema PassPoint basado en los ángulos máximos de los triángulos de Delaunay  }
+
+En \cite{13} se propuso un novedoso test para detectar  contraseñas graficas en PassPoint que siguieran patrones DIAG o LINE, valido para todos los tamaños de imgenes con ratio 16:9.
+
+Para la contruccion de este test, se formulo y se probo como hipotesis inicial que la media de los angulos maximos de los triangulos de la triangulacion de delaunay de los cinco puntos de una contraseña grafica en PassPoint es un estadistico eficaz para evaluar y decidir si la contraseña seleccionada por el usuario sigue o no un patron DIAG o LINE. Los experimentos mostraron que las contraseñas que siguen patrones DIAG o LINE tenian una media del estadigrafo superior a la media estimada para las contraseñas con puntos seleccionados aleatoriamente. Se comprobo que  el estadistico seleccionado distribuye con normalidad, por lo que se construye un test de una cola(derecha) para media de una ditribucion Normal, que evaluala hipotesis nula de que la contraseña no sigue un patron DIAG o LINE frente a la alternativa de que sigue un patron DIAG o LINE.
+
+La eficacia de la prueba propuesta se evaluo en seis bases dedatos de 10000 contrsaseñas cada una, tres de estas con contraseñas que forman patrones DIAG y tres con LINE,para cada patron las bases de datos se dividiero segun los angulos entre los segmentos consecutivos lo cual se determina en (chiasson) como una frecuencia mayor a la media. 
+La prueba logro detectar el 100\% de las contraseñas graficas analisadas que siguen patrones DIAG y LINE cuyos segmentos consecutivos tienen una amplitud maxima entre 180\degree y 150\degree(Db1.DIAG, Db2.DIAG, Db1.LINE, Db1.LINE), para los cinco niveles de significacio. Para los patrones con una amplitud  entre 150 y 145 (Db3.DIAG, Db3.LINE), en el caso de los niveles de significacion $\alpha$=0.2 y $\alpha$=0.1 logró detectasr el 100\% de las contraseñas , mientas que para $\alpha$ $\in$ \{0.05, 0.02, 0.01\} la eficacia fue aproximadamente del 88\%, 42\% y 16\% respectivamente. Para fines generales los autores recomiendan como nivel de significacion {$\alpha$=0.05} pues proporciona unos valores dedeteccion superiores al 91\%  para patrones DIAG y 88\% para patrones LINE
+
+%En el estudio mencionado en la referencia [13], se propuso un test innovador destinado a detectar contraseñas gráficas en PassPoint que siguieran los patrones DIAG o LINE, siendo este método válido para imágenes de cualquier tamaño con una relación de aspecto de 16:9. Para desarrollar este test, se planteó inicialmente y se sometió a prueba la hipótesis de que la media de los ángulos máximos de los triángulos en la triangulación de Delaunay de los cinco puntos clave de una contraseña gráfica en PassPoint podría ser un indicador efectivo para determinar si la contraseña elegida por el usuario seguía o no un patrón DIAG o LINE.
+
+%Los resultados experimentales revelaron que las contraseñas que cumplían con los patrones DIAG o LINE presentaban un promedio del estadígrafo superior al promedio estimado para aquellas contraseñas cuyos puntos habían sido seleccionados aleatoriamente. Se confirmó que el estadístico seleccionado seguía una distribución normal, lo que permitió la construcción de un test unidireccional (hacia la derecha) para la media de una distribución normal. Este test evaluaba la hipótesis nula de que la contraseña no seguía un patrón DIAG o LINE en contraposición a la hipótesis alternativa de que sí lo seguía.
+
+%La efectividad de esta prueba fue evaluada en seis bases de datos, cada una conteniendo 10,000 contraseñas. Tres de estas bases de datos consistían en contraseñas que formaban patrones DIAG y las otras tres en patrones LINE. Para cada patrón, las bases de datos se dividieron según los ángulos entre los segmentos consecutivos, determinando que una frecuencia mayor a la media, según Chiasson, indicaba la presencia del patrón. El test logró detectar el 100% de las contraseñas gráficas analizadas que seguían los patrones DIAG y LINE, cuyos segmentos consecutivos tenían una amplitud máxima entre 180° y 150°.
+
+%En el caso de los patrones con una amplitud entre 150° y 145°, el test logró detectar el 100\% de las contraseñas para los niveles de significación α=0.2 y α=0.1, mientras que para α ∈ {0.05, 0.02, 0.01}, la eficacia fue aproximadamente del 88%, 42% y 16% respectivamente. En términos generales, los autores recomendaron un nivel de significación de α=0.05, ya que proporcionaba valores de detección superiores al 91% para patrones DIAG y 88% para patrones LINE.
 	
 \chapter{Metodología}
 Describe la metodología utilizada en tu investigación, incluyendo los métodos, herramientas y procedimientos.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  25 DEC 2024 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  26 DEC 2024 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,81 +623,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
 [8]
 Cap\'{\i }tulo 1.
-<img//passpoint.png, id=170, 269.50688pt x 200.24812pt>
+<img//passpoint.png, id=174, 269.50688pt x 200.24812pt>
 File: img//passpoint.png Graphic file (type png)
 <use img//passpoint.png>
-Package pdftex.def Info: img//passpoint.png  used on input line 210.
+Package pdftex.def Info: img//passpoint.png  used on input line 209.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
 [9
 
-] [10 <./img//passpoint.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ <./img//passpoint.png>]
+<img//DIAG_LINE.png, id=180, 389.65575pt x 193.32225pt>
+File: img//DIAG_LINE.png Graphic file (type png)
+<use img//DIAG_LINE.png>
+Package pdftex.def Info: img//DIAG_LINE.png  used on input line 262.
+(pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-<img//no_td.png, id=180, 223.43475pt x 224.63925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+<img//no_td.png, id=185, 223.43475pt x 224.63925pt>
 File: img//no_td.png Graphic file (type png)
 <use img//no_td.png>
-Package pdftex.def Info: img//no_td.png  used on input line 292.
+Package pdftex.def Info: img//no_td.png  used on input line 298.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
-<img//si_td.png, id=181, 231.264pt x 210.18526pt>
+<img//si_td.png, id=186, 231.264pt x 210.18526pt>
 File: img//si_td.png Graphic file (type png)
 <use img//si_td.png>
-Package pdftex.def Info: img//si_td.png  used on input line 298.
+Package pdftex.def Info: img//si_td.png  used on input line 304.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-[11 <./img//no_td.png> <./img//si_td.png>] [12]
-Cap\'{\i }tulo 2.
-[13
 
-]
-Cap\'{\i }tulo 3.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img//td_10pts.png, id=187, 228.855pt x 235.47975pt>
+File: img//td_10pts.png Graphic file (type png)
+<use img//td_10pts.png>
+Package pdftex.def Info: img//td_10pts.png  used on input line 314.
+(pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
+[11 <./img//DIAG_LINE.png>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+26.
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 326.
+
+[12 <./img//no_td.png> <./img//si_td.png> <./img//td_10pts.png>] [13]
+Cap\'{\i }tulo 2.
 [14
 
 ]
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 3.
 [15
 
 ]
-Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 4.
 [16
 
-] [17
+]
+Cap\'{\i }tulo 5.
+[17
 
-] [18]
+] [18
+
+] [19]
 Ap\'{e}ndice A.
-[19
+[20
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D50A51E4ABE4193D088BB0BC8ECDB704;2197
-(rerunfilecheck)             After:  90F1555A9762F6589B943044AAD23A56;2185.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 90F1555A9762F6589B943044AAD23A56;2185.
  ) 
 Here is how much of TeX's memory you used:
- 13372 strings out of 475385
- 230352 string characters out of 2776906
- 623084 words of memory out of 3000000
- 34461 multiletter control sequences out of 15000+600000
- 475514 words of font info for 48 fonts, out of 8000000 for 9000
+ 13413 strings out of 475385
+ 231161 string characters out of 2776906
+ 626187 words of memory out of 3000000
+ 34495 multiletter control sequences out of 15000+600000
+ 475173 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,92p,1608b,618s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 94i,8n,92p,1608b,612s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1440.pk> <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (20 pages, 514394 bytes).
+1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (21 pages, 628285 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
