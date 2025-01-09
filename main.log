@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  26 DEC 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  9 JAN 2025 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,58 +623,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
 [8]
 Cap\'{\i }tulo 1.
-<img//passpoint.png, id=174, 269.50688pt x 200.24812pt>
+<img//passpoint.png, id=183, 269.50688pt x 200.24812pt>
 File: img//passpoint.png Graphic file (type png)
 <use img//passpoint.png>
 Package pdftex.def Info: img//passpoint.png  used on input line 209.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
 [9
 
- <./img//passpoint.png>]
-<img//DIAG_LINE.png, id=180, 389.65575pt x 193.32225pt>
+]
+Overfull \hbox (28.40712pt too wide) in paragraph at lines 226--241
+ [][] 
+ []
+
+[10 <./img//passpoint.png>]
+<img//DIAG_LINE.png, id=210, 389.65575pt x 193.32225pt>
 File: img//DIAG_LINE.png Graphic file (type png)
 <use img//DIAG_LINE.png>
-Package pdftex.def Info: img//DIAG_LINE.png  used on input line 262.
+Package pdftex.def Info: img//DIAG_LINE.png  used on input line 271.
 (pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-<img//no_td.png, id=185, 223.43475pt x 224.63925pt>
+[11 <./img//DIAG_LINE.png>]
+<img//no_td.png, id=230, 223.43475pt x 224.63925pt>
 File: img//no_td.png Graphic file (type png)
 <use img//no_td.png>
-Package pdftex.def Info: img//no_td.png  used on input line 298.
+Package pdftex.def Info: img//no_td.png  used on input line 309.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
-<img//si_td.png, id=186, 231.264pt x 210.18526pt>
+
+Underfull \hbox (badness 1014) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/12 Figura 1.3: []Triangulaci^^Son no cum-ple
+ []
+
+<img//si_td.png, id=231, 231.264pt x 210.18526pt>
 File: img//si_td.png Graphic file (type png)
 <use img//si_td.png>
-Package pdftex.def Info: img//si_td.png  used on input line 304.
+Package pdftex.def Info: img//si_td.png  used on input line 315.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img//td_10pts.png, id=187, 228.855pt x 235.47975pt>
+<img//td_10pts.png, id=233, 228.855pt x 235.47975pt>
 File: img//td_10pts.png Graphic file (type png)
 <use img//td_10pts.png>
-Package pdftex.def Info: img//td_10pts.png  used on input line 314.
+Package pdftex.def Info: img//td_10pts.png  used on input line 325.
 (pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
-[11 <./img//DIAG_LINE.png>]
+[12 <./img//no_td.png> <./img//si_td.png> <./img//td_10pts.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-26.
+47.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 326.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 347.
 
-[12 <./img//no_td.png> <./img//si_td.png> <./img//td_10pts.png>] [13]
+[13]
 Cap\'{\i }tulo 2.
 [14
 
@@ -692,36 +700,37 @@ Cap\'{\i }tulo 5.
 
 ] [18
 
-] [19]
+] [19] [20]
 Ap\'{e}ndice A.
-[20
+[21
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 90F1555A9762F6589B943044AAD23A56;2185.
+(rerunfilecheck)             Checksum: 2247D92B09C3A1EA628BB5BAF63A6900;2088.
  ) 
 Here is how much of TeX's memory you used:
- 13413 strings out of 475385
- 231161 string characters out of 2776906
- 626187 words of memory out of 3000000
- 34495 multiletter control sequences out of 15000+600000
+ 13447 strings out of 475385
+ 231349 string characters out of 2776906
+ 624588 words of memory out of 3000000
+ 34512 multiletter control sequences out of 15000+600000
  475173 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,92p,1608b,612s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 94i,10n,92p,1608b,612s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (21 pages, 628285 bytes).
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ovidi/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (22 pages, 651218 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
