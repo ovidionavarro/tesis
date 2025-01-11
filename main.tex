@@ -198,12 +198,13 @@
  A medida que las amenazas cibernéticas evolucionan, también lo hacen los métodos de autenticación utilizados para proteger los datos sensibles. Este capítulo se centrará en explorar los principios teóricos que sustentan la autenticación gráfica, específicamente el sistema PassPoint, y los patrones que los usuarios tienden a seguir al crear sus contraseñas. Al comprender estos conceptos, se podrá apreciar mejor la vulnerabilidad inherente a los sistemas de autenticación y la necesidad de desarrollar métodos más robustos para mitigar riesgos.
 
 \section{PassPoint}
-	La técnica PassPoint diseñada por Wiedenbeck en \cite{1} destaca entre los sistemas de autenticación gráfica del tipo cued-recall por su usabilidad y seguridad(rodrigez et al..2018 comparacion pag3) .
+	La técnica PassPoint diseñada por Wiedenbeck en \cite{1} destaca entre los sistemas de autenticación gráfica del tipo cued-recall por su usabilidad y seguridad.
+	%(rodrigez et al..2018 comparacion pag3) .
 	%usabilidad
 	Esta técnica consiste en que  en su fase de registro el
-	usuario debe seleccionar 5 puntos(pixeles) de una imagen ya sea seleccionada por el mismo usuario o dada por el sistema  y en el proceso de autenticación este debe hacer click en el mismo orden y en determinada  vecindad o región de tolerancia de los puntos escogidos en la fase de registro.
+	usuario debe seleccionar 5 puntos(píxeles) de una imagen ya sea seleccionada por el mismo usuario o dada por el sistema  y en el proceso de autenticación este debe hacer clic en el mismo orden y en determinada  vecindad o región de tolerancia de los puntos escogidos en la fase de registro.
 	%parte de hotspot
-	Wiedenbeck su investigación en \cite{1} asegura que las imágenes más deseadas para el proceso debían tener contenido que tuviera significado para el usuario por lo que debían tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogénea, pero existe el problema de que en el momento de autentificación el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretización, esta se encarga de establecer una tolerancia alrededor de cada punto, por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en \cite{14,15,16}. Por otro lado, en \cite{14,15,16,17} se describen los distintos métodos de discretización que se han desarrollado hasta ahora.\\
+	Wiedenbeck su investigación en \cite{1} asegura que las imágenes más deseadas para el proceso debían tener contenido que tuviera significado para el usuario por lo que debían tener escenas concretas, otro requisito es que la imagen seleccionada posean cientos de HOTSPOST(puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogénea, pero existe el problema de que en el momento de autenticación el usuario no seleccione exactamente el mismo punto y a esto se le llaman errores de discretización, esta se encarga de establecer una tolerancia alrededor de cada punto, por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en \cite{14,15,16}. Por otro lado, en \cite{14,15,16,17} se describen los distintos métodos de discretización que se han desarrollado hasta ahora.\\
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=0.5\textwidth]{passpoint.png}
@@ -287,7 +288,7 @@ En un estudio realizado por los autores de \cite{21,22}, se investigaron 223 con
 %La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tecnocas de analisis y procesamiento de imagenes. Estas se vasen en la deteccion de esquinas y centroides asi como la plicacion de herramientas y algoritmos de inteligencia artificial para detectar objetos en imagenes
 
 \section{Triangulaciones de Delaunay}
-\textbf{Definición(Triángulación de Delaunay):} Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y sólo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto p en su interior, como muestra la figura(triangulacionnes ). Esta definición es conocida como condición de Delaunay \cite{26,27,28}.\\    
+\textbf{Definición(Triángulación de Delaunay):} Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y solo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto $p_i$ en su interior, como muestra la figura 1.4 . Esta definición es conocida como condición de Delaunay \cite{26,27,28}.\\    
 
 		{\large{\textbf{Propiedades elementales de las triangulaciones de Delaunay}}}\\
 
@@ -329,6 +330,7 @@ En un estudio realizado por los autores de \cite{21,22}, se investigaron 223 con
 	
 \section{Test de detección de patrones DIAG y LINE en el sistema PassPoint basado en los ángulos máximos de los triángulos de Delaunay  }
 
+
 %En \cite{13} se propuso un novedoso test para detectar  contraseñas gráficas en PassPoint que sigan patrones DIAG y LINE, valido para todos los tamaños de imágenes con ratio 16:9.
 
 %Para la construcción de este test, se formuló y se probó como hipótesis inicial que la media de los ángulos máximos de los triángulos de la triangulación de Delaunay de los cinco puntos de una contraseña gráfica en PassPoint es un estadístico eficaz para evaluar y decidir si la contraseña seleccionada por el usuario sigue o no un patrón DIAG o LINE. Los experimentos mostraron que las contraseñas que siguen patrones DIAG o LINE tenían una media del estadígrafo superior a la media estimada para las contraseñas con puntos seleccionados aleatoriamente. Se comprobo que  el estadístico seleccionado distribuye con normalidad, por lo que se construye un test de una cola(derecha) para media de una distribución Normal, que evalúa la hipótesis nula de que la contraseña no sigue un patrón DIAG o LINE frente a la alternativa de que sigue un patron DIAG o LINE.
@@ -354,6 +356,30 @@ Para contraseñas cuyos patrones tenían una amplitud entre 150° y 145° (Db3.D
 %La efectividad de esta prueba fue evaluada en seis bases de datos, cada una conteniendo 10,000 contraseñas. Tres de estas bases de datos consistían en contraseñas que formaban patrones DIAG y las otras tres en patrones LINE. Para cada patrón, las bases de datos se dividieron según los ángulos entre los segmentos consecutivos, determinando que una frecuencia mayor a la media, según Chiasson, indicaba la presencia del patrón. El test logró detectar el 100% de las contraseñas gráficas analizadas que seguían los patrones DIAG y LINE, cuyos segmentos consecutivos tenían una amplitud máxima entre 180° y 150°.
 
 %En el caso de los patrones con una amplitud entre 150° y 145°, el test logró detectar el 100\% de las contraseñas para los niveles de significación α=0.2 y α=0.1, mientras que para α ∈ {0.05, 0.02, 0.01}, la eficacia fue aproximadamente del 88%, 42% y 16% respectivamente. En términos generales, los autores recomendaron un nivel de significación de α=0.05, ya que proporcionaba valores de detección superiores al 91% para patrones DIAG y 88% para patrones LINE.
+
+
+\section{Algoritmo para la detección de contraseñas con patrones suaves en PassPoint}
+
+En \cite{3} se propuso un algoritmo para la detección de contraseñas con patrones suaves en PassPoint. El algoritmo propuesto recibe como entrada los puntos seleccionados por el usuario en la contraseña y ademas un parametro   $D(\varphi\degree)$  que es un valor de tolerancia. Con los 5 puntos dados de la contraseña se calculan los tres angulos entre segmentos consecutivos, el algoritmo detecta que esta ante la presencia de una contraseña con patron suave cuando todos tres angulos son mayores que $D(\varphi\degree)$ .
+
+La question de este algoritmo es la seleccion del valor $D(\varphi\degree)$ pues este va a ser el mayor determinante de la decisión. Para la solucion de este problema se contó con una implementación baásica de PassPoint para la web con dos imagenes de 700x400, un grupo de 60 alumnos de la Universidad de Ciencias Informaticas capturaron 397 contraseñas, las cuales se clasificaron visualmente y se decidió que 124 de ellas cumplian con el patron de suavidad. \\
+
+En un primer experimento se aplico el algoritmo propuesto a las 124 contraseñas variando con paso 10 el parametro $D(\varphi\degree)$ y de esta manera conocer los falsos negativos obtenidos por el algoritmo para cada valor de $D(\varphi\degree)\in$ \{20,30,40,50....,150\}. Se observó que al aumentar $D(\varphi\degree)$ reducen los falsos negativos y que para valores de $D(\varphi\degree)$ mayores a 80\degree ocurre poca variacion en la cantidad de contraseñas detectadas, incluso para $D(\varphi\degree)$=150\degree aun quedan 3 contraseñas no detectadas, quizas esto pueda ser un error debido a la clasificacion del observador
+
+En un segundo experimento se aplica el algoritmo para 397 contraseñas registradas los 60 usuarios y los mismos valores $D(\varphi\degree)$ que en el experimento anterior para identificar cuantas nuevas contraseñas detectaba el algoritmo que no estaban en la clasificacion inicial. Se pudo apreciar que el numero crece a partir de que $D(\varphi\degree)$ es mayor que 50\degree. Dada la contradiccion entre las contraseñas detectadas por el algoritmo y las clasificadas por el observador, se realizó un analisis de las contraseñas no clasifidas por este pero si por el algoritmo y se pudo demostrar que sí cumplian con el patron de suavidad, esto sugiere que el observador puede haber cometido errores de clasificación, ya que el usuario que eligió la contraseña intentaba establecer conexiones entre los puntos, aunque la suavidad de estas relaciones no sea evidente para quien observa.
+ 
+
+Como experimento final se aplico el algoritmo sobre un conjunto de 400 contraseñas aleatorias para detectar los falsos positivos para cada valor de $D(\varphi\degree)$, donde se sugiere usar por defecto $D(\varphi\degree)$=130\degree, ya que representa un buen equilibrio entre falsos positivos y falsos negativos. La figura a extraida de \cite{3} proporciona la información necesaria para ajustar este parámetro según las necesidades del usuario. Incrementar $D(\varphi\degree)$ mejora la seguridad, mientras que reducirlo favorece la usabilidad del sistema.
+
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{grafOsviel.png}
+%	\caption{Frecuencia de falsos pisotivos vs falsos negativos segun ${D(\varphi\degree)}$}
+%	\label{fig:Fre}
+%\end{figure}
+
+A partir de los resultados de cada experimento se pudo afirmar que se obtuvo  un criterio efectivo para detectar la existencia de patrones de suavidad en las contraseñas de la técnica de autenticación gráfica PassPoints en imágenes de 700x400 píxeles, en \cite{3} se puede observar el algoritmo propuesto así como una implementacion de el mismo en python. Además el algoritmo permitió constatar que en muchas ocasiones el usuario crea una dependencia entre los puntos que no se nota a simple vista por un observador, sin embargo puede ser detectada por el algoritmo con parámetro de tolerancia variable.
+
 	
 \chapter{Metodología}
 Describe la metodología utilizada en tu investigación, incluyendo los métodos, herramientas y procedimientos.
