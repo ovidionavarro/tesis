@@ -135,10 +135,8 @@
 	
 	Según los resultados obtenidos en \cite{13}, la distribución del promedio de los triángulos de  Delaunay de las contraseñas gráficas aleatorias, sin tener en cuenta el número específico de triángulos sigue una distribución Normal, por lo que se plantea la hipótesis de que cada una de las distribuciones de los conjuntos cuyas triangulaciones contienen 3, 4 o 5 triángulos también distribuirán Normal pero con diferentes parámetros. Suponiendo que esta hipótesis se cumpla, dada una contraseña ingresada por un usuario se verificará a que distibución pertenece y se aplicará el test con la distribución adecuada. Esto debería mejorar el ajuste de los datos a los test de bondad de ajuste y aumentar la efectividad del test.
 	% se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay, pero realizando análisis independientes según el número de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en \cite{13}.\\
-	
-	\large{\textbf{Problema de investigación:}}
-	
-	\normalsize{¿Cómo  detectar contraseñas gráficas que sigan patrones DIAG y LINE  en el sistema de autenticación gráfica PassPoint, teniendo en cuenta el número de triángulos de Delaunay?}\\
+\large{\textbf{Problema de investigación:}}	
+\normalsize{¿Cómo  detectar contraseñas gráficas que sigan patrones DIAG y LINE  en el sistema de autenticación gráfica PassPoint, teniendo en cuenta el número de triángulos de Delaunay?}\\
 	
 	\large{\textbf{Objeto de estudio:}}
 	
@@ -254,7 +252,7 @@
 	
 	%Gran n´umero de usuarios en las contrase˜nas gr´aficas tienden a seleccionar contrase˜nas que siguen determinados patrones, esto ayuda a la memorabilidad de las contrase˜nas pero al mismo tiempo contribuye a que sea relativamente f´acil encontrar un diccionario de ataque a este tipo de patrones. Como siguen cierto patr´on se les denomina contrase˜nas d´ebiles porque carecen de aleatoriedad. Ahora veremos cuales son los distintos patrones que tienden a seleccionar los usuarios a la hora de confeccionar sus contrase˜nas[3]
 
-\section{Patrones suaves}
+\section{Patrones DIAG y LINE}
 %Además de la inclusión por parte de los usuarios de los Hotspots en las contraseñas, estas presentan otro tipo de debilidades como son los distintos tipos de patrones, leyes psicológicas o modelos de atención visual, los cuales son comúnmente utilizados por los usuarios para garantizar una mejor memorabilidad, lo que hace que sea más fácil contruir diccionarios de ataques estas contraseñas.
 
 
@@ -360,25 +358,25 @@ Para contraseñas cuyos patrones tenían una amplitud entre 150° y 145° (Db3.D
 
 \section{Algoritmo para la detección de contraseñas con patrones suaves en PassPoint}
 
-En \cite{3} se propuso un algoritmo para la detección de contraseñas con patrones suaves en PassPoint. El algoritmo propuesto recibe como entrada los puntos seleccionados por el usuario en la contraseña y ademas un parametro   $D(\varphi\degree)$  que es un valor de tolerancia. Con los 5 puntos dados de la contraseña se calculan los tres angulos entre segmentos consecutivos, el algoritmo detecta que esta ante la presencia de una contraseña con patron suave cuando todos tres angulos son mayores que $D(\varphi\degree)$ .
+%En \cite{3} se propuso un algoritmo para la detección de contraseñas con patrones suaves en PassPoint. El algoritmo propuesto recibe como entrada los puntos seleccionados por el usuario en la contraseña y un parámetro   $D(\varphi\degree)$  que es un valor de tolerancia. Con los 5 puntos dados de la contraseña se calculan los tres ángulos entre los segmentos consecutivos formados por los puntos, el algoritmo detecta que está ante la presencia de una contraseña con un patrón suave cuando los tres ángulos son mayores que $D(\varphi\degree)$.
+En \cite{3} se presentó un algoritmo diseñado para identificar contraseñas con patrones suaves en el método PassPoint. Este algoritmo toma como datos de entrada los puntos seleccionados por el usuario al crear su contraseña, junto con un parámetro de tolerancia, representado como $D(\varphi\degree)$. A partir de los 5 puntos que componen la contraseña, se calculan los tres ángulos formados entre los segmentos consecutivos que conectan dichos puntos. El algoritmo determina que una contraseña presenta un patrón suave cuando los tres ángulos calculados superan el valor del parámetro $D(\varphi\degree)$.
 
-La question de este algoritmo es la seleccion del valor $D(\varphi\degree)$ pues este va a ser el mayor determinante de la decisión. Para la solucion de este problema se contó con una implementación baásica de PassPoint para la web con dos imagenes de 700x400, un grupo de 60 alumnos de la Universidad de Ciencias Informaticas capturaron 397 contraseñas, las cuales se clasificaron visualmente y se decidió que 124 de ellas cumplian con el patron de suavidad. \\
+La cuestión de este algoritmo es la selección del valor $D(\varphi\degree)$ pues este va a ser el mayor determinante de la decisión de el mismo. Para la solución de este problema se contó con una implementación básica de PassPoint para la web con dos imágenes de 700x400. Un grupo de 60 alumnos de la Universidad de Ciencias Informáticas capturaron 397 contraseñas, las cuales se clasificaron visualmente y se decidió que 124 de ellas cumplían con el patrón de suavidad. \\
 
-En un primer experimento se aplico el algoritmo propuesto a las 124 contraseñas variando con paso 10 el parametro $D(\varphi\degree)$ y de esta manera conocer los falsos negativos obtenidos por el algoritmo para cada valor de $D(\varphi\degree)\in$ \{20,30,40,50....,150\}. Se observó que al aumentar $D(\varphi\degree)$ reducen los falsos negativos y que para valores de $D(\varphi\degree)$ mayores a 80\degree ocurre poca variacion en la cantidad de contraseñas detectadas, incluso para $D(\varphi\degree)$=150\degree aun quedan 3 contraseñas no detectadas, quizas esto pueda ser un error debido a la clasificacion del observador
+En un primer experimento se aplicó el algoritmo propuesto a las 124 contraseñas variando con paso 10 el parámetro $D(\varphi\degree)$ y de esta manera conocer los falsos negativos obtenidos por el algoritmo para cada valor de $D(\varphi\degree)\in$ \{20,30,40,50....,150\}. Se observó que al aumentar $D(\varphi\degree)$ reducen los falsos negativos y que para valores de $D(\varphi\degree)$ mayores a 80\degree ocurre poca variación en la cantidad de contraseñas detectadas, incluso para $D(\varphi\degree)$=150\degree aun quedan 3 contraseñas no detectadas, quizás esto pueda ser un error debido a la clasificación del observador.
 
-En un segundo experimento se aplica el algoritmo para 397 contraseñas registradas los 60 usuarios y los mismos valores $D(\varphi\degree)$ que en el experimento anterior para identificar cuantas nuevas contraseñas detectaba el algoritmo que no estaban en la clasificacion inicial. Se pudo apreciar que el numero crece a partir de que $D(\varphi\degree)$ es mayor que 50\degree. Dada la contradiccion entre las contraseñas detectadas por el algoritmo y las clasificadas por el observador, se realizó un analisis de las contraseñas no clasifidas por este pero si por el algoritmo y se pudo demostrar que sí cumplian con el patron de suavidad, esto sugiere que el observador puede haber cometido errores de clasificación, ya que el usuario que eligió la contraseña intentaba establecer conexiones entre los puntos, aunque la suavidad de estas relaciones no sea evidente para quien observa.
+En un segundo experimento se aplica el algoritmo para las 397 contraseñas registradas inicialmente por los 60 usuarios y los mismos valores de $D(\varphi\degree)$ que en el experimento anterior para identificar cuantas nuevas contraseñas detectaba el algoritmo que no estaban en la clasificación inicial. Se pudo apreciar que el número crece a partir de que $D(\varphi\degree)$ es mayor que 50\degree. Dada la contradicción entre las contraseñas detectadas por el algoritmo y las clasificadas por el observador, se realizó un análisis de las contraseñas no clasificadas por este pero sí por el algoritmo y se pudo demostrar que sí cumplían con el patrón de suavidad, esto sugiere que el observador puede haber cometido errores de clasificación, ya que el usuario que eligió la contraseña intentaba establecer conexiones entre los puntos, aunque la suavidad de estas relaciones no sea evidente para quien observa.
  
 
-Como experimento final se aplico el algoritmo sobre un conjunto de 400 contraseñas aleatorias para detectar los falsos positivos para cada valor de $D(\varphi\degree)$, donde se sugiere usar por defecto $D(\varphi\degree)$=130\degree, ya que representa un buen equilibrio entre falsos positivos y falsos negativos. La figura a extraida de \cite{3} proporciona la información necesaria para ajustar este parámetro según las necesidades del usuario. Incrementar $D(\varphi\degree)$ mejora la seguridad, mientras que reducirlo favorece la usabilidad del sistema.
+Como tercer experimento se aplicó el algoritmo sobre un conjunto de 400 contraseñas aleatorias para detectar los falsos positivos para cada valor de $D(\varphi\degree)$. Según los resultados, se sugiere usar por defecto $D(\varphi\degree)$=130\degree, ya que representa un buen equilibrio entre falsos positivos y falsos negativos. La figura 1.6  extraída de \cite{3} proporciona la información necesaria para ajustar este parámetro según las necesidades del usuario. Incrementar $D(\varphi\degree)$ mejora la seguridad, mientras que reducirlo favorece la usabilidad del sistema.
 
-%\begin{figure}[ht]
-%	\centering
-%	\includegraphics[width=0.9\textwidth]{grafOsviel.png}
-%	\caption{Frecuencia de falsos pisotivos vs falsos negativos segun ${D(\varphi\degree)}$}
-%	\label{fig:Fre}
-%\end{figure}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{grafOsviel.png}
+	\caption{Frecuencia de falsos pisotivos vs falsos negativos segun ${D(\varphi\degree)}$}
+\end{figure}
 
-A partir de los resultados de cada experimento se pudo afirmar que se obtuvo  un criterio efectivo para detectar la existencia de patrones de suavidad en las contraseñas de la técnica de autenticación gráfica PassPoints en imágenes de 700x400 píxeles, en \cite{3} se puede observar el algoritmo propuesto así como una implementacion de el mismo en python. Además el algoritmo permitió constatar que en muchas ocasiones el usuario crea una dependencia entre los puntos que no se nota a simple vista por un observador, sin embargo puede ser detectada por el algoritmo con parámetro de tolerancia variable.
+A partir de los resultados de cada experimento se pudo afirmar que se obtuvo  un criterio efectivo para detectar la existencia de patrones de suavidad en las contraseñas de la técnica de autenticación gráfica PassPoints en imágenes de 700x400 píxeles, en \cite{3} se puede observar el algoritmo propuesto así como una implementación de el mismo en Python. Además el algoritmo permitió constatar que en muchas ocasiones el usuario crea una dependencia entre los puntos que no se nota a simple vista por un observador, sin embargo puede ser detectada por el algoritmo con parámetro de tolerancia variable.
 
 	
 \chapter{Metodología}

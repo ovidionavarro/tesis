@@ -2,7 +2,7 @@
 \contentsline {chapter}{Introducción}{6}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Marco Teórico}{9}{chapter.1}%
 \contentsline {section}{\numberline {1.1}PassPoint}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Patrones suaves}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Patrones DIAG y LINE}{10}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Triangulaciones de Delaunay}{11}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Test de detección de patrones DIAG y LINE en el sistema PassPoint basado en los ángulos máximos de los triángulos de Delaunay }{13}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Algoritmo para la detección de contraseñas con patrones suaves en PassPoint}{13}{section.1.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.12.14)  11 JAN 2025 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2025.1.11)  11 JAN 2025 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -30,8 +30,8 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@posthook=\toks17
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/11/08 v24.13 The multilingual framework for pdfLaTeX, LuaLa
-TeX and XeLaTeX
+Package: babel 2025/01/01 v25.1 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
 \babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
@@ -425,4 +425,323 @@ File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
-File: pgfsysprotocol.code.t
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+\l__pdf_internal_box=\box54
+) (main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count287
+\scratchdimen=\dimen173
+\scratchbox=\box55
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen174
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 46.
+ (main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 46.
+Package gensymb Info: Math companion symbols declared on input line 46.
+LaTeX Info: Redefining \degree on input line 46.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 46.
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \textohm for \ohm on input line 46.
+Package gensymb Info: Using \textmu for \micro on input line 46.
+<img//logoUH.png, id=57, 231.11343pt x 288.3272pt>
+File: img//logoUH.png Graphic file (type png)
+<use img//logoUH.png>
+Package pdftex.def Info: img//logoUH.png  used on input line 56.
+(pdftex.def)             Requested size: 135.89174pt x 169.53522pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 67.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 67.
+[1
+
+{C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//logoU
+H.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \chapter
+             *{Abstract} [1
+
+] [2
+
+] (main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [3
+
+] (main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [4
+
+] (main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+
+[5
+
+] [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[8]
+Cap\'{\i }tulo 1.
+<img//passpoint.png, id=191, 269.50688pt x 200.24812pt>
+File: img//passpoint.png Graphic file (type png)
+<use img//passpoint.png>
+Package pdftex.def Info: img//passpoint.png  used on input line 208.
+(pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
+[9
+
+]
+Overfull \hbox (28.40712pt too wide) in paragraph at lines 225--240
+ [][] 
+ []
+
+[10 <./img//passpoint.png>]
+<img//DIAG_LINE.png, id=218, 389.65575pt x 193.32225pt>
+File: img//DIAG_LINE.png Graphic file (type png)
+<use img//DIAG_LINE.png>
+Package pdftex.def Info: img//DIAG_LINE.png  used on input line 270.
+(pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+[11 <./img//DIAG_LINE.png>]
+<img//no_td.png, id=239, 223.43475pt x 224.63925pt>
+File: img//no_td.png Graphic file (type png)
+<use img//no_td.png>
+Package pdftex.def Info: img//no_td.png  used on input line 308.
+(pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
+
+Underfull \hbox (badness 1014) in paragraph at lines 309--309
+[]\OT1/cmr/m/n/12 Figura 1.3: []Triangulaci^^Son no cum-ple
+ []
+
+<img//si_td.png, id=240, 231.264pt x 210.18526pt>
+File: img//si_td.png Graphic file (type png)
+<use img//si_td.png>
+Package pdftex.def Info: img//si_td.png  used on input line 314.
+(pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
+<img//td_10pts.png, id=242, 228.855pt x 235.47975pt>
+File: img//td_10pts.png Graphic file (type png)
+<use img//td_10pts.png>
+Package pdftex.def Info: img//td_10pts.png  used on input line 324.
+(pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
+[12 <./img//no_td.png> <./img//si_td.png> <./img//td_10pts.png>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+47.
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 347.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+[13]
+<img//grafOsviel.png, id=265, 524.55975pt x 283.65974pt>
+File: img//grafOsviel.png Graphic file (type png)
+<use img//grafOsviel.png>
+Package pdftex.def Info: img//grafOsviel.png  used on input line 375.
+(pdftex.def)             Requested size: 407.66833pt x 220.45729pt.
+ [14 <./img//grafOsviel.png>] [15]
+Cap\'{\i }tulo 2.
+[16
+
+]
+Cap\'{\i }tulo 3.
+[17
+
+]
+Cap\'{\i }tulo 4.
+[18
+
+]
+Cap\'{\i }tulo 5.
+[19
+
+] [20
+
+] [21] [22]
+Ap\'{e}ndice A.
+[23
+
+] (main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CF1C19DC247B6314F5FE65738538F92D;2585.
+ ) 
+Here is how much of TeX's memory you used:
+ 13460 strings out of 475385
+ 231583 string characters out of 2776907
+ 624603 words of memory out of 3000000
+ 34520 multiletter control sequences out of 15000+600000
+ 475173 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,10n,92p,1608b,612s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ovidi/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ovi
+di/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (24 pages, 721193 bytes).
+PDF statistics:
+ 368 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+
