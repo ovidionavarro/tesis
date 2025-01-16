@@ -1,44 +1,43 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2025.1.11)  11 JAN 2025 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.14)  15 JAN 2025 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/01/01 v25.1 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
-\babel@savecnt=\count194
-\U@D=\dimen139
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
 \l@unhyphenated=\language79
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count195
+\bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
@@ -50,8 +49,8 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks18
-\es@quotdepth=\count196
+\es@quottoks=\toks19
+\es@quotdepth=\count198
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -67,7 +66,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks20
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -83,33 +82,19 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-\stockwidth=\dimen140
-\stockheight=\dimen141
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
-(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -121,7 +106,19 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
@@ -132,7 +129,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -144,41 +141,45 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count197
+\c@section@level=\count199
+)
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
 )
 \@linkdim=\dimen144
-\Hy@linkcounter=\count198
-\Hy@pagecounter=\count199
- (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count266
- (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count269
+
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count267
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count270
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen145
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -189,36 +190,36 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count268
+\Fld@menulength=\count271
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count269
-\c@Item=\count270
-\c@Hfootnote=\count271
+\Hy@abspage=\count272
+\c@Item=\count273
+\c@Hfootnote=\count274
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count272
-\c@bookmark@seq@number=\count273
+\Fld@listcount=\count275
+\c@bookmark@seq@number=\count276
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -231,7 +232,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip50
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -239,9 +240,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count274
-\Gm@cntv=\count275
-\c@Gm@tempcnt=\count276
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
 \Gm@bindingoffset=\dimen148
 \Gm@wd@mp=\dimen149
 \Gm@odd@mp=\dimen150
@@ -250,33 +251,39 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen153
 \Gm@layouthoffset=\dimen154
 \Gm@layoutvoffset=\dimen155
-\Gm@dimlist=\toks20
+\Gm@dimlist=\toks21
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box51
-\beforetitleunit=\skip50
-\aftertitleunit=\skip51
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
 \ttl@plus=\dimen156
 \ttl@minus=\dimen157
-\ttl@toksa=\toks21
+\ttl@toksa=\toks22
 \titlewidth=\dimen158
 \titlewidthlast=\dimen159
 \titlewidthfirst=\dimen160
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2024/11/20 v4.4 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip53
+\f@nch@offset@elh=\skip54
+\f@nch@offset@erh=\skip55
+\f@nch@offset@olh=\skip56
+\f@nch@offset@orh=\skip57
+\f@nch@offset@elf=\skip58
+\f@nch@offset@erf=\skip59
+\f@nch@offset@olf=\skip60
+\f@nch@offset@orf=\skip61
+\f@nch@height=\skip62
+\f@nch@footalignment=\skip63
+\f@nch@widthL=\skip64
+\f@nch@widthC=\skip65
+\f@nch@widthR=\skip66
+\@temptokenb=\toks23
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
@@ -315,29 +322,29 @@ Already applied: [0000/00/00] Usage of raw or classic option list on input line
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count277
+\c@svg@param@lastpage=\count280
 \svg@box=\box52
-\c@svg@param@currpage=\count278
+\c@svg@param@currpage=\count281
 ) (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
 .sty
@@ -354,12 +361,10 @@ sty
 y
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen161
 \pgfutil@tempdimb=\dimen162
-
-(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
+)
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
 \pgfutil@abb=\box53
@@ -367,20 +372,20 @@ y
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks25
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen163
 \pgf@y=\dimen164
@@ -394,49 +399,49 @@ filtered.code.tex
 \pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count279
-\c@pgf@countb=\count280
-\c@pgf@countc=\count281
-\c@pgf@countd=\count282
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count283
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count286
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count284
-\pgfsyssoftpath@bigbuffer@items=\count285
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count287
+\pgfsyssoftpath@bigbuffer@items=\count288
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
 ) (main.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
@@ -464,17 +469,17 @@ LaTeX Info: Redefining \% on input line 46.
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
+\scratchcounter=\count290
 \scratchdimen=\dimen173
 \scratchbox=\box55
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count290
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count293
 \MPscratchDim=\dimen174
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks32
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -537,10 +542,10 @@ erthousand on input line 46.
 LaTeX Info: Redefining \ohm on input line 46.
 Package gensymb Info: Using \textohm for \ohm on input line 46.
 Package gensymb Info: Using \textmu for \micro on input line 46.
-<img//logoUH.png, id=57, 231.11343pt x 288.3272pt>
-File: img//logoUH.png Graphic file (type png)
-<use img//logoUH.png>
-Package pdftex.def Info: img//logoUH.png  used on input line 56.
+<img/logoUH.png, id=61, 231.11343pt x 288.3272pt>
+File: img/logoUH.png Graphic file (type png)
+<use img/logoUH.png>
+Package pdftex.def Info: img/logoUH.png  used on input line 56.
 (pdftex.def)             Requested size: 135.89174pt x 169.53522pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 67.
@@ -550,13 +555,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 67.
 [1
 
-{C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//logoU
-H.png>]
+{C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logoUH
+.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \chapter
+l.93 \chapter
              *{Abstract} [1
 
 ] [2
@@ -592,107 +597,105 @@ LaTeX Info: Redefining \% on input line 1.
 ] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 [8]
-Cap\'{\i }tulo 1.
-<img//passpoint.png, id=191, 269.50688pt x 200.24812pt>
-File: img//passpoint.png Graphic file (type png)
-<use img//passpoint.png>
-Package pdftex.def Info: img//passpoint.png  used on input line 208.
+<img/passpoint.png, id=202, 269.50688pt x 200.24812pt>
+File: img/passpoint.png Graphic file (type png)
+<use img/passpoint.png>
+Package pdftex.def Info: img/passpoint.png  used on input line 215.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
-[9
+ [9
 
 ]
-Overfull \hbox (28.40712pt too wide) in paragraph at lines 225--240
+Overfull \hbox (28.40712pt too wide) in paragraph at lines 232--247
  [][] 
  []
 
-[10 <./img//passpoint.png>]
-<img//DIAG_LINE.png, id=218, 389.65575pt x 193.32225pt>
-File: img//DIAG_LINE.png Graphic file (type png)
-<use img//DIAG_LINE.png>
-Package pdftex.def Info: img//DIAG_LINE.png  used on input line 270.
+[10 <./img/passpoint.png>]
+<img/DIAG_LINE.png, id=231, 389.65575pt x 193.32225pt>
+File: img/DIAG_LINE.png Graphic file (type png)
+<use img/DIAG_LINE.png>
+Package pdftex.def Info: img/DIAG_LINE.png  used on input line 278.
 (pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+ [11 <./img/DIAG_LINE.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
-[11 <./img//DIAG_LINE.png>]
-<img//no_td.png, id=239, 223.43475pt x 224.63925pt>
-File: img//no_td.png Graphic file (type png)
-<use img//no_td.png>
-Package pdftex.def Info: img//no_td.png  used on input line 308.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+<img/no_td.png, id=251, 223.43475pt x 224.63925pt>
+File: img/no_td.png Graphic file (type png)
+<use img/no_td.png>
+Package pdftex.def Info: img/no_td.png  used on input line 316.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
 
-Underfull \hbox (badness 1014) in paragraph at lines 309--309
+Underfull \hbox (badness 1014) in paragraph at lines 317--317
 []\OT1/cmr/m/n/12 Figura 1.3: []Triangulaci^^Son no cum-ple
  []
 
-<img//si_td.png, id=240, 231.264pt x 210.18526pt>
-File: img//si_td.png Graphic file (type png)
-<use img//si_td.png>
-Package pdftex.def Info: img//si_td.png  used on input line 314.
+<img/si_td.png, id=252, 231.264pt x 210.18526pt>
+File: img/si_td.png Graphic file (type png)
+<use img/si_td.png>
+Package pdftex.def Info: img/si_td.png  used on input line 323.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-<img//td_10pts.png, id=242, 228.855pt x 235.47975pt>
-File: img//td_10pts.png Graphic file (type png)
-<use img//td_10pts.png>
-Package pdftex.def Info: img//td_10pts.png  used on input line 324.
+<img/td_10pts.png, id=254, 228.855pt x 235.47975pt>
+File: img/td_10pts.png Graphic file (type png)
+<use img/td_10pts.png>
+Package pdftex.def Info: img/td_10pts.png  used on input line 334.
 (pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
-[12 <./img//no_td.png> <./img//si_td.png> <./img//td_10pts.png>]
+[12 <./img/no_td.png> <./img/si_td.png>] [13 <./img/td_10pts.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-47.
+53.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 347.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 353.
+<img/grafosviel.png, id=279, 860.013pt x 428.3202pt>
+File: img/grafosviel.png Graphic file (type png)
+<use img/grafosviel.png>
+Package pdftex.def Info: img/grafosviel.png  used on input line 362.
+(pdftex.def)             Requested size: 452.9679pt x 225.59692pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-
- []
-
-[13]
-<img//grafOsviel.png, id=265, 524.55975pt x 283.65974pt>
-File: img//grafOsviel.png Graphic file (type png)
-<use img//grafOsviel.png>
-Package pdftex.def Info: img//grafOsviel.png  used on input line 375.
-(pdftex.def)             Requested size: 407.66833pt x 220.45729pt.
- [14 <./img//grafOsviel.png>] [15]
+[14 <./img/grafosviel.png>] [15]
 Cap\'{\i }tulo 2.
 [16
 
@@ -715,33 +718,39 @@ Ap\'{e}ndice A.
 [23
 
 ] (main.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 )
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CF1C19DC247B6314F5FE65738538F92D;2585.
+(rerunfilecheck)             Checksum: 233327BEDE4B1914C96E5C0AC1A74D45;3063.
  ) 
 Here is how much of TeX's memory you used:
- 13460 strings out of 475385
- 231583 string characters out of 2776907
- 624603 words of memory out of 3000000
- 34520 multiletter control sequences out of 15000+600000
- 475173 words of font info for 47 fonts, out of 8000000 for 9000
+ 13800 strings out of 474486
+ 234871 string characters out of 5743755
+ 1942542 words of memory out of 5000000
+ 35777 multiletter control sequences out of 15000+600000
+ 565008 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,92p,1608b,612s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 94i,10n,93p,1653b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ovidi/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ovi
-di/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (24 pages, 721193 bytes).
+ic/amsfonts/cm/cmbxti10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/o
+vidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on main.pdf (24 pages, 863838 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
