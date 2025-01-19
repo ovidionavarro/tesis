@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.14)  15 JAN 2025 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.14)  19 JAN 2025 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,7 +432,7 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -445,26 +445,26 @@ LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -491,7 +491,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 48.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -533,26 +533,26 @@ Package hyperref Info: Link coloring ON on input line 46.
 
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 46.
-Package gensymb Info: Math companion symbols declared on input line 46.
-LaTeX Info: Redefining \degree on input line 46.
-LaTeX Info: Redefining \celsius on input line 46.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 48.
+Package gensymb Info: Math companion symbols declared on input line 48.
+LaTeX Info: Redefining \degree on input line 48.
+LaTeX Info: Redefining \celsius on input line 48.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 46.
-LaTeX Info: Redefining \ohm on input line 46.
-Package gensymb Info: Using \textohm for \ohm on input line 46.
-Package gensymb Info: Using \textmu for \micro on input line 46.
-<img/logoUH.png, id=61, 231.11343pt x 288.3272pt>
+erthousand on input line 48.
+LaTeX Info: Redefining \ohm on input line 48.
+Package gensymb Info: Using \textohm for \ohm on input line 48.
+Package gensymb Info: Using \textmu for \micro on input line 48.
+<img/logoUH.png, id=81, 231.11343pt x 288.3272pt>
 File: img/logoUH.png Graphic file (type png)
 <use img/logoUH.png>
-Package pdftex.def Info: img/logoUH.png  used on input line 56.
+Package pdftex.def Info: img/logoUH.png  used on input line 58.
 (pdftex.def)             Requested size: 135.89174pt x 169.53522pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 67.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 67.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
+(Font)              <6> on input line 70.
 [1
 
 {C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logoUH
@@ -561,7 +561,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \chapter
+l.96 \chapter
              *{Abstract} [1
 
 ] [2
@@ -597,125 +597,134 @@ LaTeX Info: Redefining \% on input line 1.
 ] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 [8]
-<img/passpoint.png, id=202, 269.50688pt x 200.24812pt>
+<img/passpoint.png, id=236, 269.50688pt x 200.24812pt>
 File: img/passpoint.png Graphic file (type png)
 <use img/passpoint.png>
-Package pdftex.def Info: img/passpoint.png  used on input line 215.
+Package pdftex.def Info: img/passpoint.png  used on input line 218.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
  [9
 
 ]
-Overfull \hbox (28.40712pt too wide) in paragraph at lines 232--247
+Overfull \hbox (28.40712pt too wide) in paragraph at lines 235--250
  [][] 
  []
 
 [10 <./img/passpoint.png>]
-<img/DIAG_LINE.png, id=231, 389.65575pt x 193.32225pt>
+<img/DIAG_LINE.png, id=265, 389.65575pt x 193.32225pt>
 File: img/DIAG_LINE.png Graphic file (type png)
 <use img/DIAG_LINE.png>
-Package pdftex.def Info: img/DIAG_LINE.png  used on input line 278.
+Package pdftex.def Info: img/DIAG_LINE.png  used on input line 281.
 (pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
  [11 <./img/DIAG_LINE.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<img/no_td.png, id=251, 223.43475pt x 224.63925pt>
+<img/no_td.png, id=285, 223.43475pt x 224.63925pt>
 File: img/no_td.png Graphic file (type png)
 <use img/no_td.png>
-Package pdftex.def Info: img/no_td.png  used on input line 316.
+Package pdftex.def Info: img/no_td.png  used on input line 319.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
 
-Underfull \hbox (badness 1014) in paragraph at lines 317--317
+Underfull \hbox (badness 1014) in paragraph at lines 320--320
 []\OT1/cmr/m/n/12 Figura 1.3: []Triangulaci^^Son no cum-ple
  []
 
-<img/si_td.png, id=252, 231.264pt x 210.18526pt>
+<img/si_td.png, id=286, 231.264pt x 210.18526pt>
 File: img/si_td.png Graphic file (type png)
 <use img/si_td.png>
-Package pdftex.def Info: img/si_td.png  used on input line 323.
+Package pdftex.def Info: img/si_td.png  used on input line 326.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-<img/td_10pts.png, id=254, 228.855pt x 235.47975pt>
+<img/td_10pts.png, id=288, 228.855pt x 235.47975pt>
 File: img/td_10pts.png Graphic file (type png)
 <use img/td_10pts.png>
-Package pdftex.def Info: img/td_10pts.png  used on input line 334.
+Package pdftex.def Info: img/td_10pts.png  used on input line 337.
 (pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
 [12 <./img/no_td.png> <./img/si_td.png>] [13 <./img/td_10pts.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-53.
+56.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 353.
-<img/grafosviel.png, id=279, 860.013pt x 428.3202pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 356.
+<img/grafosviel.png, id=314, 860.013pt x 428.3202pt>
 File: img/grafosviel.png Graphic file (type png)
 <use img/grafosviel.png>
-Package pdftex.def Info: img/grafosviel.png  used on input line 362.
+Package pdftex.def Info: img/grafosviel.png  used on input line 365.
 (pdftex.def)             Requested size: 452.9679pt x 225.59692pt.
 
 [14 <./img/grafosviel.png>] [15]
-Cap\'{\i }tulo 2.
+Overfull \hbox (1.30746pt too wide) in paragraph at lines 412--419
+\OT1/cmr/bx/n/20.74 Detecci^^Son de pa-tro-nes DIAG y LI-NE en Pass-
+ []
+
 [16
 
-]
+] [17]
+<img/3td_teo_obs.png, id=346, 462.528pt x 346.896pt>
+File: img/3td_teo_obs.png Graphic file (type png)
+<use img/3td_teo_obs.png>
+Package pdftex.def Info: img/3td_teo_obs.png  used on input line 481.
+(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
+ [18 <./img/3td_teo_obs.png>]
 Cap\'{\i }tulo 3.
-[17
+[19
 
 ]
 Cap\'{\i }tulo 4.
-[18
+[20
 
 ]
 Cap\'{\i }tulo 5.
-[19
+[21
 
-] [20
+] [22
 
-] [21] [22]
+] [23] [24]
 Ap\'{e}ndice A.
-[23
+[25
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -726,13 +735,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 233327BEDE4B1914C96E5C0AC1A74D45;3063.
+(rerunfilecheck)             Checksum: DCEDADBCF553C0B61964A516CE643C78;5848.
  ) 
 Here is how much of TeX's memory you used:
- 13800 strings out of 474486
- 234871 string characters out of 5743755
+ 13841 strings out of 474486
+ 235483 string characters out of 5743755
  1942542 words of memory out of 5000000
- 35777 multiletter control sequences out of 15000+600000
+ 35803 multiletter control sequences out of 15000+600000
  565008 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,1653b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -740,17 +749,18 @@ Here is how much of TeX's memory you used:
 1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbxti10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ovidi/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/o
-vidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on main.pdf (24 pages, 863838 bytes).
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
+/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on main.pdf (26 pages, 904840 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
