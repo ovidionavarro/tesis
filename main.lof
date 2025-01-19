@@ -5,7 +5,10 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Triangulación sí cumple condición de Delaunay}}{12}{figure.1.4}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Triangulación de Delaunay para 10 puntos}}{13}{figure.1.5}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi \degree )}$}}{14}{figure.1.6}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparacion entre las probabilidades teoricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I }}{18}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 3 triángulos}}{16}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Test de bondad de ajuste para la distribucion Jhonson SB y DB1.1}}{17}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Funcion de densidad de probabilidad para la distribucion Jhonson SB y DB1.}}{18}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparacion entre las probabilidades teoricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I }}{20}{figure.2.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
