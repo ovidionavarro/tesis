@@ -11,13 +11,17 @@
 
 \lstset{
 	language=Python,
-	basicstyle=\ttfamily,
+	basicstyle=\ttfamily\normalsize,
 	keywordstyle=\color{blue},
 	commentstyle=\color{gray},
 	backgroundcolor=\color{codebackground},
 	frame=single, % Sin marco
 	breaklines=true,
 	showstringspaces=false,
+	 numbers=left, % Los números de línea aparecerán a la izquierda
+	numberstyle=\tiny\color{gray}, % Estilo de los números de línea
+	stepnumber=1, % Los números se incrementarán de uno en uno
+	numbersep=5pt, % Separación entre el código y los números de línea
 }
 
 
@@ -434,12 +438,13 @@ Para contraseñas cuyos patrones tenían una amplitud entre 135° y 150° (Db3.D
 \noindent\textbf{\LARGE Detección de patrones DIAG y LINE en PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay}\\
 \vspace{2em}
 \\	
-En \cite{13} se demostró que el promedio de los ángulos máximos de los triángulos de Delaunay es un estadígrafo eficaz para la detección de patrones DIAG y LINE. Teniendo en cuenta que las contraseñas en PassPoint se crean con la selección de 5 puntos, los posibles números de  de triángulos de Delaunay pueden ser 3, 4 o 5 como se mostró en la sección 1.3. En las próximas secciones se realizarán tres \textit{test} de detección de contraseñas  que siguen patrones DIAG o LINE basados en el promedio de los ángulos  máximos de los triángulos de Delaunay, pero  realizando un análisis separado por cada número de triángulos en su triangulación.
-Para  cada subseccion se determina a que distribucion pertenecen los promedios de los angulos maximos de los triangulos de delaunay para la cantidad de traingulos correspondiente , esto a través  del sofware EasyFit, se realizará un test estidistico para la deteccion de contraseñas con patrones DIAG y LINE, y se evaluará su efectividad estimando los errores tipo I y II 
+En \cite{13} se demostró que el promedio de los ángulos máximos de los triángulos de Delaunay es un estadígrafo eficaz para la detección de patrones DIAG y LINE. Teniendo en cuenta que las contraseñas en PassPoint se crean con la selección de 5 puntos, los posibles números de triángulos de Delaunay pueden ser 3, 4 o 5 como se mostró en la sección 1.3. En las próximas secciones se realizarán tres \textit{test} de detección de contraseñas  que siguen patrones DIAG o LINE basados en el promedio de los ángulos  máximos de los triángulos de Delaunay, pero  realizando un análisis separado por cada número de triángulos en su triangulación.
+En cada subsección se determinará a que distribución pertenecen los promedios de los ángulos máximos de los triángulos de Delaunay para la cantidad de triángulos correspondiente, esto a través  del sofware EasyFit, se realizará un test estidístico para la detección de contraseñas con patrones DIAG y LINE, y se evaluará su efectividad estimando los errores de  tipo I y de tipo II 
+
+
 \setcounter{section}{0}
-\setcounter{figure}{2.0}
-\section{Contraseñas con triangulaciones de Delauany de 3 triángulos }
-En esta seccion cuando se hace referencia  a el promedio de los ángulos maximos de los triangulos de delaunay  de las contraseñas graficas en PassPoint, nos referiremos a las contraseñas que posean 3 triangulos en su triangulacion de Delaunay.
+\section{Contraseñas con 3 triángulos en su triangulación de Delaunay }
+En esta sección cuando se hace referencia  al promedio de los ángulos máximos de los triángulos de Delaunay  de las contraseñas gráficas en PassPoint, nos referiremos a las contraseñas que posean 3 triángulos en su triangulación de Delaunay.
 	\begin{figure}[ht]
 	\centering
 	
@@ -450,16 +455,16 @@ En esta seccion cuando se hace referencia  a el promedio de los ángulos maximos
 \subsection{Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }
 	\textbf{Experimento \#1}.
 	
-	 Para estimar la distribución del promedio de los angulos maximos de los triangulos de delaunay para contraseñas graficas en Passpoint, se generaron aleatoriamente 1000 contraseñas graficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  contruyó  su correspondiente triangulacion  de Delaunay  y se  determino el promedio  de los angulos maximos de su triangulacion de Delaunay resultante. La base de datos que contiene los 1000 promedios se le denominó DB.1.
+	 Para estimar la distribución del promedio de los ángulos máximos de los triángulos de Delaunay para contraseñas gráficas en Passpoint, se generaron aleatoriamente 1000 contraseñas gráficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  construyó  su correspondiente triangulación  de Delaunay  y se  determinó el promedio  de los ángulos máximos de su triangulación de Delaunay resultante. La base de datos que contiene los 1000 promedios se le denominó DB.1.
 	 
 	 \textbf{Resultados del experimento \#1.}
 	 
-	 En la tabla \ref{teo_BD1.1}  se muestran las 6 distribuciones que más se ajustan a los datos encontrados en DB1.1, encontrandose en el primer lugar Jhonson Sb con los parametros $\gamma=1.9152$ $\delta=1.4296$ $\lambda134.77$  $\xi=68.377$. En la figura \ref{3TD_BONDAD} se  muestran los datos de tres de los tests de bondad de ajuste aplicados a los datos contenidos a DB1.1 junto a la distribucion Jhonson SB obtenida y en la figura \ref{3TD_FDP}  se muestra la funcion de densidad de probabilidad de la misma.
+	 En la tabla \ref{teo_BD1}  se muestran las 6 distribuciones que más se ajustan a los datos encontrados en DB.1, encontrandose en el primer lugar \textit{Jhonson SB} con los parámetros $\gamma=1.9152$ $\delta=1.4296$ $\lambda134.77$  $\xi=68.377$. En la figura \ref{3TD_BONDAD} se  muestran los resultados de tres de los tests de bondad de ajuste aplicados a la distribución \textit{Jhonson SB} sobre  datos contenidos en DB.1  y en la figura \ref{3TD_FDP}  se muestra la función de densidad de probabilidad de la misma.
 	  	\begin{figure}[ht]
 	  	\centering
 	  	
-	  	\includegraphics[width=0.6\textwidth]{3td_BONDAD.png}
-	  	\caption{Test de bondad de ajuste para la distribucion Jhonson SB y DB1.1}
+ 	  	\includegraphics[width=0.6\textwidth]{3td_BONDAD.png}
+	  	\caption{Tests de bondad de ajuste aplicados a la distribución Jhonson SB sobre DB1.1}
 	  	\label{3TD_BONDAD}
 	  \end{figure}
 	  
@@ -467,68 +472,109 @@ En esta seccion cuando se hace referencia  a el promedio de los ángulos maximos
 	  	\centering
 	  	
 	  	\includegraphics[width=0.5\textwidth]{3td_fdp.png}
-	  	\caption{Funcion de densidad de probabilidad para la distribucion Jhonson SB y DB1.}
+	  	\caption{Función de densidad de probabilidad de la  distribución Jhonson SB para DB1.}
 	  	\label{3TD_FDP}
 	  \end{figure}
 	  
 	  
-	 A partir de este resultado , en el resto de la seccion se asume que la muestra BD.1.1 y ,por tanto, el promedrio de los angulos maximos de los traingulos de delaunay para triangulaciones con tres traingulos prodecen de una distribucion Jhonson SB, por lo que se puede asumir que que las contraseñas que incumplan esta prpiedad no son aleatorias.
-	 La aplicacion practica de este criterio se facilita porque despues de aplicar la transformacion Jhonson SB  mediante la fórmula :
+	 A partir de este resultado, en el resto de la sección se asume que la muestra BD.1 y ,por tanto, el promedio de los ángulos máximos de los triángulos de Delaunay para triangulaciones  proceden de una distribución \textit{Jhonson SB}, por lo que se puede asumir que las contraseñas que incumplan esta propiedad no son aleatorias.
+	 La aplicación práctica de este criterio se facilita porque después de  aplicar la transformación de \textit{Jhonson SB}  mediante la fórmula\textbf{(101 liset)} :
 	 \[
 	 P_D^{N} = J_{SB}(P_D) = \gamma + \delta \times ln\left(\frac{P_D - \xi}{\lambda + \xi - P_D}\right)
 	 \],
-	 con los parametros correspondientes ,el promedio transformado debe seguir una distribucion normal estandart,P(n/d) ~N(0,1). Basado en la propiedad anterior , la deteccion de de la no aleatoriedad de las contrase;as se reduce a aplicar un test de media para la distribucion normal del estadigrafo muestral transformado a JhonsonSB.
+	 con los parámetros correspondientes, el promedio transformado debe seguir una distribución normal estándar $P_D^{N}\sim N(0,1)$. Basado en la propiedad anterior , la detección de la no aleatoriedad de las contraseñas se reduce a aplicar un test de media para la distribución normal del estadígrafo muestral transformado a \textit{Jhonson SB}.
 	 
-\subsection{Test basado en el promedio de los angulos maximos de los triangulos de delanunay}
-Dado  que el el promedio de los angulos maximos de los triangulos de delanunay distribuye Jhonson SB, se porpone un  test estadistico para selecccionar contraseñas con patrones DIAG y LINE. La propuesta consiste en un test de una cola( Derecha) basado en el promedio de los angulos maximos de los triangulos de delanunay transformados a una distribucion normal estandar mediante la transformacion jhonson sb.
-Dado que esta prueba se basa en la anchura de los angulos y no en la longitud en si de los lados u otra caracteristica que varie con el tamaño de la imagen sera valida para todos los tamaños de imagenes con una relacion de 16:9. Dado que las imagenes con esta relacion tendran dimensiones proporcionales iguales y sus triangulos correspondientes seran proporcionales: la prueba propuesta puede formalizarse como sigue:
+\subsection{Test basado en el promedio de los ángulos máximos de los Triángulos de Delanunay}
+Dado  que el promedio de los ángulos máximos de los triángulos de Delanunay distribuye \textit{Jhonson SB}, se porpone un  test estadístico para identificar contraseñas con patrones DIAG y LINE en PassPoint. La propuesta consiste en un test de una cola( Derecha) basado en el promedio de los ángulos máximos de los triángulos de Delaunay transformados a una distribución normal estándar mediante la transformacion \textit{Jhonson SB}.
+Dado que esta prueba se basa en la anchura de los ángulos y no en la longitud en sí de los lados u otra característica que varie con el tamaño de la imagen será válida para todos los tamaños de imágenes con una relación de 16:9. Dado que las imágenes con esta relación tendrán dimensiones proporcionales iguales y sus triángulos correspondientes serán proporcionales, la prueba propuesta puede formalizarse como sigue:
 
 \begin{enumerate}
-	\item Varaiable aleatoria X: promedio de los angulos maximos de los triangulos de Delaunay en un conjunto de 5 puntos con 3 triangulos en su triangulacion
-	\item Estadigrafo : \[
+	\item Varaiable aleatoria X: promedio de los ángulos máximos de los triángulos de Delaunay de contraseñas de 5 puntos con 3 triángulos en su triangulación
+	\item Estadígrafo : \[
 	Z= J_{SB}(X) =  \gamma + \delta \times ln\left(\frac{X - \xi}{\lambda + \xi - X}\right)
 	\]
 
-	\item Hipotesis nula : \[H_0:E(Z)=0\]
+	\item Hipótesis nula : \[H_0:E(Z)=0\]
 	\begin{itemize}
-		\item La contraseña grafica seleccionada por el usuario es aleatoria si el promedio de los angulos maximos de los triangulos de delaunay  transformado mediante Jhonson sb a una normal estandar es igual a 0
+		\item La contraseña gráfica seleccionada por el usuario es aleatoria si el promedio de los ángulos máximos de los triángulos de Delaunay  transformados mediante la fórmula de \textit{Jhonson SB} a una normal estándar es igual a 0.
 	\end{itemize}
 	
 	
-	\item Hipotesis alternativa : \[H_a:E(Z)>0\]
+	\item Hipótesis alternativa : \[H_a:E(Z)>0\]
 			\begin{itemize}
-			\item La contraseña grafica seleccionada por el usuario posee patrones DIAG o LINE  si el promedio de los angulos maximos de los triangulos de delaunay  transformado mediante Jhonson sb a una normal estandar es mayor a 0
+			\item La contraseña gráfica seleccionada por el usuario posee patrones DIAG o LINE  si el promedio de los ángulos máximos de los triángulos de Delaunay  transformado mediante la fórmula de \textit{Jhonson SB} a una normal estándar es mayor a 0.
 		\end{itemize}
 	
-	\item  Region de Rechazo: $\{z:Z>z_\alpha\}$,donde $\alpha$ es el nivel de significacion establecido por el usuario 
+	\item  Región de Rechazo: $\{z:Z>z_\alpha\}$,donde $\alpha$ es el nivel de significación establecido por el usuario. 
 	
 	\item Criterio de decisión
 	\begin{itemize}
-		\item Para los cinco niveles de significación establecidos, se decide que la contrase;a grafica seleccionada por el usuario no sigue un patron aleatorio si al transformar el promedio de los angulos maximos de los triangulos de delaunay mediante la transformacion Jhonson sb, el valor obtenido pertenece a la region critica 
+		\item Para los cinco niveles de significación establecidos, se decide que la contraseña gráfica seleccionada por el usuario no sigue un patrón aleatorio si al transformar el promedio de los ángulos máximos de los triángulos de Delaunay mediante la transformación \textit{Jhonson SB}, el valor obtenido pertenece a la región crítica 
 	\end{itemize}
 	\end{enumerate}	 
 
 \subsection{Implementacion del Test propuesto :}
-	amadt: promedio de los ángulos máximos de los triángulos de Delaunay
-	 
-	gamma, delta, lambda, xi: parámetros de la distribución Johnson SB
-	
-	rg: región crítica correspondiente al nivel de significación escogido
-	
-	
-	\begin{lstlisting}
-	def std(amadt, gamma, delta, lambda, xi, rg):
-		Z = gamma + delta * np.log((amadt - xi) / (lambda - amadt + xi))
-		if Z > rg:
-		H = 0
-		else:
-		H = 1
-	\end{lstlisting}
-	
-	
-\subsection{Estimacion de la probabilidad de los errores de tipo I y de tipo II  cometidos por el test}	 
+Para la implementación del test propuesto, se toman las coordenadas \((x_i, y_i)\) de cada uno de los \(p_i\) puntos, \(i = 1, \ldots, 5\) como valores de entrada. A partir de estos puntos, se construye la triangulación Delaunay utilizando la función \textit{Delaunay} de scipy.spatial.
 
-	Para estimar la probabilidad de que la prueba decida que la contraseña grafica contiene un patron DIAG o LINE cuando ,en verdad, sigue un patron aaleatorio (error de tipo I o falsos positivos), se generó una base de datos DB1.2 con 10 000 contraseñas graficas aleatoreas sobre la imagen (contraseñas sin patrones DIAG y LINE), a cada una de sus contraseñas se le halló su correspondiente triangulacion de Delaunay y se obtuvo el promedio de los angulos maximos de los triangulos obtenidos . El test descrito en la seccion 2.1.3, se le aplico a cada una de estas contraseñas graficas para los valores de $z_\alpha \in \{0.842, 1.282, 1.645, 2.054, 2.326\}$ correspondientes a los niveles de significacion $\alpha \in \{0.2, 0.1 0.05, 0.02 , 0.01\}$ .
+Luego, la longitud de los lados de cada triángulo se determina por la distancia euclidiana de dos a dos de los puntos que lo forman, de la siguiente manera:
+
+\[
+a = \sqrt{(x_{pr_1} - x_{pr_2})^2 + (y_{pr_1} - y_{pr_2})^2} = ||pr_{p_i} - pr_{p_j}||.
+\]
+
+Para encontrar los ángulos de cada triángulo, se aplica la Ley de los Cosenos:
+
+\[
+\theta = \arccos\left(\frac{c^2 + a^2 - b^2}{2ab}\right), \quad \phi = \arccos\left(\frac{a^2 + b^2 - c^2}{2ab}\right), \quad \psi = \arccos\left(\frac{b^2 + c^2 - a^2}{2bc}\right).
+\]
+
+Es necesario encontrar el máximo de estos tres ángulos \(\theta\), \(\phi\), y \(\psi\). Es análogo para los triángulos restantes de la triangulación Delaunay. Una vez que se hayan obtenido los ángulos máximos de la triangulación Delaunay, se calcula su promedio, con el cual se obtiene el valor de la estadígrafo \(X\). La hipótesis nula se rechaza dependiendo de si la estadística \(X\) pertenece a la región de rechazo para el \(\alpha\) establecido. Una posible implementación de esta prueba en python sería:
+
+points: 5 puntos de la contraseña 
+gamma,delta,lambd,xi: parámetros correspondientes a la distribución Jhonson SB obtenida
+rg:límite inferior de la región de rechazo según el nivel de significación escogido  
+El test devuelve 0 cuando se rechaza la hipótesis nula, en otro caso devuelve 1
+
+
+
+\begin{lstlisting}
+	def test(points,gamma,delta,lambd,xi,rg):
+		triangulation=Delaunay(points)
+		angles=[]
+		for i in triangulation:
+			a=distancia_puntos(points[i[0]],points[i[1]])
+			b=distancia_puntos(points[i[1]],points[i[2]])
+			b=distancia_puntos(points[i[2]],points[i[0]])
+			angles.append(angle_max(a,b,c))
+		X=mean(angles)
+		Z=gamma + delta * np.log((x - xi) / (lambd - x + xi))
+		if Z>rg:
+		return 0
+		else:
+		return 1
+	
+	def distancia_puntos(punto1, punto2):
+		return math.sqrt((punto1[0] - punto2[0])**2 +
+		(punto1[1] - punto2[1])**2)
+	
+	def angle_max(distancia_ab, distancia_bc, distancia_ca):
+		angulo_A = math.degrees(math.acos(
+		(distancia_bc**2 + distancia_ca**2 - distancia_ab**2) 
+		/ (2 * distancia_bc * distancia_ca)
+		))
+		angulo_B = math.degrees(math.acos(
+		(distancia_ca**2 + distancia_ab**2 - distancia_bc**2) 
+		/ (2 * distancia_ca * distancia_ab)
+		))
+		angulo_C = 180 - angulo_A - angulo_B  
+		return max(angulo_A, angulo_B, angulo_C)
+\end{lstlisting}
+
+En cuanto a la complejidad, las funciones \textit{distancia\_puntos} y \textit{angle\_max} solo poseen operaciones elementales por lo que su complejidad es \textit{O(1)}. La función test en su primera línea hace un llamado a la función  \textit{Delaunay} (línea 2) de \textit{scipy.spatial}, esta posee una complejidad de \textit{O(N logN)} debido a que el algoritmo subyacente utilizado por \textit{Scipy} es el algoritmo de \textit{Qhull}. Seguido en el algoritmo se itera por la triangulación obtenida (líneas 4-8), la cual poseen como máximo \textit{n} triángulos , dentro de cada iteración se hacen llamados a las  funciones \textit{distancia\_puntos} y \textit{angle\_max}  que son \textit{O(1)}, por tanto el costo del iterador es \textit{O(N)}. Las operaciones restantes son \textit{O(1)} (líneas 9-14) ,por tanto el costo total sería \textit{O(1)}+\textit{O(N)}+\textit{O(N logN)}=\textit{O(N logN)} por ley de la suma.
+e\subsection{Estimación de la probabilidad de los errores de tipo I y de tipo II  cometidos por el test}	 
+	\textbf{Experimento \#2 : Estimación del error tipo} I
+	
+	Para estimar la probabilidad de que la prueba decida que la contraseña gráfica contiene un patrón DIAG o LINE cuando ,en verdad, sigue un patrón aleatorio (error de tipo I o falsos positivos), se generó una base de datos DB1.RANDOM con 10 000 contraseñas gráficas aleatorias sobre la imagen. El test descrito en la sección 2.1.3, se le aplicó a cada una de estas contraseñas gráficas para los valores de $z_\alpha \in \{0.842, 1.282, 1.645, 2.054, 2.326\}$ correspondientes a los niveles de significación $\alpha \in \{0.2, 0.1 0.05, 0.02 , 0.01\}$ .
 	
 \begin{table}[h!]
 	\centering
@@ -540,36 +586,37 @@ Dado que esta prueba se basa en la anchura de los angulos y no en la longitud en
 		\hline
 	\end{tabular}
 	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo I derivado de la prueba.}
-	\label{tab:error1-prob}
+	\label{3td:error1-prob}
 \end{table}
 
-\textbf{Discusion de los resultados.}
-Las probabilodades estimadas de cometeor un error de tipo I ($\hat{\alpha}$) mediante el test son ligeramente superiores  a las probabilidades teoricas preestablecidas ($\alpha$),véase en la figura \ref{Teorico vs Observado}
+\textbf{Resultados del experimento \#2.}
+
+Las probabilidades estimadas de cometer un error de tipo I ($\hat{\alpha}$) mediante el test son ligeramente superiores  a las probabilidades teóricas preestablecidas ($\alpha$),véase en la figura \ref{Teorico vs Observado} y en la tabla \ref{3td:error1-prob}.
 	\begin{figure}[ht]
 	\centering
 	
 	\includegraphics[width=0.8\textwidth]{3td_teo_obs.png}
-	\caption{Comparacion entre las probabilidades teoricas ($\alpha$) y estimadas ($\hat{\alpha}$) de cometer un error de tipo I }
+	\caption{Comparación entre las probabilidades teóricas ($\alpha$) y estimadas ($\hat{\alpha}$) de cometer un error de tipo I }
 	\label{Teorico vs Observado}
-\end{figure}
+\end{figure}\\
 
+\textbf{Experimento \#3: Estimación del error tipo II}
 
-
-ERROR 2.\\
-Para estimar la probabilidad de que el test detecte una contraseña grafica como aleatoria cuando sigue un patron DIAG o LINE (error tipo II o falsos negativos), se crearon 3 bases de datos que en conjunto contienen el promedio de los angulos maximos de los triagulos de delaunay de  30 000 contraseñas graficas de 5 puntos que siguen patrones DIAG y LINE ,:
+Para estimar la probabilidad de que el test detecte una contraseña gráfica como aleatoria cuando sigue un patrón DIAG o LINE (error tipo II o falsos negativos), se crearon 3 bases de datos que en conjunto contienen el promedio de los ángulos máximos de los triángulos de Delaunay de  30 000 contraseñas gráficas de 5 puntos que siguen patrones DIAG y LINE ,:
 \begin{itemize}
-	\item DB1.DIAG\_LINE:10 000 promedios de angulos maximos para contraseñas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos de 15\degree 
-	\item DB1.DIAG\_LINE:10 000 promedios de angulos maximos para contraseñas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 15\degree y 30\degree 
-	\item DB1.DIAG\_LINE:10 000 promedios de angulos maximos para contraseñas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 30\degree y 45\degree 
+	\item DB.DIAG\_LINE.1.1: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos de 15\degree 
+	\item DB.DIAG\_LINE.1.2: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 15\degree y 30\degree 
+	\item DB.DIAG\_LINE.1.3: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 30\degree y 45\degree 
 \end{itemize}
+\textbf{Resultados del experimento \#3}
 
-Los resultados obtenidos por el test  para cada una de las bases de datos y los  niveles de significacion preestablecidos, se muestran rn las tabla \ref{tab:error2-prob}
+Los resultados obtenidos por el test  para cada una de las bases de datos y los  niveles de significación preestablecidos se muestran en la tabla \ref{tab:error2-prob}
 
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{|c|ccc|}
 		\hline
-		 $\alpha$& DB1.DIAG\_LINE & DB2.DIAG\_LINE & DB3.DIAG\_LINE  \\
+		 $\alpha$& BD.DIAG\_LINE.1.1 & BD.DIAG\_LINE.1.2 & BD.DIAG\_LINE.1.3  \\
 		\hline
 		0.2 & 0     & 0          & 0.0571     \\
 		0.1 & 0     & 0          & 0.2721     \\
@@ -581,13 +628,510 @@ Los resultados obtenidos por el test  para cada una de las bases de datos y los 
 	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo I derivado de la prueba.}
 	\label{tab:error2-prob}
 \end{table}
-\textbf{Discusión de los resultados} 
-El test propuesto durante este experimento mostró una alta capacidad para detectar las contraseñas encontradas en DB1.DIAG\_LINE y en DB2.DIAG\_LINE, lo que para estas ultimas con los niveles de significacion de $\alpha \in \{0.2, 0.1, 0.05\}$. Para las contraseñas de DB3.DIAG\_LINE no se obtuvieron buenos resultados, llegando a detectar para el nivel de significación $\alpha=0.01$ solo un 1\%.
+El test propuesto durante este experimento mostró una alta capacidad para detectar las contraseñas encontradas en DB.DIAG\_LINE.1.1 y en DB.DIAG\_LINE.1.2, lo que para esta ultima con los niveles de significación de $\alpha \in \{0.2, 0.1, 0.05\}$. Para las contraseñas de DB.DIAG\_LINE.1.3 no se obtuvieron buenos resultados, llegando a detectar para el nivel de significación $\alpha=0.01$ solo un 1\%.
+
+
+\section{Contraseñas con 4 triángulos en su triangulación de Delaunay }
+En esta sección cuando se hace referencia  a el promedio de los ángulos máximos de los triángulos de Delaunay  de las contraseñas gráficas en PassPoint, nos referiremos a las contraseñas que posean 4 triángulos en su triángulacion de Delaunay. 
+
+	\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.41\textwidth]{alea4td.png}
+	\caption{Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 4 triángulos}
+	\label{4TD}
+\end{figure}
+
+\subsection{Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }
+\textbf{Experimento \#1}.
+
+Para estimar la distribución del promedio de los ángulos máximos de los triángulos de Delaunay para contraseñas gráficas en Passpoint, se generaron aleatoriamente 1000 contraseñas gráficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  contruyó  su correspondiente triangulación  de Delaunay  y se  determinó el promedio  de los ángulos máximos de su triangulación de Delaunay resultante. La base de datos que contiene los 1000 promedios se le denominó DB.2.RANDOM .
+
+
+\textbf{Resultados del experimento 1}
+
+En la tabla \ref{teo_BD2}  se muestran las 6 distribuciones que más se ajustan a los datos encontrados en DB1.1, encontrandose en el primer lugar Log-Logistic (3P) con los parámetros $\alpha=6.4824$, $\beta=46.461$ $\gamma=68.566$ . En la figura \ref{4TD_BONDAD} se  muestran los datos de tres de los tests de bondad de ajuste aplicados a la distribución obtenida sobre los datos contenidos en DB.2.RANDOM y en la figura \ref{4TD_FDP} se muestra la función de densidad de probabilidad de la misma. 
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.6\textwidth]{4td_bondad.png}
+	\caption{Tests de bondad de ajuste para la distribución Log-Logistic (3P) sobre DB.2.RAMDON}
+	\label{4TD_BONDAD}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.5\textwidth]{4td_fdp.png}
+	\caption{Función de densidad de probabilidad de la  distribución Log-Logistic (3P) para DB.2.RAMDON}
+	\label{4TD_FDP}
+\end{figure}
+
+Como se observa en la figura  \ref{4TD_BONDAD}, para los tres métodos de bondad de ajuste (Kolmogorov-Smirnov, Anderson-Darling y Chi-cuadrado), no se rechaza la hipótesis nula de que los datos provienen de la distribución teórica Log-logistic (3P), en ningún nivel de significación evaluado, indicando un buen ajuste hacia la misma.
+
+A partir de este resultado , en el resto de la sección se asume que la muestra  DB.2.RAMDON y ,por tanto, el promedio de los ángulos máximos de los triángulos de Delaunay  prodecen de una distribución Log-logistic (3P), por lo que se puede asumir que que las contraseñas que incumplan esta propiedad no son aleatorias.
+
+\subsection{Test basado en el promedio de los ángulos máximos de los triángulos de Delanunay}
+Dado  que el el promedio de los ángulos máximos de los triágulos de Delanunay distribuye Log-LogistIC, se propone un  test estadístico para seleccionar contraseñas con patrones DIAG y LINE. La propuesta consiste en un test de una cola( Derecha) basado en el promedio de los ángulos máximos de los triángulos de Delanunay .
+Al igual que  el test anterior, este se basa en la anchura de los ángulos y no en la longitud en sí de los lados u otra característica que varie con el tamaño de la imagen, por lo que será válida para todos los tamaños de imágenes con una relación de 16:9. Dado que las imágenes con esta relación tendrán dimensiones proporcionales iguales y sus triángulos correspondientes serán proporcionales: la prueba propuesta puede formalizarse como sigue:
+
+\begin{enumerate}
+	\item Variable aleatoria X: promedio de los ángulos máximos de los triángulos de Delaunay en un conjunto de 5 puntos, con 4 triángulos en su triangulación.
+	\item Estadígrafo : $X$
+	
+	\item Hipótesis nula : \[H_0:E(X)=0\]
+	%\begin{itemize}
+		%\item La contraseña gráfica seleccionada por el usuario es aleatoria si el promedio de los ángulos máximos de los triángulos de Delaunay es igual a 0
+	%\end{itemize}
+	
+	
+	\item Hipótesis alternativa : \[H_a:E(X)>0\]
+	%\begin{itemize}
+	%	\item 
+	%\end{itemize}
+	
+	\item  Región de Rechazo: $\{z:Z>z_\alpha\}$,donde $\alpha$ es el nivel de significación establecido por el usuario, y el valor de $z_\alpha$ estará dado por la evaluación de los respectivos niveles de confianza en la  inversa de la función de distribución acumulada de Log-Logistic (3P) con los parámetros obtenidos: 
+	
+	\[
+	FDA(x; \alpha, \beta, \gamma) = \frac{1}{1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha}, \quad x > \gamma
+	\]
+	\begin{itemize}
+		\item  Para hallar la inversa de la función de distribución acumulada se debe despejar $x$:
+		Para despejar \( x \), seguimos los pasos:
+		
+		Paso 1: Igualar \( F(x; \alpha, \beta, \gamma) \) a \( y \)
+		\[
+		y = \frac{1}{1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha}
+		\]
+		
+		Paso 2: Invertir la fracción
+		\[
+		\frac{1}{y} = 1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 3: Restar 1 de ambos lados
+		\[
+		\frac{1}{y} - 1 = \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 4: Escribir con denominador común
+		\[
+		\frac{1}{y} - 1 = \frac{1 - y}{y}
+		\]
+		Por lo tanto:
+		\[
+		\frac{1 - y}{y} = \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 5: Elevar ambos lados a la \( \frac{1}{\alpha} \) potencia
+		\[
+		\left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}} = \frac{\beta}{x - \gamma}
+		\]
+		
+		Paso 6: Invertir la fracción de la derecha
+		\[
+		x - \gamma = \frac{\beta}{\left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}}}
+		\]
+				
+		Paso 7: Pasar \( \left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}} \) multiplicando a \( \beta \)
+		\[
+		x - \gamma = \beta \cdot \left( \frac{1 - y}{y} \right)^{-\frac{1}{\alpha}}
+		\]
+		
+		Paso 8: Simplificar \( x \)
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1 - y}{y} \right)^{-\frac{1}{\alpha}}
+		\]
+		
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1}{\frac{1}{y}-1} \right)^{\frac{1}{\alpha}}
+		\]
+		
+		Finalmente, sustituyendo \( y = F(x; \alpha, \beta, \gamma) \), la solución general es:
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1}{\frac{1}{F(x; \alpha, \beta, \gamma)}-1} \right)^{\frac{1}{\alpha}}
+		\]
+		
+	\end{itemize}
+	\item Criterio de decisión
+	\begin{itemize}
+		\item Para los cinco niveles de significación establecidos, se decide que la contraseña gráfica seleccionada por el usuario no sigue un patrón aleatorio si su promedio de los ángulos máximos de los triángulos de Delaunay  pertenece a la región crítica. 
+	\end{itemize}
+\end{enumerate}
+\subsection{Implementación del Test propuesto :}
+
+Para la implementación del test propuesto, se toman las coordenadas \((x_i, y_i)\) de cada uno de los \(p_i\) puntos, \(i = 1, \ldots, 5\) como valores de entrada. A partir de estos puntos, se construye la triangulación Delaunay utilizando la funcion \textit{Delaunay} de scipy.spatial
+
+Luego, la longitud de los lados de cada triángulo se determina por la distancia euclidiana de dos a dos de los puntos que lo forman, de la siguiente manera:
+
+\[
+a = \sqrt{(x_{pr_1} - x_{pr_2})^2 + (y_{pr_1} - y_{pr_2})^2} = ||pr_{p_i} - pr_{p_j}||.
+\]
+
+Para encontrar los ángulos de cada triángulo, se aplica la Ley de los Cosenos:
+
+\[
+\theta = \arccos\left(\frac{c^2 + a^2 - b^2}{2ab}\right), \quad \phi = \arccos\left(\frac{a^2 + b^2 - c^2}{2ab}\right), \quad \psi = \arccos\left(\frac{b^2 + c^2 - a^2}{2bc}\right).
+\]
+
+Es necesario encontrar el máximo de estos tres ángulos \(\theta\), \(\phi\), y \(\psi\). Es análogo para los triángulos restantes de la triangulación Delaunay. Una vez que se hayan obtenido los ángulos máximos de la triangulación Delaunay, se calcula su promedio, con el cual se obtiene el valor de la estadígrafo \(X\). La hipótesis nula se rechaza dependiendo de si la estadística \(X\) pertenece a la región de rechazo para el \(\alpha\) establecido. Una posible implementación de esta prueba en python sería:
+
+amadt: promedio de los ángulos máximos de los triángulos de Delaunay
+
+alpha ,beta,gamma: parámetros de la distribución Log-Logistic (3P)
+
+nivel\_conf: nivel de confianza correspondiente al nivel de significación escogido
+rg: región crítica correspondiente al nivel de significación escogido
+
+
+\begin{lstlisting}
+def test(points, alpha, beta, gamma,nivel_sig):
+	triangulation=Delaunay(points)
+	angles=[]
+	for i in triangulation:
+		a=distancia_puntos(points[i[0]],points[i[1]])
+		b=distancia_puntos(points[i[1]],points[i[2]])
+		b=distancia_puntos(points[i[2]],points[i[0]])
+		angles.append(angle_max(a,b,c))     
+	X=mean(angles) 
+	rg= beta * ((1 / (1 / (1-nivel_sig) - 1)) ** (1 / alpha)) + gamma
+	if X>rg:
+		return 1
+	else:
+		return 0
+
+def distancia_puntos(punto1, punto2):
+	return math.sqrt((punto1[0] - punto2[0])**2 +
+	 (punto1[1] - punto2[1])**2)
+
+def angle_max(distancia_ab, distancia_bc, distancia_ca):
+	angulo_A = math.degrees(math.acos(
+	(distancia_bc**2 + distancia_ca**2 - distancia_ab**2) 
+	/ (2 * distancia_bc * distancia_ca)
+	))
+	angulo_B = math.degrees(math.acos(
+	(distancia_ca**2 + distancia_ab**2 - distancia_bc**2) 
+	/ (2 * distancia_ca * distancia_ab)
+	))
+	angulo_C = 180 - angulo_A - angulo_B  
+	return max(angulo_A, angulo_B, angulo_C)
+\end{lstlisting}
+
+En cuanto a la complejidad, las funciones \textit{distancia\_puntos} y \textit{angle\_max} solo poseen operaciones elementales por lo que su complejidad es \textit{O(1)}. La función test en su primera línea hace un llamado a la función  \textit{Delaunay} (línea 2) de \textit{scipy.spatial}, esta posee una complejidad de \textit{O(N logN)} debido a que el algoritmo subyacente utilizado por \textit{Scipy} es el algoritmo de \textit{Qhull}. Seguido en el algoritmo se itera por la triangulación obtenida (líneas 4-8), la cual poseen como máximo \textit{n} triángulos , dentro de cada iteración se hacen llamados a las  funciones \textit{distancia\_puntos} y \textit{angle\_max}  que son \textit{O(1)}, por tanto el costo del iterador es \textit{O(N)}. Las operaciones restantes son \textit{O(1)} (líneas 9-14) ,por tanto el costo total sería \textit{O(1)}+\textit{O(N)}+\textit{O(N logN)}=\textit{O(N logN)} por ley de la suma.
+
+\subsection{Estimación de la probabilidad de los errores de tipo I y de tipo II  cometidos por el test}	 
+\textbf{Experimento \#2 : Estimación del error tipo} I
+
+Para estimar la probabilidad de que la prueba decida que la contraseña gráfica contiene un patrón DIAG o LINE cuando ,en verdad, sigue un patrón aleatorio (error de tipo I o falsos positivos), se generó una base de datos llamada DB.2.RANDOM con 10 000 contraseñas gráficas aleatorias sobre la imagen. El test descrito en la sección 2.2.3, se le aplicó a cada una de estas contraseñas gráficas ,obteniendo como límites inferiores de la región crítica a  $rg \in \{126.105, 133.772, 141.739, 153.254, 162.959\}$para los respectivos  niveles de significación $\alpha \in \{0.2, 0.1 0.05, 0.02 , 0.01\}$ .
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|ccccc|}
+		\hline
+		$\alpha$ & $\alpha = 0.2$ & $\alpha = 0.1$ & $\alpha = 0.05$ & $\alpha = 0.02$ & $\alpha = 0.01$ \\
+		\hline
+		$\hat{\alpha}$ & 0.2032 & 0.1083 & 0.0552 & 0.0134 & 0.0034 \\
+		\hline
+	\end{tabular}
+	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo I derivado de la prueba.}
+	\label{tab:error1-prob1}
+\end{table}
+
+\textbf{Resultados del experimento \#2.}
+
+Las probabilidades estimadas de cometer un error de tipo I ($\hat{\alpha}$) mediante el test poseen gran similitud  a las probabilidades teóricas preestablecidas ($\alpha$),véase en la figura \ref{Teorico vs Observado}
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.8\textwidth]{4td_teo_obs.png}
+	\caption{Comparación entre las probabilidades teóricas ($\alpha$) y estimadas ($\hat{\alpha}$) de cometer un error de tipo I }
+	\label{Teorico vs Observado1}
+\end{figure}\\
+
+\textbf{Experimento \#3: Estimación del error tipo II}
+
+Para estimar la probabilidad de que el test detecte una contraseña gráfica como aleatoria cuando sigue un patrón DIAG o LINE (error tipo II o falsos negativos), se crearon 3 bases de datos que en conjunto contienen 30 000 contraseñas gráficas de 5 puntos que siguen patrones DIAG y LINE ,:
+\begin{itemize}
+	\item DB.DIAG\_LINE.2.1: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos de 15\degree 
+	\item DB.DIAG\_LINE.2.2: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 15\degree y 30\degree 
+	\item DB.DIAG\_LINE.2.3: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 30\degree y 45\degree 
+\end{itemize}
+\textbf{Resultados del experimento \#3}
+
+Los resultados obtenidos por el test  para cada una de las bases de datos y los  niveles de significación preestablecidos, se muestran en las tablas \ref{tab:error2-prob1}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|ccc|}
+		\hline
+		$\alpha$& BD.DIAG\_LINE.2.1 & BD.DIAG\_LINE.2.2 & BD.DIAG\_LINE.2.3  \\
+		\hline
+		0.2 & 0     & 0          & 0.0001     \\
+		0.1 & 0     & 0          & 0.0174     \\
+		0.05 & 0     & 0   		& 0.2577     \\
+		0.02 & 0     & 0.0642    & 0.9798     \\
+		0.01 & 0     & 0.8688    & 1.0000     \\
+		\hline
+	\end{tabular}
+	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo II derivado de la prueba.}
+	\label{tab:error2-prob1}
+\end{table}
+El test propuesto durante este experimento mostró una alta capacidad para detectar las contraseñas encontradas en BD.DIAG\_LINE.2.1, pues detectó el 100\% de estas para todos los niveles de significación, en BD.DIAG\_LINE.2.2 detectó el 100\% para los niveles de significación $\alpha \in \{0.2, 0.1, 0.05\}$ y 93\% para $\alpha=0.02$ . Para las contraseñas de BD.DIAG\_LINE.2.3 no se obtuvieron buenos resultados, llegando a detectar para el nivel de significación $\alpha=0.01$ solo un 1\%.
+
+\section{Contraseñas con 5 triángulos en su triangulación de Delaunay }
+En esta sección cuando se hace referencia  a el promedio de los ángulos máximos de los triángulos de Delaunay  de las contraseñas gráficas en PassPoint, nos referiremos a las contraseñas que posean 4 triángulos en su triángulacion de Delaunay. 
+
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.41\textwidth]{alea4td.png}
+	\caption{Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 4 triángulos}
+	\label{5TD}
+\end{figure}
+
+\subsection{Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }
+\textbf{Experimento \#1}.
+
+Para estimar la distribución del promedio de los ángulos máximos de los triángulos de Delaunay para contraseñas gráficas en Passpoint, se generaron aleatoriamente 1000 contraseñas gráficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  contruyó  su correspondiente triangulación  de Delaunay  y se  determinó el promedio  de los ángulos máximos de su triangulación de Delaunay resultante. La base de datos que contiene los 1000 promedios se le denominó DB.2.RANDOM .
+
+
+\textbf{Resultados del experimento 1}
+
+En la tabla \ref{teo_BD2}  se muestran las 6 distribuciones que más se ajustan a los datos encontrados en DB1.1, encontrandose en el primer lugar Log-Logistic (3P) con los parámetros $\alpha=6.4824$, $\beta=46.461$ $\gamma=68.566$ . En la figura \ref{5TD_BONDAD} se  muestran los datos de tres de los tests de bondad de ajuste aplicados a la distribución obtenida sobre los datos contenidos en DB.2.RANDOM y en la figura \ref{5TD_FDP} se muestra la función de densidad de probabilidad de la misma. 
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.6\textwidth]{4td_bondad.png}
+	\caption{Tests de bondad de ajuste para la distribución Log-Logistic (3P) sobre DB.2.RAMDON}
+	\label{5TD_BONDAD}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.5\textwidth]{4td_fdp.png}
+	\caption{Función de densidad de probabilidad de la  distribución Log-Logistic (3P) para DB.2.RAMDON}
+	\label{5TD_FDP}
+\end{figure}
+
+Como se observa en la figura  \ref{4TD_BONDAD}, para los tres métodos de bondad de ajuste (Kolmogorov-Smirnov, Anderson-Darling y Chi-cuadrado), no se rechaza la hipótesis nula de que los datos provienen de la distribución teórica Log-logistic (3P), en ningún nivel de significación evaluado, indicando un buen ajuste hacia la misma.
+
+A partir de este resultado , en el resto de la sección se asume que la muestra  DB.2.RAMDON y ,por tanto, el promedio de los ángulos máximos de los triángulos de Delaunay  prodecen de una distribución Log-logistic (3P), por lo que se puede asumir que que las contraseñas que incumplan esta propiedad no son aleatorias.
+
+\subsection{Test basado en el promedio de los ángulos máximos de los triángulos de Delanunay}
+Dado  que el el promedio de los ángulos máximos de los triágulos de Delanunay distribuye Log-LogistIC, se propone un  test estadístico para seleccionar contraseñas con patrones DIAG y LINE. La propuesta consiste en un test de una cola( Derecha) basado en el promedio de los ángulos máximos de los triángulos de Delanunay .
+Al igual que  el test anterior, este se basa en la anchura de los ángulos y no en la longitud en sí de los lados u otra característica que varie con el tamaño de la imagen, por lo que será válida para todos los tamaños de imágenes con una relación de 16:9. Dado que las imágenes con esta relación tendrán dimensiones proporcionales iguales y sus triángulos correspondientes serán proporcionales: la prueba propuesta puede formalizarse como sigue:
+
+\begin{enumerate}
+	\item Variable aleatoria X: promedio de los ángulos máximos de los triángulos de Delaunay en un conjunto de 5 puntos, con 4 triángulos en su triangulación.
+	\item Estadígrafo : $X$
+	
+	\item Hipótesis nula : \[H_0:E(X)=0\]
+	%\begin{itemize}
+	%\item La contraseña gráfica seleccionada por el usuario es aleatoria si el promedio de los ángulos máximos de los triángulos de Delaunay es igual a 0
+	%\end{itemize}
+	
+	
+	\item Hipótesis alternativa : \[H_a:E(X)>0\]
+	%\begin{itemize}
+	%	\item 
+	%\end{itemize}
+	
+	\item  Región de Rechazo: $\{z:Z>z_\alpha\}$,donde $\alpha$ es el nivel de significación establecido por el usuario, y el valor de $z_\alpha$ estará dado por la evaluación de los respectivos niveles de confianza en la  inversa de la función de distribución acumulada de Log-Logistic (3P) con los parámetros obtenidos: 
+	
+	\[
+	FDA(x; \alpha, \beta, \gamma) = \frac{1}{1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha}, \quad x > \gamma
+	\]
+	\begin{itemize}
+		\item  Para hallar la inversa de la función de distribución acumulada se debe despejar $x$:
+		Para despejar \( x \), seguimos los pasos:
+		
+		Paso 1: Igualar \( F(x; \alpha, \beta, \gamma) \) a \( y \)
+		\[
+		y = \frac{1}{1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha}
+		\]
+		
+		Paso 2: Invertir la fracción
+		\[
+		\frac{1}{y} = 1 + \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 3: Restar 1 de ambos lados
+		\[
+		\frac{1}{y} - 1 = \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 4: Escribir con denominador común
+		\[
+		\frac{1}{y} - 1 = \frac{1 - y}{y}
+		\]
+		Por lo tanto:
+		\[
+		\frac{1 - y}{y} = \left( \frac{\beta}{x - \gamma} \right)^\alpha
+		\]
+		
+		Paso 5: Elevar ambos lados a la \( \frac{1}{\alpha} \) potencia
+		\[
+		\left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}} = \frac{\beta}{x - \gamma}
+		\]
+		
+		Paso 6: Invertir la fracción de la derecha
+		\[
+		x - \gamma = \frac{\beta}{\left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}}}
+		\]
+		
+		Paso 7: Pasar \( \left( \frac{1 - y}{y} \right)^{\frac{1}{\alpha}} \) multiplicando a \( \beta \)
+		\[
+		x - \gamma = \beta \cdot \left( \frac{1 - y}{y} \right)^{-\frac{1}{\alpha}}
+		\]
+		
+		Paso 8: Simplificar \( x \)
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1 - y}{y} \right)^{-\frac{1}{\alpha}}
+		\]
+		
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1}{\frac{1}{y}-1} \right)^{\frac{1}{\alpha}}
+		\]
+		
+		Finalmente, sustituyendo \( y = F(x; \alpha, \beta, \gamma) \), la solución general es:
+		\[
+		x = \gamma + \beta \cdot \left( \frac{1}{\frac{1}{F(x; \alpha, \beta, \gamma)}-1} \right)^{\frac{1}{\alpha}}
+		\]
+		
+	\end{itemize}
+	\item Criterio de decisión
+	\begin{itemize}
+		\item Para los cinco niveles de significación establecidos, se decide que la contraseña gráfica seleccionada por el usuario no sigue un patrón aleatorio si su promedio de los ángulos máximos de los triángulos de Delaunay  pertenece a la región crítica. 
+	\end{itemize}
+\end{enumerate}
+\subsection{Implementación del Test propuesto :}
+
+Para la implementación del test propuesto, se toman las coordenadas \((x_i, y_i)\) de cada uno de los \(p_i\) puntos, \(i = 1, \ldots, 5\) como valores de entrada. A partir de estos puntos, se construye la triangulación Delaunay utilizando la funcion \textit{Delaunay} de scipy.spatial
+
+Luego, la longitud de los lados de cada triángulo se determina por la distancia euclidiana de dos a dos de los puntos que lo forman, de la siguiente manera:
+
+\[
+a = \sqrt{(x_{pr_1} - x_{pr_2})^2 + (y_{pr_1} - y_{pr_2})^2} = ||pr_{p_i} - pr_{p_j}||.
+\]
+
+Para encontrar los ángulos de cada triángulo, se aplica la Ley de los Cosenos:
+
+\[
+\theta = \arccos\left(\frac{c^2 + a^2 - b^2}{2ab}\right), \quad \phi = \arccos\left(\frac{a^2 + b^2 - c^2}{2ab}\right), \quad \psi = \arccos\left(\frac{b^2 + c^2 - a^2}{2bc}\right).
+\]
+
+Es necesario encontrar el máximo de estos tres ángulos \(\theta\), \(\phi\), y \(\psi\). Es análogo para los triángulos restantes de la triangulación Delaunay. Una vez que se hayan obtenido los ángulos máximos de la triangulación Delaunay, se calcula su promedio, con el cual se obtiene el valor de la estadígrafo \(X\). La hipótesis nula se rechaza dependiendo de si la estadística \(X\) pertenece a la región de rechazo para el \(\alpha\) establecido. Una posible implementación de esta prueba en python sería:
+
+amadt: promedio de los ángulos máximos de los triángulos de Delaunay
+
+alpha ,beta,gamma: parámetros de la distribución Log-Logistic (3P)
+
+nivel\_conf: nivel de confianza correspondiente al nivel de significación escogido
+rg: región crítica correspondiente al nivel de significación escogido
+
+
+\begin{lstlisting}
+	def test(points, alpha, beta, gamma,nivel_sig):
+	triangulation=Delaunay(points)
+	angles=[]
+	for i in triangulation:
+	a=distancia_puntos(points[i[0]],points[i[1]])
+	b=distancia_puntos(points[i[1]],points[i[2]])
+	b=distancia_puntos(points[i[2]],points[i[0]])
+	angles.append(angle_max(a,b,c))     
+	X=mean(angles) 
+	rg= beta * ((1 / (1 / (1-nivel_sig) - 1)) ** (1 / alpha)) + gamma
+	if X>rg:
+	return 1
+	else:
+	return 0
+	
+	def distancia_puntos(punto1, punto2):
+	return math.sqrt((punto1[0] - punto2[0])**2 +
+	(punto1[1] - punto2[1])**2)
+	
+	def angle_max(distancia_ab, distancia_bc, distancia_ca):
+	angulo_A = math.degrees(math.acos(
+	(distancia_bc**2 + distancia_ca**2 - distancia_ab**2) 
+	/ (2 * distancia_bc * distancia_ca)
+	))
+	angulo_B = math.degrees(math.acos(
+	(distancia_ca**2 + distancia_ab**2 - distancia_bc**2) 
+	/ (2 * distancia_ca * distancia_ab)
+	))
+	angulo_C = 180 - angulo_A - angulo_B  
+	return max(angulo_A, angulo_B, angulo_C)
+\end{lstlisting}
+
+En cuanto a la complejidad, las funciones \textit{distancia\_puntos} y \textit{angle\_max} solo poseen operaciones elementales por lo que su complejidad es \textit{O(1)}. La función test en su primera línea hace un llamado a la función  \textit{Delaunay} (línea 2) de \textit{scipy.spatial}, esta posee una complejidad de \textit{O(N logN)} debido a que el algoritmo subyacente utilizado por \textit{Scipy} es el algoritmo de \textit{Qhull}. Seguido en el algoritmo se itera por la triangulación obtenida (líneas 4-8), la cual poseen como máximo \textit{n} triángulos , dentro de cada iteración se hacen llamados a las  funciones \textit{distancia\_puntos} y \textit{angle\_max}  que son \textit{O(1)}, por tanto el costo del iterador es \textit{O(N)}. Las operaciones restantes son \textit{O(1)} (líneas 9-14) ,por tanto el costo total sería \textit{O(1)}+\textit{O(N)}+\textit{O(N logN)}=\textit{O(N logN)} por ley de la suma.
+
+\subsection{Estimación de la probabilidad de los errores de tipo I y de tipo II  cometidos por el test}	 
+\textbf{Experimento \#2 : Estimación del error tipo} I
+
+Para estimar la probabilidad de que la prueba decida que la contraseña gráfica contiene un patrón DIAG o LINE cuando ,en verdad, sigue un patrón aleatorio (error de tipo I o falsos positivos), se generó una base de datos llamada DB.2.RANDOM con 10 000 contraseñas gráficas aleatorias sobre la imagen. El test descrito en la sección 2.2.3, se le aplicó a cada una de estas contraseñas gráficas ,obteniendo como límites inferiores de la región crítica a  $rg \in \{126.105, 133.772, 141.739, 153.254, 162.959\}$para los respectivos  niveles de significación $\alpha \in \{0.2, 0.1 0.05, 0.02 , 0.01\}$ .
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|ccccc|}
+		\hline
+		$\alpha$ & $\alpha = 0.2$ & $\alpha = 0.1$ & $\alpha = 0.05$ & $\alpha = 0.02$ & $\alpha = 0.01$ \\
+		\hline
+		$\hat{\alpha}$ & 0.2032 & 0.1083 & 0.0552 & 0.0134 & 0.0034 \\
+		\hline
+	\end{tabular}
+	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo I derivado de la prueba.}
+	\label{tab3:error1-prob1}
+\end{table}
+
+\textbf{Resultados del experimento \#2.}
+
+Las probabilidades estimadas de cometer un error de tipo I ($\hat{\alpha}$) mediante el test poseen gran similitud  a las probabilidades teóricas preestablecidas ($\alpha$),véase en la figura \ref{Teorico vs Observado2}
+\begin{figure}[ht]
+	\centering
+	
+	\includegraphics[width=0.8\textwidth]{4td_teo_obs.png}
+	\caption{Comparación entre las probabilidades teóricas ($\alpha$) y estimadas ($\hat{\alpha}$) de cometer un error de tipo I }
+	\label{Teorico vs Observado2}
+\end{figure}\\
+
+\textbf{Experimento \#3: Estimación del error tipo II}
+
+Para estimar la probabilidad de que el test detecte una contraseña gráfica como aleatoria cuando sigue un patrón DIAG o LINE (error tipo II o falsos negativos), se crearon 3 bases de datos que en conjunto contienen 30 000 contraseñas gráficas de 5 puntos que siguen patrones DIAG y LINE ,:
+\begin{itemize}
+	\item DB.DIAG\_LINE.2.1: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos de 15\degree 
+	\item DB.DIAG\_LINE.2.2: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 15\degree y 30\degree 
+	\item DB.DIAG\_LINE.2.3: 10 000 contraseñas gráficas que siguen patrones DIAG o LINE con una anchura máxima entre dos segmentos consecutivos que varia entre 30\degree y 45\degree 
+\end{itemize}
+\textbf{Resultados del experimento \#3}
+
+Los resultados obtenidos por el test  para cada una de las bases de datos y los  niveles de significación preestablecidos, se muestran en las tablas \ref{tab3:error2-prob1}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|ccc|}
+		\hline
+		$\alpha$& BD.DIAG\_LINE.2.1 & BD.DIAG\_LINE.2.2 & BD.DIAG\_LINE.2.3  \\
+		\hline
+		0.2 & 0     & 0          & 0.0001     \\
+		0.1 & 0     & 0          & 0.0174     \\
+		0.05 & 0     & 0   		& 0.2577     \\
+		0.02 & 0     & 0.0642    & 0.9798     \\
+		0.01 & 0     & 0.8688    & 1.0000     \\
+		\hline
+	\end{tabular}
+	\caption{Estimación de la probabilidad ($\hat{\alpha}$) del error de tipo II derivado de la prueba.}
+	\label{tab3:error2-prob1}
+\end{table}
+El test propuesto durante este experimento mostró una alta capacidad para detectar las contraseñas encontradas en BD.DIAG\_LINE.2.1, pues detectó el 100\% de estas para todos los niveles de significación, en BD.DIAG\_LINE.2.2 detectó el 100\% para los niveles de significación $\alpha \in \{0.2, 0.1, 0.05\}$ y 93\% para $\alpha=0.02$ . Para las contraseñas de BD.DIAG\_LINE.2.3 no se obtuvieron buenos resultados, llegando a detectar para el nivel de significación $\alpha=0.01$ solo un 1\%.
+
+
+
 
 
 \chapter{Resultados}
 \section{asdadasd}
-asd
+a
 
 \chapter{Discusión}
 Analiza los resultados y compara con otros estudios o referencias relevantes.
@@ -694,8 +1238,26 @@ Resume los hallazgos principales y ofrece recomendaciones futuras.
 		Beta     \\ \hline
 		\hline
 	\end{tabular}
-	\caption{6 disribuciones mas ajustadas teóricamente a BD1.1}
-	\label{teo_BD1.1}
+	\caption{6 disribuciones mas ajustadas teóricamente a BD1}
+	\label{teo_BD1}
+\end{table}
+
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|}
+		\hline
+		Log-Logistc (3P)   \\
+		\hline
+		Burr      \\ \hline
+		Gen. Extreme Value  \\ \hline 
+		Pearson 5 (3P)    \\ \hline
+		Pearson 6 (4P)    \\ \hline
+		Lognormal (3P)   \\ \hline
+		\hline
+	\end{tabular}
+	\caption{6 disribuciones mas ajustadas teóricamente a BD2}
+	\label{teo_BD2}
 \end{table}
 
 \end{document}

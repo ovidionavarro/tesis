@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  19 JAN 2025 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  22 JAN 2025 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -462,7 +462,7 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
@@ -475,24 +475,24 @@ LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 \c@lstlisting=\count298
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
@@ -520,9 +520,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
-Package hyperref Info: Link coloring ON on input line 69.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+Package hyperref Info: Link coloring ON on input line 73.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -564,26 +564,26 @@ Package hyperref Info: Link coloring ON on input line 69.
 
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 69.
-Package gensymb Info: Math companion symbols declared on input line 69.
-LaTeX Info: Redefining \degree on input line 69.
-LaTeX Info: Redefining \celsius on input line 69.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 73.
+Package gensymb Info: Math companion symbols declared on input line 73.
+LaTeX Info: Redefining \degree on input line 73.
+LaTeX Info: Redefining \celsius on input line 73.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 69.
-LaTeX Info: Redefining \ohm on input line 69.
-Package gensymb Info: Using \textohm for \ohm on input line 69.
-Package gensymb Info: Using \textmu for \micro on input line 69.
-<img/logoUH.png, id=85, 231.11343pt x 288.3272pt>
+erthousand on input line 73.
+LaTeX Info: Redefining \ohm on input line 73.
+Package gensymb Info: Using \textohm for \ohm on input line 73.
+Package gensymb Info: Using \textmu for \micro on input line 73.
+<img/logoUH.png, id=125, 231.11343pt x 288.3272pt>
 File: img/logoUH.png Graphic file (type png)
 <use img/logoUH.png>
-Package pdftex.def Info: img/logoUH.png  used on input line 79.
+Package pdftex.def Info: img/logoUH.png  used on input line 83.
 (pdftex.def)             Requested size: 135.89174pt x 169.53522pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 92.
+(Font)              <12> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
+(Font)              <8> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
+(Font)              <6> on input line 96.
 [1
 
 {C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logoUH
@@ -592,7 +592,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \chapter
+l.122 \chapter
               *{Abstract} [1
 
 ] [2
@@ -600,20 +600,20 @@ l.118 \chapter
 ] (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
+ [3
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [3
-
-] (main.lof
+ [4] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [4
+ [5
 
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -623,27 +623,22 @@ LaTeX Info: Redefining \% on input line 1.
 \openout7 = `main.lot'.
 
 
-[5
+[6
 
-] [6
+] [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
@@ -652,129 +647,221 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 [8]
-<img/passpoint.png, id=253, 269.50688pt x 200.24812pt>
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+[9]
+<img/passpoint.png, id=348, 269.50688pt x 200.24812pt>
 File: img/passpoint.png Graphic file (type png)
 <use img/passpoint.png>
-Package pdftex.def Info: img/passpoint.png  used on input line 240.
+Package pdftex.def Info: img/passpoint.png  used on input line 244.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
- [9
+ [10
 
 ]
-Overfull \hbox (28.40712pt too wide) in paragraph at lines 257--272
+Overfull \hbox (28.40712pt too wide) in paragraph at lines 261--276
  [][] 
  []
 
-[10 <./img/passpoint.png>]
-<img/DIAG_LINE.png, id=282, 389.65575pt x 193.32225pt>
+[11 <./img/passpoint.png>]
+<img/DIAG_LINE.png, id=377, 389.65575pt x 193.32225pt>
 File: img/DIAG_LINE.png Graphic file (type png)
 <use img/DIAG_LINE.png>
-Package pdftex.def Info: img/DIAG_LINE.png  used on input line 303.
+Package pdftex.def Info: img/DIAG_LINE.png  used on input line 307.
 (pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
- [11 <./img/DIAG_LINE.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+ [12 <./img/DIAG_LINE.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
-<img/no_td.png, id=302, 223.43475pt x 224.63925pt>
+<img/no_td.png, id=398, 223.43475pt x 224.63925pt>
 File: img/no_td.png Graphic file (type png)
 <use img/no_td.png>
-Package pdftex.def Info: img/no_td.png  used on input line 341.
+Package pdftex.def Info: img/no_td.png  used on input line 345.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
 
-Underfull \hbox (badness 1014) in paragraph at lines 342--342
+Underfull \hbox (badness 1014) in paragraph at lines 346--346
 []\OT1/cmr/m/n/12 Figura 1.3: []Triangulaci^^Son no cum-ple
  []
 
-<img/si_td.png, id=303, 231.264pt x 210.18526pt>
+<img/si_td.png, id=399, 231.264pt x 210.18526pt>
 File: img/si_td.png Graphic file (type png)
 <use img/si_td.png>
-Package pdftex.def Info: img/si_td.png  used on input line 348.
+Package pdftex.def Info: img/si_td.png  used on input line 352.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-<img/td_10pts.png, id=305, 228.855pt x 235.47975pt>
+<img/td_10pts.png, id=401, 228.855pt x 235.47975pt>
 File: img/td_10pts.png Graphic file (type png)
 <use img/td_10pts.png>
-Package pdftex.def Info: img/td_10pts.png  used on input line 359.
+Package pdftex.def Info: img/td_10pts.png  used on input line 363.
 (pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
-[12 <./img/no_td.png> <./img/si_td.png>] [13 <./img/td_10pts.png>]
+[13 <./img/no_td.png> <./img/si_td.png>] [14 <./img/td_10pts.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-78.
+82.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 378.
-<img/grafosviel.png, id=331, 860.013pt x 428.3202pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 382.
+<img/grafosviel.png, id=426, 860.013pt x 428.3202pt>
 File: img/grafosviel.png Graphic file (type png)
 <use img/grafosviel.png>
-Package pdftex.def Info: img/grafosviel.png  used on input line 387.
+Package pdftex.def Info: img/grafosviel.png  used on input line 391.
 (pdftex.def)             Requested size: 452.9679pt x 225.59692pt.
 
-[14 <./img/grafosviel.png>] [15]
-Overfull \hbox (1.30746pt too wide) in paragraph at lines 434--441
+[15 <./img/grafosviel.png>] [16]
+Overfull \hbox (1.30746pt too wide) in paragraph at lines 438--443
 \OT1/cmr/bx/n/20.74 Detecci^^Son de pa-tro-nes DIAG y LI-NE en Pass-
  []
 
-<img/alea3td.png, id=347, 462.528pt x 346.896pt>
+<img/alea3td.png, id=442, 462.528pt x 346.896pt>
 File: img/alea3td.png Graphic file (type png)
 <use img/alea3td.png>
-Package pdftex.def Info: img/alea3td.png  used on input line 446.
+Package pdftex.def Info: img/alea3td.png  used on input line 451.
 (pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
-[16
+[17
 
  <./img/alea3td.png>]
-<img/3td_BONDAD.png, id=356, 383.18156pt x 375.65344pt>
+<img/3td_BONDAD.png, id=451, 383.18156pt x 375.65344pt>
 File: img/3td_BONDAD.png Graphic file (type png)
 <use img/3td_BONDAD.png>
-Package pdftex.def Info: img/3td_BONDAD.png  used on input line 461.
+Package pdftex.def Info: img/3td_BONDAD.png  used on input line 466.
 (pdftex.def)             Requested size: 271.7835pt x 266.45786pt.
-<img/3td_fdp.png, id=357, 420.82219pt x 436.63126pt>
+<img/3td_fdp.png, id=452, 420.82219pt x 436.63126pt>
 File: img/3td_fdp.png Graphic file (type png)
 <use img/3td_fdp.png>
-Package pdftex.def Info: img/3td_fdp.png  used on input line 469.
+Package pdftex.def Info: img/3td_fdp.png  used on input line 474.
 (pdftex.def)             Requested size: 226.48395pt x 234.9912pt.
- [17 <./img/3td_BONDAD.png>] [18 <./img/3td_fdp.png>]
+ [18 <./img/3td_BONDAD.png>] [19 <./img/3td_fdp.png>]
+[20] [21]
+<img/3td_teo_obs.png, id=515, 462.528pt x 346.896pt>
+File: img/3td_teo_obs.png Graphic file (type png)
+<use img/3td_teo_obs.png>
+Package pdftex.def Info: img/3td_teo_obs.png  used on input line 598.
+(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--602
+
+ []
+
+[22 <./img/3td_teo_obs.png>]
+<img/alea4td.png, id=522, 462.528pt x 346.896pt>
+File: img/alea4td.png Graphic file (type png)
+<use img/alea4td.png>
+Package pdftex.def Info: img/alea4td.png  used on input line 640.
+(pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
+<img/4td_bondad.png, id=526, 381.67593pt x 371.88937pt>
+File: img/4td_bondad.png Graphic file (type png)
+<use img/4td_bondad.png>
+Package pdftex.def Info: img/4td_bondad.png  used on input line 657.
+(pdftex.def)             Requested size: 271.7835pt x 264.82639pt.
+ [23]
+<img/4td_fdp.png, id=531, 332.74312pt x 284.56313pt>
+File: img/4td_fdp.png Graphic file (type png)
+<use img/4td_fdp.png>
+Package pdftex.def Info: img/4td_fdp.png  used on input line 665.
+(pdftex.def)             Requested size: 226.48395pt x 193.6914pt.
+
+Overfull \hbox (18.06749pt too wide) in paragraph at lines 670--671
+[]\OT1/cmr/m/n/12 Como se ob-ser-va en la fi-gu-ra [][]2.12[][], pa-ra los tres
+ m^^Seto-dos de bon-dad de ajus-te (Kolmogorov-
+ []
+
+
+Overfull \hbox (25.61754pt too wide) in paragraph at lines 672--673
+[]\OT1/cmr/m/n/12 A par-tir de es-te re-sul-ta-do , en el res-to de la sec-ci^^
+Son se asu-me que la mues-tra DB.2.RAMDON
+ []
+
+[24 <./img/alea4td.png> <./img/4td_bondad.png>] [25 <./img/4td_fdp.png>]
+[26] [27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/3td_teo_obs.png, id=374, 462.528pt x 346.896pt>
-File: img/3td_teo_obs.png Graphic file (type png)
-<use img/3td_teo_obs.png>
-Package pdftex.def Info: img/3td_teo_obs.png  used on input line 551.
+<img/4td_teo_obs.png, id=568, 462.528pt x 346.896pt>
+File: img/4td_teo_obs.png Graphic file (type png)
+<use img/4td_teo_obs.png>
+Package pdftex.def Info: img/4td_teo_obs.png  used on input line 846.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
-[19] [20 <./img/3td_teo_obs.png>] [21]
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--850
+
+ []
+
+[28]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./img/4td_teo_obs.png>]
+File: img/alea4td.png Graphic file (type png)
+<use img/alea4td.png>
+Package pdftex.def Info: img/alea4td.png  used on input line 887.
+(pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
+ [30]
+File: img/4td_bondad.png Graphic file (type png)
+<use img/4td_bondad.png>
+Package pdftex.def Info: img/4td_bondad.png  used on input line 904.
+(pdftex.def)             Requested size: 271.7835pt x 264.82639pt.
+File: img/4td_fdp.png Graphic file (type png)
+<use img/4td_fdp.png>
+Package pdftex.def Info: img/4td_fdp.png  used on input line 912.
+(pdftex.def)             Requested size: 226.48395pt x 193.6914pt.
+
+Overfull \hbox (18.06749pt too wide) in paragraph at lines 917--918
+[]\OT1/cmr/m/n/12 Como se ob-ser-va en la fi-gu-ra [][]2.12[][], pa-ra los tres
+ m^^Seto-dos de bon-dad de ajus-te (Kolmogorov-
+ []
+
+
+Overfull \hbox (25.61754pt too wide) in paragraph at lines 919--920
+[]\OT1/cmr/m/n/12 A par-tir de es-te re-sul-ta-do , en el res-to de la sec-ci^^
+Son se asu-me que la mues-tra DB.2.RAMDON
+ []
+
+[31] [32] [33] [34]
+File: img/4td_teo_obs.png Graphic file (type png)
+<use img/4td_teo_obs.png>
+Package pdftex.def Info: img/4td_teo_obs.png  used on input line 1093.
+(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1097
+
+ []
+
+[35] [36]
 Cap\'{\i }tulo 3.
-[22
+[37
 
 ]
 Cap\'{\i }tulo 4.
-[23
+[38
 
 ]
 Cap\'{\i }tulo 5.
-[24
+[39
 
-] [25
+] [40
 
-] [26] [27]
+] [41] [42]
 Ap\'{e}ndice A.
-[28
+[43
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -785,33 +872,36 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7CFE3A1F026CE56EDD013F3CDC8AA80;6089.
+(rerunfilecheck)             Checksum: C9D49FFCBBBA4F5F9B7852077A488006;10756.
  ) 
 Here is how much of TeX's memory you used:
- 15680 strings out of 474486
- 260200 string characters out of 5743755
- 1990542 words of memory out of 5000000
- 37610 multiletter control sequences out of 15000+600000
+ 15904 strings out of 474486
+ 263450 string characters out of 5743755
+ 2135542 words of memory out of 5000000
+ 37698 multiletter control sequences out of 15000+600000
  565177 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,93p,1653b,1191s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,10n,93p,1653b,2095s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbxti10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ovidi/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ovidi/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
-/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
-:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (29 pages, 995652 bytes).
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ovidi/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ovidi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ovidi/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (44 pages, 1168140 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
