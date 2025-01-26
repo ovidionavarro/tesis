@@ -10,22 +10,21 @@
 \contentsline {chapter}{2. Detección de patrones DIAG y LINE en PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay}{17}{chapter*.8}%
 \contentsline {section}{\numberline {2.1}Contraseñas con 3 triángulos en su triangulación de Delaunay }{17}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }{18}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Test basado en el promedio de los ángulos máximos de los Triángulos de Delanunay}{19}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Implementacion del Test propuesto :}{20}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el test}{22}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.2}\textit {Test} basado en el promedio de los ángulos máximos de los Triángulos de Delanunay}{19}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Implementacion del \textit {Test} propuesto :}{20}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el \textit {test}}{22}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Contraseñas con 4 triángulos en su triangulación de Delaunay }{23}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }{23}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Test basado en el promedio de los ángulos máximos de los triángulos de Delanunay}{25}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Implementación del Test propuesto :}{27}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el test}{28}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.1}Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }{24}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}\textit {Test} basado en el promedio de los ángulos máximos de los triángulos de Delanunay}{26}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Implementación del \textit {Test} propuesto }{27}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el \textit {test}}{29}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}Contraseñas con 5 triángulos en su triangulación de Delaunay }{30}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }{30}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Test basado en el promedio de los ángulos máximos de los triángulos de Delanunay}{31}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Implementación del Test propuesto :}{34}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el test}{35}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}Resultados}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}asdadasd}{37}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Discusión}{38}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{39}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{39}{chapter.5}%
+\contentsline {subsection}{\numberline {2.3.1}Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }{31}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}\textit {Test} basado en el promedio de los ángulos máximos de los triángulos de Delanunay}{32}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Implementación del \textit {test} propuesto :}{33}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Estimación de la probabilidad de los errores de tipo I y de tipo II cometidos por el \textit {test}}{34}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Discusión de los resultados de los \textit {test} anteriores y comparación con \cite {13}}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Comparación con \cite {13}}{37}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Conclusiones }{38}{chapter.3}%
+\contentsline {chapter}{Bibliografía}{39}{chapter.3}%
 \contentsline {chapter}{\numberline {A}Anexos}{43}{appendix.Alph1}%
