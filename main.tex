@@ -156,13 +156,13 @@
 	
 	
 
-	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el \textit{test} de la función K-Ripley, el \textit{test} de la función G, que analiza la distancia al vecino más cercano, y el \textit{test} de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en \cite{6,7} se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en \cite{7,8} se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado 4 tests efectivos \cite{7,9,10,11} para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de \cite{9}, en el promedio de los perímetros de los triángulos de Delaunay, en  \cite{7} en la distancia media entre cinco puntos, para el caso de \cite{10} es una aplicación conjunta de los tests \cite{7,9}, y \cite{11} basado en  el perímetro de la envoltura convexa. De estos tests \cite{11} es el más efectivo encontrado en la literatura y el segundo más eficiente después de \cite{7}.
+	A lo largo de los últimos años, se han realizado pocas investigaciones enfocadas en este tema. Entre los métodos más comunes para evaluar la Aleatoriedad Espacial Completa se encuentran: el \textit{test} de la función K-Ripley, el \textit{test} de la función G, que analiza la distancia al vecino más cercano, y el \textit{test} de la función F, que se centra en la distancia de espacio vacío. Sin embargo, en \cite{6,7} se demuestra que, en el contexto de PassPoint, dos de estos métodos son ineficaces para detectar contraseñas gráficas compuestas por patrones agrupados. Por otro lado, en \cite{7,8} se evidencia que los tres tests no logran identificar ni el agrupamiento ni la regularidad en las contraseñas de este escenario. Hasta ahora, en la bibliografía revisada, se han encontrado 4 \textit{test} efectivos \cite{7,9,10,11} para identificar contraseñas no aleatorias que presentan patrones agrupados o regulares en el contexto de PassPoint. Estos métodos se basan, en el caso de \cite{9}, en el promedio de los perímetros de los triángulos de Delaunay, en  \cite{7} en la distancia media entre cinco puntos, para el caso de \cite{10} es una aplicación conjunta de los \textit{test} \cite{7,9}, y \cite{11} basado en  el perímetro de la envoltura convexa. De estos tests \cite{11} es el más efectivo encontrado en la literatura y el segundo más eficiente después de \cite{7}.
 	
-	Teniendo en consideración que en \cite{12}, las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, se ha empleado como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu en \cite{12}, se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del ``ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos o en otras palabras que las curvas formadas entre los 5 puntos sean curvas suaves a pedazos, es decir, que carezca de picos, también se les conoce como patrones suaves.  De ahí que, en \cite{13} se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos. En \cite{5} se entendía como el ángulo formado entre dos segmentos consecutivos, el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña. En este trabajo se referirá al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
+	Teniendo en consideración que en \cite{12}, las propiedades de una triangulación de Delaunay brindan la capacidad de obtener información acerca de la interrelación entre puntos, empleándose como una herramienta en la mitad de la década de 1980 para identificar configuraciones de puntos. En el estudio realizado por Chiu en \cite{12}, se emplearon varias de estas propiedades para reconocer la agrupación y la regularidad entre los puntos. Específicamente, la característica del ``ángulo máximo de un triángulo de Delaunay", según la literatura revisada, nunca había sido utilizada previamente para identificar otro tipo de configuraciones además de las agrupadas o regulares. No obstante, dado que los patrones DIAG y LINE se distinguen por presentar un ángulo cercano a 0{\degree } entre dos segmentos consecutivos o en otras palabras que las curvas formadas entre los 5 puntos sean curvas suaves a pedazos, es decir, que carezca de picos, también se les conoce como patrones suaves.  De ahí que, en \cite{13} se propuso y demostró que la media de los ángulos máximos de los triángulos de Delaunay generados a partir de los puntos de las contraseñas gráficas de PassPoint es un estadígrafo eficaz para detectar la presencia de patrones DAIG y LINE, incluso con un número limitado de puntos. En \cite{5} se entendía como el ángulo formado entre dos segmentos consecutivos, el menor de los dos ángulos que forman la intersección de la prolongación de los segmentos de una contraseña. En este trabajo se referirá al mayor de estos dos ángulos como el ángulo adyacente entre dos segmentos .
 
 
 	
-	Según los resultados obtenidos en \cite{13}, la distribución del promedio de los triángulos de  Delaunay de las contraseñas gráficas aleatorias, sin tener en cuenta el número específico de triángulos sigue una distribución Normal, por lo que se plantea la hipótesis de que cada una de las distribuciones de los conjuntos cuyas triangulaciones contienen 3, 4 o 5 triángulos también distribuirán Normal pero con diferentes parámetros. Suponiendo que esta hipótesis se cumpla, dada una contraseña ingresada por un usuario se verificará a qué distribución pertenece y se aplicará el \textit{test} con la distribución adecuada. Esto debería mejorar el ajuste de los datos a los \textit{test} de bondad de ajuste y aumentar la efectividad del mismo.\\
+	Según los resultados obtenidos en \cite{13}, la distribución del promedio de los triángulos de  Delaunay de las contraseñas gráficas aleatorias, sin tener en cuenta el número específico de triángulos sigue una distribución Normal. Por lo que se plantea la hipótesis de que cada una de las distribuciones de los conjuntos cuyas triangulaciones contienen 3, 4 o 5 triángulos también distribuirán Normal, pero con diferentes parámetros. Dada una contraseña ingresada por un usuario se verificará a qué distribución pertenece y se aplicará el \textit{test} con la distribución adecuada. Esto debería mejorar el ajuste de los datos a los \textit{test} de bondad de ajuste y aumentar la efectividad del mismo.\\
 	
 	% se sugiere investigar la eficacia de un test de detección de los patrones DIAG y LINE  utilizando como estadígrafo el promedio de los ángulos máximos de los triángulos de Delaunay, pero realizando análisis independientes según el número de triángulos en su triangulación (3,4 o 5) y realizar un análisis comparativo respecto a los resultados obtenidos en \cite{13}.\\
 \large{\textbf{Problema de investigación:}}	
@@ -211,7 +211,7 @@
 	
 	Este trabajo estará dividido en dos capítulos.
 	
-	En el primero se muestra en qué consiste la técnica de autenticación gráfica PassPoint, así como sus ventajas y desventajas, se describen los patrones comunes que los usuarios suelen seguir al crear sus contraseñas, destacando los patrones DIAG y LINE, se definen las triangulaciones de Delaunay y sus propiedades. Por último se realiza un resumen  de los métodos antecedentes en la detección de patrones DIAG y LINE, uno es el algorimo presentado en \cite{3} para la detección de patrones suaves en PassPoint, y el otro es \cite{13}, donde se demuestra que el promedio de los ángulos máximos de los  triángulos de Delaunay es un estadígrafo eficaz para detectar patrones DIAG y LINE en contraseñas de PassPoint.
+	En el primero se muestra en qué consiste la técnica de autenticación gráfica PassPoint, así como sus ventajas y desventajas, se describen los patrones comunes que los usuarios suelen seguir al crear sus contraseñas, destacando los patrones DIAG y LINE, se definen las triangulaciones de Delaunay y sus propiedades. Por último se realiza un resumen  de los métodos antecedentes en la detección de patrones DIAG y LINE, uno es el algoritmo presentado en \cite{3} para la detección de patrones suaves en PassPoint, y el otro es \cite{13}, donde se demuestra que el promedio de los ángulos máximos de los  triángulos de Delaunay es un estadígrafo eficaz para detectar patrones DIAG y LINE en contraseñas de PassPoint.
 	
 	En el segundo capítulo se investiga el promedio de los ángulos máximos de los triángulos de Delaunay en función del número de triángulos que conforman dicha triangulación. Tomando en cuenta el tamaño estándar de las imágenes (1920x1080) para cada posible número de triángulos presentes en las triangulaciones de Delaunay de las contraseñas de 5 puntos (3, 4 o 5), se estiman las  mejores distribuciones a las que se ajustan, se propone un \textit{test} de detección de patrones DIAG y LINE en PassPoint y, se estiman los errores de tipo I y tipo II cometidos por el \textit{test}. Posteriormente, se realiza una comparación de los resultados obtenidos y los hallazgos presentados en el estudio\cite{13}.
 	
@@ -232,24 +232,28 @@
  A medida que las amenazas cibernéticas evolucionan, también lo hacen los métodos de autenticación utilizados para proteger los datos sensibles. Este capítulo se centrará en explorar los principios teóricos que sustentan la autenticación gráfica, específicamente el sistema PassPoint, y los patrones que los usuarios tienden a seguir al crear sus contraseñas. Al comprender estos conceptos, se podrá apreciar mejor la vulnerabilidad inherente a los sistemas de autenticación y la necesidad de desarrollar métodos más robustos para mitigar riesgos.
 
 \section{PassPoint}
-	La técnica PassPoint diseñada por Wiedenbeck en \cite{1} destaca entre los sistemas de autenticación gráfica del tipo cued-recall por su usabilidad y seguridad.
+	La técnica PassPoint diseñada por Wiedenbeck en \cite{1} destaca entre los sistemas de autenticación gráfica del tipo \textit{cued-recall} por su usabilidad y seguridad.
 	%(rodrigez et al..2018 comparacion pag3) .
 	%usabilidad
 	Esta técnica consiste en que, en su fase de registro, el
 	usuario seleccione 5 puntos (píxeles) de una imagen, ya sea seleccionada por el mismo usuario o dada por el sistema, un ejemplo es la figura \ref{fig:PassPoint}. En el proceso de autenticación este debe hacer clic en el mismo orden y en determinada  vecindad o región de tolerancia de los puntos escogidos en la fase de registro.
-	%parte de hotspot
-	Wiedenbeck en su investigación \cite{1}, asegura que las imágenes más deseadas para el proceso deben tener contenido significativo para el usuario por lo que deben tener escenas concretas. Otro requisito es que la imagen seleccionada posea cientos de Hotspots (puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogénea, de no ser así se reduciría el espacio de contraseñas y por ende aumentaría la vulnerabilidad ante diversos ataques. Existe el problema de la improbabilidad de que el usuario en el momento de autenticación  seleccione exactamente el mismo punto que en la fase de registro, como alternativa a este problema surge la discretización. Esta se encarga de establecer una tolerancia alrededor de cada punto, por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en \cite{14,15,16}. Por otro lado, en \cite{14,15,16,17} se describen los distintos métodos de discretización que se han desarrollado hasta ahora.
-
-	%Una discusion acerca de la importancia del mecanismo de discretizacion en los esquemas de contrsaseñas graficas puede verse en [75,76,77 lisset], mientras que en [75,76,77,78 liset] pueden verse los diferentes metodos de discretizacion conocidos hasta el momento sad
 	
-	%modelo para hotspot
-	En el trabajo \cite{18} se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (Hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio \cite{19} se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.   
-		\begin{figure}[ht]
+			\begin{figure}[ht]
 		\centering
 		\includegraphics[width=0.5\textwidth]{passpoint.png}
 		\caption{PassPoint.}
 		\label{fig:PassPoint}
 	\end{figure}
+	%parte de hotspot
+	Wiedenbeck en su investigación \cite{1}, asegura que las imágenes utilizadas en el sistema deben tener contenido significativo para el usuario, por lo que deben tener escenas concretas. Otro requisito es que la imagen seleccionada posea cientos de Hotspots (puntos más probables a seleccionar por el usuario o mejor llamados puntos calientes) diseminados de forma homogénea, de no ser así se reduciría el espacio de contraseñas y por ende aumentaría la vulnerabilidad ante diversos ataques.
+	 
+	Existe el problema de la improbabilidad de que el usuario en el momento de autenticación  seleccione exactamente el mismo punto que en la fase de registro, como alternativa a este problema surge la discretización. Esta se encarga de establecer una tolerancia alrededor de cada punto, por tanto esto disminuye el espacio de contraseñas y aumenta información relevante a la hora de los ataques de diccionarios. Se puede encontrar un análisis sobre la relevancia del mecanismo de discretización en los sistemas de contraseñas gráficas en \cite{14,15,16}. Por otro lado, en \cite{14,15,16,17} se describen los distintos métodos de discretización que se han desarrollado hasta ahora.
+
+	%Una discusion acerca de la importancia del mecanismo de discretizacion en los esquemas de contrsaseñas graficas puede verse en [75,76,77 lisset], mientras que en [75,76,77,78 liset] pueden verse los diferentes metodos de discretizacion conocidos hasta el momento sad
+	
+	%modelo para hotspot
+	En el trabajo \cite{18} se presenta un método que permite determinar si una imagen es adecuada para ser utilizada en esta técnica. Este método conduce al desarrollo de un modelo, diseñado para identificar las regiones de una imagen que los usuarios tienen mayor probabilidad de elegir como parte de sus contraseñas. Según sus experimentos, el modelo puede predecir puntos de interés (Hotspots) con una precisión de entre el 70 \% y el 80 \%, aunque el tamaño de la muestra utilizada es limitado. La aplicación de esta técnica en el sistema PassPoint sería especialmente útil para mejorar la confiabilidad en la asignación de imágenes. Por otro lado, en el estudio \cite{19} se demostró que incluso un pequeño cambio en la imagen puede influir en la elección de contraseñas por parte del usuario durante la fase de registro, afectando así su nivel de seguridad.   
+
 	 
 
 	%espacio de contrase;as osviel
@@ -262,8 +266,8 @@
 	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline
 				 	 
-		         		& Tamaño      &   Tamaño de la &	Tamaño del  &Largo/No.  & Tamaño de \\ 
-		                &   de imagen &  cuadrícula    &  alfabeto/     & puntos de & espacio de \\ 
+		         		& Tamaño      &   Tamaño de &	Tamaño del  &Largo/No.  & Tamaño de \\ 
+		                &   de imagen &  la cuadrícula    &  alfabeto/     & puntos de & espacio de \\ 
 		                &             &      (píxeles)  & No.Cuadrículas & clic     & contraseñas \\\hline
 		Alfanumérica    & N/A       & N/A     & 64   & 8  & 2.8x$10^{14}$  \\ \hline
 		Alfanumérica    & N/A       & N/A     & 72   & 8  & 7.2x$10^{14}$ \\ \hline
@@ -294,7 +298,7 @@
 
 
 %Aparte de que los usuarios incluyen Hotspots en sus contraseñas
-El problema de que los usuarios seleccionen imágenes que posean una cantidad reducida de Hotspots puede ser solucionado con un procesamiento previo de la misma como se explica en la sección anterior o brindando imágenes seguras por sistema, pero existen debilidades que ocurren independientemente de la imagen empleada. Estas debilidades están relacionadas con el uso de patrones específicos, principios psicológicos o modelos de atención visual. Estos aspectos son habitualmente empleados por los usuarios con el fin de hacer que sus contraseñas sean más fáciles de recordar. Sin embargo, esta estrategia, aunque mejora la memorabilidad, también facilita la creación de diccionarios de ataque para descifrar las contraseñas. Los patrones, en unión con los Hotspots y las reglas perceptuales que los usuarios suelen seguir al elegir sus contraseñas, como la organización visual o la repetición de ciertas formas, hacen que estas sean vulnerables a distintos tipos  ataques.
+El problema de que los usuarios seleccionen imágenes que posean una cantidad reducida de Hotspots puede ser solucionado con un procesamiento previo de la misma, como se explica en la sección anterior, o brindando imágenes seguras por sistema, pero existen debilidades que ocurren independientemente de la imagen empleada. Estas debilidades están relacionadas con el uso de patrones específicos, principios psicológicos o modelos de atención visual. Estos aspectos son habitualmente empleados por los usuarios con el fin de hacer que sus contraseñas sean más fáciles de recordar. Sin embargo, esta estrategia, aunque mejora la memorabilidad, también facilita la creación de diccionarios de ataque para descifrar las contraseñas. Los patrones, en unión con los Hotspots y las reglas perceptuales que los usuarios suelen seguir al elegir sus contraseñas, como la organización visual o la repetición de ciertas formas, hacen que estas sean vulnerables a distintos tipos  ataques.
 
 
 %Algunos de los patrones reportados en  \cite{5,20,21,22,23,24,25} son: los patrones con una forma predeterminada(Z, W, V, C), los agrupados,  los regulares,y los patrones LOD y DIAG(o patrones diagonales) en los que se encuentran los patrones LINE(forma de línea).Los patrones DIAG y LINE se encuentran entre los que más tienden a seguir los usuarios, en \cite{20,21,22,23,24,25} caracterizan los patrones DIAG  por ser puntos que se encuentran formando arcos tanto horizontal como verticalmente y la suma de los valores absolutos de los ángulos es menor que 15\degree, en cambio los LINE se caracterizan por ser lineas horizontales y verticales que se definen como un subconjunto de los DIAG. 
@@ -324,7 +328,7 @@ En un estudio realizado por los autores de \cite{21,22}, se investigaron 223 con
 %La idea principal ( primera etapa ) de esto metodo sirve de soporte para las tecnocas de analisis y procesamiento de imagenes. Estas se vasen en la deteccion de esquinas y centroides asi como la plicacion de herramientas y algoritmos de inteligencia artificial para detectar objetos en imagenes
 
 \section{Triangulaciones de Delaunay}
-\textbf{Definición(Triángulación de Delaunay):} Una triangulación del conjunto P de los puntos sobre el plano es de Delaunay, si y solo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto $p_i$ en su interior. Como ejemplos de esta están las figuras \ref{cumple}, \ref{no_cumple} y \ref{Triangulación} . Esta definición es conocida como condición de Delaunay \cite{26,27,28}.\\    
+\textbf{Definición(Triángulación de Delaunay):} Una triangulación del conjunto $P=\{p_1,p_2 ... p_n\}$ de los puntos sobre el plano es de Delaunay, si y solo si la circunferencia circunscrita de cualquier triángulo en la red no contiene un punto $p_i$ en su interior. Como ejemplos de esta están las figuras \ref{cumple}, \ref{no_cumple} y  \ref{Triangulación}. Esta definición es conocida como condición de Delaunay \cite{26,27,28}.\\    
 
 		{\large{\textbf{Propiedades elementales de las triangulaciones de Delaunay}}}\\
 
@@ -344,14 +348,14 @@ En un estudio realizado por los autores de \cite{21,22}, se investigaron 223 con
 		\begin{minipage}{0.45\textwidth}
 			\centering
 			\includegraphics[width=0.44\linewidth]{no_td.png}  % Inserta la primera imagen
-			\caption{Triangulación no cumple condición de Delaunay}
+			\caption{Esta triangulación no cumple condición de Delaunay}
 			\label{no_cumple}
 			
 		\end{minipage}\hfill
 		\begin{minipage}{0.45\textwidth}
 			\centering
 			\includegraphics[width=0.5\linewidth]{si_td.png}  % Inserta la segunda imagen
-			\caption{Triangulación sí cumple condición de Delaunay}
+			\caption{Esta triangulación sí cumple condición de Delaunay}
 			\label{cumple}
 		\end{minipage}
 	\end{figure}
@@ -378,11 +382,11 @@ En un estudio realizado por los autores de \cite{21,22}, se investigaron 223 con
 %En \cite{3} se propuso un algoritmo para la detección de contraseñas con patrones suaves en PassPoint. El algoritmo propuesto recibe como entrada los puntos seleccionados por el usuario en la contraseña y un parámetro   $D(\varphi\degree)$  que es un valor de tolerancia. Con los 5 puntos dados de la contraseña se calculan los tres ángulos entre los segmentos consecutivos formados por los puntos, el algoritmo detecta que está ante la presencia de una contraseña con un patrón suave cuando los tres ángulos son mayores que $D(\varphi\degree)$.
 En \cite{3} se presentó un algoritmo diseñado para identificar contraseñas con patrones suaves en el método PassPoint. Este algoritmo toma como datos de entrada los puntos seleccionados por el usuario al crear su contraseña, junto con un parámetro de tolerancia, representado como $D(\varphi\degree)$. A partir de los 5 puntos que componen la contraseña, se calculan los tres ángulos formados entre los segmentos consecutivos que conectan dichos puntos. El algoritmo determina que una contraseña presenta un patrón suave cuando los tres ángulos calculados superan el valor del parámetro $D(\varphi\degree)$.
 
-La cuestión de este algoritmo es la selección del valor $D(\varphi\degree)$ pues este va a ser el mayor determinante de la decisión del mismo. Para la solución de este problema se contó con una implementación básica del PassPoint para la web con dos imágenes de 700x400. Un grupo de 60 alumnos de la Universidad de Ciencias Informáticas crearon 397 contraseñas, las cuales se clasificaron visualmente y se decidió que 124 de ellas cumplían con el patrón de suavidad. 
+La cuestión de este algoritmo es la selección del valor $D(\varphi\degree)$ pues este va a ser el mayor determinante en la decisión del mismo. Para la solución de este problema se contó con una implementación básica del PassPoint para la web con dos imágenes de 700x400. Un grupo de 60 alumnos de la Universidad de Ciencias Informáticas crearon 397 contraseñas, las cuales se clasificaron visualmente y se decidió que 124 de ellas cumplían con el patrón de suavidad. 
 
-En un primer experimento se aplicó el algoritmo propuesto a las 124 contraseñas variando con paso 10 el parámetro $D(\varphi\degree)$ y de esta manera conocer los falsos negativos obtenidos por el algoritmo para cada valor de $D(\varphi\degree)\in$ \{20,30,40,50....,150\}. Se observó que al aumentar $D(\varphi\degree)$ reducen los falsos negativos y que para valores de $D(\varphi\degree)$ mayores a $80\degree$  ocurre poca variación en la cantidad de contraseñas detectadas, incluso para $D(\varphi\degree)=150\degree$  aún quedan 3 contraseñas no detectadas, quizás esto pueda ser un error debido a la clasificación del observador.
+En un primer experimento se aplicó el algoritmo propuesto a las 124 contraseñas variando con paso 10 el parámetro $D(\varphi\degree)$, y de esta manera se determinaron los falsos negativos obtenidos por el algoritmo para cada valor de $D(\varphi\degree)\in$ \{20,30,40,50....,150\}. Se observó que al aumentar $D(\varphi\degree)$ se reducen los falsos negativos, y que para valores de $D(\varphi\degree)$ mayores a $80\degree$  ocurre poca variación en la cantidad de contraseñas detectadas. Incluso para $D(\varphi\degree)=150\degree$  aún quedan 3 contraseñas no detectadas, quizás esto pueda ser un error debido a la clasificación del observador.
 
-En un segundo experimento se aplica el algoritmo para las 397 contraseñas registradas inicialmente por los 60 usuarios y los mismos valores de $D(\varphi\degree)$ que en el experimento anterior, para identificar cuántas nuevas contraseñas detectaba el algoritmo que no estaban en la clasificación inicial. Se pudo apreciar que el número crece a partir de que $D(\varphi\degree)$ es mayor que 50\degree. Dada la contradicción entre las contraseñas detectadas por el algoritmo y las clasificadas por el observador, se realizó un análisis de las contraseñas no clasificadas por este pero sí por el algoritmo y se pudo demostrar que sí cumplían con el patrón de suavidad. Esto sugiere que el observador puede haber cometido errores de clasificación, ya que el usuario que eligió la contraseña intentaba establecer conexiones entre los puntos, aunque la suavidad de estas relaciones no sea evidente para quien observa.
+En un segundo experimento se aplicó el algoritmo para las 397 contraseñas registradas inicialmente por los 60 usuarios y los mismos valores de $D(\varphi\degree)$ que en el experimento anterior, para identificar cuántas nuevas contraseñas detectaba el algoritmo que no estaban en la clasificación inicial. Se pudo apreciar que el número crece a partir de que $D(\varphi\degree)$ es mayor que 50\degree. Dada la contradicción entre las contraseñas detectadas por el algoritmo y las clasificadas por el observador, se realizó un análisis de las contraseñas no clasificadas por este pero sí por el algoritmo y se pudo demostrar que sí cumplían con el patrón de suavidad. Esto sugiere que el observador puede haber cometido errores de clasificación, ya que el usuario que eligió la contraseña intentaba establecer conexiones entre los puntos, aunque la suavidad de estas relaciones no sea evidente para quien observa.
  
 
 Como tercer experimento se aplicó el algoritmo sobre un conjunto de 400 contraseñas aleatorias para detectar los falsos positivos para cada valor de $D(\varphi\degree)$. Según los resultados, se sugiere usar por defecto $D(\varphi\degree)$=130\degree, ya que representa un buen equilibrio entre falsos positivos y falsos negativos. La figura \ref{frecuencia}  extraída de \cite{3} proporciona la información necesaria para ajustar este parámetro según las necesidades del usuario. Incrementar $D(\varphi\degree)$ mejora la seguridad, mientras que reducirlo favorece la usabilidad del sistema.
@@ -390,7 +394,7 @@ Como tercer experimento se aplicó el algoritmo sobre un conjunto de 400 contras
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{grafosviel.png}
-	\caption{Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi\degree)}$}. Tomada de \cite{3}.
+	\caption{Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi\degree)}$.} Tomada de \cite{3}.
 	\label{frecuencia}
 \end{figure}
 
@@ -415,7 +419,7 @@ Los resultados experimentales revelaron que las contraseñas que se ajustan a es
 
 La eficacia del \textit{test} se evaluó utilizando seis bases de datos que contenían 10 000 contraseñas cada una. Tres de estas bases incluían contraseñas que formaban patrones DIAG y tres contenían patrones LINE, y a su vez cada una con distintos niveles de suavidad. Las bases de datos fueron segmentadas según los ángulos entre los segmentos consecutivos, una frecuencia que se determinó en \cite{5} como mayor a la media. El \textit{test} logró detectar el 100\% de las contraseñas gráficas que seguían los patrones DIAG y LINE, para segmentos consecutivos con una amplitud máxima entre 150° y 180° (Db1.DIAG, Db2.DIAG, Db1.LINE, Db2.LINE) en todos los niveles de significación evaluados.
 
-Para contraseñas cuyos patrones tenían una amplitud entre 135° y 150° (Db3.DIAG, Db3.LINE), el \textit{test} logró una detección del 100\% en los niveles de significación $\alpha$ = 0.2 y $\alpha$ = 0.1. Sin embargo, en los niveles de significación más bajos  $\alpha$ $\in$ \{0.05, 0.02, 0.01\}, la tasa de detección disminuyó a aproximadamente 88\%, 42\% y 16\%, respectivamente. Para fines generales, los autores recomiendan utilizar un nivel de significación de $\alpha$ = 0.05, ya que este valor ofrece resultados superiores al 91\% de detección para patrones DIAG y 88\% para patrones LINE, a cambio de solo un falso positivo cada 20.
+Para contraseñas cuyos patrones tenían una amplitud entre 135° y 150° (Db3.DIAG, Db3.LINE), el \textit{test} logró una detección del 100\% en los niveles de significación $\alpha$ = 0.2 y $\alpha$ = 0.1. Sin embargo, en los niveles de significación más bajos  $\alpha$ $\in$ \{0.05, 0.02, 0.01\}, la tasa de detección disminuyó a aproximadamente 88\%, 42\% y 16\%, respectivamente. Para fines generales, los autores recomendaron utilizar un nivel de significación de $\alpha$ = 0.05, ya que este valor ofrece resultados superiores al 91\% de detección para patrones DIAG y 88\% para patrones LINE, a cambio de solo un falso positivo cada 20.
 
 
 
@@ -432,15 +436,18 @@ Para contraseñas cuyos patrones tenían una amplitud entre 135° y 150° (Db3.D
 \setcounter{chapter}{2}
 
 \chapter*{\LARGE{Capítulo 2}}
-\addcontentsline{toc}{chapter}{2. Detección de patrones DIAG y LINE en PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay}
+\addcontentsline{toc}{chapter}{2. Detección de patrones DIAG y LINE en PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay, condicionado al número de triángulos}
 
 \vspace{-2em} % Reduce el espacio entre el título y el texto siguiente
 
 \noindent\textbf{\LARGE Detección de patrones DIAG y LINE en PassPoint, basado en el promedio de los ángulos máximos de los triángulos de Delaunay}\\
 \vspace{2em}
 \\	
-En \cite{13} se demostró que el promedio de los ángulos máximos de los triángulos de Delaunay es un estadígrafo eficaz para la detección de patrones DIAG y LINE. Teniendo en cuenta que las contraseñas en PassPoint se crean con la selección de 5 puntos, los posibles números de triángulos de Delaunay pueden ser 3, 4 o 5 como se mostró en la sección 1.3. En las próximas secciones se realizarán tres \textit{test} de detección de contraseñas  que siguen patrones DIAG o LINE basados en el promedio de los ángulos  máximos de los triángulos de Delaunay, pero  realizando un análisis separado por cada número de triángulos en su triangulación.
-En cada subsección se determinará a que distribución pertenecen los promedios de los ángulos máximos de los triángulos de Delaunay para la cantidad de triángulos correspondiente, esto a través  del sofware EasyFit, se realizará un \textit{test} estidístico para la detección de contraseñas con patrones DIAG y LINE, y se evaluará su efectividad estimando los errores de  tipo I y de tipo II 
+En \cite{13} se demostró que el promedio de los ángulos máximos de los triángulos de Delaunay es un estadígrafo eficaz para la detección de patrones DIAG y LINE. Teniendo en cuenta que las contraseñas en PassPoint se crean con la selección de 5 puntos, los posibles números de triángulos de Delaunay pueden ser 3, 4 o 5 como se mostró en la sección 1.3. En las próximas secciones se proponen tres \textit{test} de detección de contraseñas  que siguen patrones DIAG o LINE en PassPoint, basados en el promedio de los ángulos  máximos de los triángulos de Delaunay, pero  realizando un análisis separado por cada número de triángulos en su triangulación.
+En cada subsección se determinarán las distribuciones a las qué se ajustaron los promedios de los ángulos máximos de los triángulos de Delaunay para el número de triángulos correspondiente, a través  del software EasyFit 5.6. A partir de ello se construirá un \textit{test} estidístico para la detección de contraseñas con patrones DIAG y LINE, y se evaluará su efectividad estimando los errores de  tipo I y de tipo II cometidos.
+
+La justificación de el uso de EasyFit 5.6 para ajustar los datos a una distribución conocida se basa en que esta versión del software contiene un total de 54 distribuciones conocidas y una implementación de los \textit{test} de bondad de ajuste:
+Kolmogorov-Smirnov, Anderson-Darling y Chi-Cuadrado, los cuales son empleados para encontrar la distribución de mejor ajuste a los datos/
 
 
 \setcounter{section}{0}
@@ -450,17 +457,17 @@ En esta sección cuando se hace referencia  al promedio de los ángulos máximos
 	\centering
 	
 	\includegraphics[width=0.41\textwidth]{alea3td.png}
-	\caption{Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 3 triángulos}
+	\caption{Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 3 triángulos.}
 	\label{3TD}
 \end{figure}
 \subsection{Estimación de la distribución del promedio de los ángulos máximos de los triángulos de Delaunay }
-	\textbf{Experimento \#1}.
+	\textbf{Experimento \#1.1}.
 	
-	 Para estimar la distribución del promedio de los ángulos máximos de los triángulos de Delaunay para contraseñas gráficas en Passpoint, se generaron aleatoriamente 1000 contraseñas gráficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  construyó  su correspondiente triangulación  de Delaunay  y se  determinó el promedio  de los ángulos máximos de su triangulación de Delaunay resultante. La base de datos que contiene los 1000 promedios se le denominó DB.1.
+	 Para estimar la distribución del promedio de los ángulos máximos de los triángulos de Delaunay para contraseñas gráficas en PassPoint, se generaron aleatoriamente 1000 contraseñas gráficas de 5 puntos en una imagen de 1920x1080. Para cada una de estas contraseñas se  construyó  su correspondiente triangulación  de Delaunay  y se  determinó el promedio  de los ángulos máximos de su triangulación de Delaunay resultante. A la base de datos que contiene los 1000 promedios se le denominó DB.1. Una vez creada dicha base de datos, se utilizó el software EasyFit 5.6 para ajustar dichos datos a una distribución conocida.
 	 
-	 \textbf{Resultados del experimento \#1.}
+	 \textbf{Resultados del experimento \#1.1.}
 	 
-	 En la tabla \ref{teo_BD1}  se muestran las 6 distribuciones que más se ajustan a los datos encontrados en DB.1, encontrandose en el primer lugar \textit{Johnson SB} con los parámetros $\gamma=1.9152$ $\delta=1.4296$ $\lambda134.77$  $\xi=68.377$, también se puede observar que la distribución Normal no se ajusta  a los datos, rechazando los tres \textit{test} de bondad de ajuste para todos los niveles de significación . En la figura \ref{3TD_BONDAD} se  muestran los resultados de tres de los \textit{test} de bondad de ajuste aplicados a la distribución \textit{Johnson SB} sobre  datos contenidos en DB.1  y en la figura \ref{3TD_FDP}  se muestra la función de densidad de probabilidad de la misma.
+	 En la tabla \ref{teo_BD1}  se muestran las 6 distribuciones a las que más se ajustaron a los datos encontrados en DB.1,teniendo en cuenta los tres test de bondad de ajuste mencionados anteriormente. Encontrándose en el primer lugar \textit{Johnson SB} con los parámetros $\gamma=1.9152$, $\delta=1.4296$, $\lambda134.77$ y $\xi=68.377$.  Sin embargo, cabe destacar que los datos se ajustaron a  distribuciones conocidas, no encontrándose entre ellas la distribución Normal, al contrario de como se esperaba, pues se rechazan para esta distribución los tres test de bondad de ajuste aplicados para todos los niveles de significación, como muestra la tabla \ref{teo_BD1} . En la figura \ref{3TD_BONDAD} se  muestran los resultados de tres de los \textit{test} de bondad de ajuste aplicados a la distribución \textit{Johnson SB} sobre  datos contenidos en DB.1 donde  para ninguno de los tres test de bondad de ajuste  se rechaza la hipótesis nula de que los datos provienen de la distribución teórica \textit{Johnson SB}, aceptandolos para todo nivel de significación  y por tanto indicando un buen ajuste.En la figura \ref{3TD_FDP}  se muestra la función de densidad de probabilidad de la misma.
 	  	\begin{figure}[ht]
 	  	\centering
 	  	
@@ -469,17 +476,15 @@ En esta sección cuando se hace referencia  al promedio de los ángulos máximos
 	  	\label{3TD_BONDAD}
 	  \end{figure}
 	  
-	  	
 	  
-	 Como se observa en la figura  \ref{3TD_BONDAD}, para los tres métodos de bondad de ajuste (Kolmogorov-Smirnov, Anderson-Darling y Chi-cuadrado), no se rechaza la hipótesis nula de que los datos provienen de la distribución teórica \textit{Johnson SB}, en ningún nivel de significación evaluado, indicando un buen ajuste hacia la misma.
 	 
-	 A partir de este resultado, en el resto de la sección se asume que la muestra BD.1 y ,por tanto, el promedio de los ángulos máximos de los triángulos de Delaunay para triangulaciones  proceden de una distribución \textit{Johnson SB}, por lo que se puede asumir que las contraseñas que incumplan esta propiedad no son aleatorias.
+	 A partir de este resultado, en el resto de la sección se asume que la muestra BD.1 y, por tanto, el promedio de los ángulos máximos de las triangulaciones de Delaunay que tengan tres triángulos en las contraseñas de PassPoint, proceden de una distribución \textit{Johnson SB}. Por lo que se puede asumir que las contraseñas que incumplan esta propiedad no son aleatorias.
 	 La aplicación práctica de este criterio se facilita porque después de  aplicar la transformación de \textit{Johnson SB}  mediante la fórmula \cite{30} :
 	 
 	  
 	 \[
-	 P_D^{N} = J_{SB}(P_D) = \gamma + \delta \times ln\left(\frac{P_D - \xi}{\lambda + \xi - P_D}\right)
-	 \],
+	 P_D^{N} = J_{SB}(P_D) = \gamma + \delta \times ln\left(\frac{P_D - \xi}{\lambda + \xi - P_D}\right),
+	 \]
 	 con los parámetros correspondientes, el promedio transformado debe seguir una distribución normal estándar $P_D^{N}\sim N(0,1)$. Basado en la propiedad anterior , la detección de la no aleatoriedad de las contraseñas se reduce a aplicar un \textit{test} de media para la distribución normal del estadígrafo muestral transformado a \textit{Johnson SB}.
 	 \begin{figure}[ht]
 	 	\centering
