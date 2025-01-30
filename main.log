@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  27 JAN 2025 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  30 JAN 2025 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -281,6 +281,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
+(C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box53
+\extrarowheight=\dimen153
+\NC@list=\toks22
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -290,47 +300,47 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count285
 \Gm@cntv=\count286
 \c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks22
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks23
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box53
-\beforetitleunit=\skip51
-\aftertitleunit=\skip52
-\ttl@plus=\dimen160
-\ttl@minus=\dimen161
-\ttl@toksa=\toks23
-\titlewidth=\dimen162
-\titlewidthlast=\dimen163
-\titlewidthfirst=\dimen164
+\ttl@box=\box55
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen162
+\ttl@minus=\dimen163
+\ttl@toksa=\toks24
+\titlewidth=\dimen164
+\titlewidthlast=\dimen165
+\titlewidthfirst=\dimen166
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip53
-\f@nch@offset@elh=\skip54
-\f@nch@offset@erh=\skip55
-\f@nch@offset@olh=\skip56
-\f@nch@offset@orh=\skip57
-\f@nch@offset@elf=\skip58
-\f@nch@offset@erf=\skip59
-\f@nch@offset@olf=\skip60
-\f@nch@offset@orf=\skip61
-\f@nch@height=\skip62
-\f@nch@footalignment=\skip63
-\f@nch@widthL=\skip64
-\f@nch@widthC=\skip65
-\f@nch@widthR=\skip66
-\@temptokenb=\toks24
+\f@nch@headwidth=\skip55
+\f@nch@offset@elh=\skip56
+\f@nch@offset@erh=\skip57
+\f@nch@offset@olh=\skip58
+\f@nch@offset@orh=\skip59
+\f@nch@offset@elf=\skip60
+\f@nch@offset@erf=\skip61
+\f@nch@offset@olf=\skip62
+\f@nch@offset@orf=\skip63
+\f@nch@height=\skip64
+\f@nch@footalignment=\skip65
+\f@nch@widthL=\skip66
+\f@nch@widthC=\skip67
+\f@nch@widthR=\skip68
+\@temptokenb=\toks25
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
@@ -373,7 +383,7 @@ Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@svg@param@lastpage=\count288
-\svg@box=\box54
+\svg@box=\box56
 \c@svg@param@currpage=\count289
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
@@ -391,13 +401,13 @@ sty
 y
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen165
-\pgfutil@tempdimb=\dimen166
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen167
+\pgfutil@tempdimb=\dimen168
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -410,32 +420,32 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen167
-\pgf@y=\dimen168
-\pgf@xa=\dimen169
-\pgf@ya=\dimen170
-\pgf@xb=\dimen171
-\pgf@yb=\dimen172
-\pgf@xc=\dimen173
-\pgf@yc=\dimen174
-\pgf@xd=\dimen175
-\pgf@yd=\dimen176
+\pgf@x=\dimen169
+\pgf@y=\dimen170
+\pgf@xa=\dimen171
+\pgf@ya=\dimen172
+\pgf@xb=\dimen173
+\pgf@yb=\dimen174
+\pgf@xc=\dimen175
+\pgf@yc=\dimen176
+\pgf@xd=\dimen177
+\pgf@yd=\dimen178
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count290
 \c@pgf@countb=\count291
 \c@pgf@countc=\count292
 \c@pgf@countd=\count293
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
 \pgf@sys@id@count=\count294
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -462,53 +472,53 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 60.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box56
+\l__pdf_internal_box=\box58
 ) (main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 \c@lstlisting=\count298
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
-\scratchdimen=\dimen177
-\scratchbox=\box57
+\scratchdimen=\dimen179
+\scratchbox=\box59
 \nofMPsegments=\count300
 \nofMParguments=\count301
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count302
-\MPscratchDim=\dimen178
+\MPscratchDim=\dimen180
 \MPnumerator=\count303
 \makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 )
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -520,9 +530,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-Package hyperref Info: Link coloring ON on input line 73.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -564,26 +574,26 @@ Package hyperref Info: Link coloring ON on input line 73.
 
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 73.
-Package gensymb Info: Math companion symbols declared on input line 73.
-LaTeX Info: Redefining \degree on input line 73.
-LaTeX Info: Redefining \celsius on input line 73.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 75.
+Package gensymb Info: Math companion symbols declared on input line 75.
+LaTeX Info: Redefining \degree on input line 75.
+LaTeX Info: Redefining \celsius on input line 75.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 73.
-LaTeX Info: Redefining \ohm on input line 73.
-Package gensymb Info: Using \textohm for \ohm on input line 73.
-Package gensymb Info: Using \textmu for \micro on input line 73.
+erthousand on input line 75.
+LaTeX Info: Redefining \ohm on input line 75.
+Package gensymb Info: Using \textohm for \ohm on input line 75.
+Package gensymb Info: Using \textmu for \micro on input line 75.
 <img/logoUH.png, id=121, 231.11343pt x 288.3272pt>
 File: img/logoUH.png Graphic file (type png)
 <use img/logoUH.png>
-Package pdftex.def Info: img/logoUH.png  used on input line 83.
+Package pdftex.def Info: img/logoUH.png  used on input line 85.
 (pdftex.def)             Requested size: 135.89174pt x 169.53522pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 96.
+(Font)              <12> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 96.
+(Font)              <8> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 96.
+(Font)              <6> on input line 98.
 [1
 
 {C:/Users/ovidi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logoUH
@@ -592,7 +602,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122 \chapter
+l.124 \chapter
               *{Abstract} [1
 
 ] [2
@@ -628,54 +638,49 @@ LaTeX Info: Redefining \% on input line 1.
 ] [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 [9]
-<img/passpoint.png, id=347, 269.50688pt x 200.24812pt>
+<img/passpoint.png, id=346, 269.50688pt x 200.24812pt>
 File: img/passpoint.png Graphic file (type png)
 <use img/passpoint.png>
 Package pdftex.def Info: img/passpoint.png  used on input line 243.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
  [10
 
- <./img/passpoint.png>]
-Overfull \hbox (24.16411pt too wide) in paragraph at lines 266--281
- [][] 
- []
-
-[11]
+ <./img/passpoint.png>] [11]
 <img/DIAG_LINE.png, id=384, 389.65575pt x 193.32225pt>
 File: img/DIAG_LINE.png Graphic file (type png)
 <use img/DIAG_LINE.png>
@@ -715,7 +720,7 @@ File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 387.
-<img/grafosviel.png, id=434, 860.013pt x 428.3202pt>
+<img/grafosviel.png, id=435, 860.013pt x 428.3202pt>
 File: img/grafosviel.png Graphic file (type png)
 <use img/grafosviel.png>
 Package pdftex.def Info: img/grafosviel.png  used on input line 396.
@@ -726,116 +731,100 @@ Overfull \hbox (1.30746pt too wide) in paragraph at lines 443--448
 \OT1/cmr/bx/n/20.74 Detecci^^Son de pa-tro-nes DIAG y LI-NE en Pass-
  []
 
-<img/alea3td.png, id=450, 462.528pt x 346.896pt>
+[17
+
+]
+<img/alea3td.png, id=455, 462.528pt x 346.896pt>
 File: img/alea3td.png Graphic file (type png)
 <use img/alea3td.png>
 Package pdftex.def Info: img/alea3td.png  used on input line 459.
 (pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
-[17
-
-]
-<img/3td_BONDAD.png, id=459, 383.18156pt x 375.65344pt>
+<img/3td_BONDAD.png, id=460, 383.18156pt x 375.65344pt>
 File: img/3td_BONDAD.png Graphic file (type png)
 <use img/3td_BONDAD.png>
-Package pdftex.def Info: img/3td_BONDAD.png  used on input line 474.
+Package pdftex.def Info: img/3td_BONDAD.png  used on input line 475.
 (pdftex.def)             Requested size: 271.7835pt x 266.45786pt.
-<img/3td_fdp.png, id=461, 420.82219pt x 436.63126pt>
+ [18 <./img/alea3td.png>]
+<img/3td_fdp.png, id=468, 420.82219pt x 436.63126pt>
 File: img/3td_fdp.png Graphic file (type png)
 <use img/3td_fdp.png>
-Package pdftex.def Info: img/3td_fdp.png  used on input line 492.
+Package pdftex.def Info: img/3td_fdp.png  used on input line 493.
 (pdftex.def)             Requested size: 226.48395pt x 234.9912pt.
- [18 <./img/alea3td.png>] [19 <./img/3td_BONDAD.png>] [20 <./img/3td_fdp.png>] 
-[21]
-<img/3td_teo_obs.png, id=519, 462.528pt x 346.896pt>
+ [19 <./img/3td_BONDAD.png>] [20 <./img/3td_fdp.png>] [21]
+<img/3td_teo_obs.png, id=508, 462.528pt x 346.896pt>
 File: img/3td_teo_obs.png Graphic file (type png)
 <use img/3td_teo_obs.png>
-Package pdftex.def Info: img/3td_teo_obs.png  used on input line 600.
+Package pdftex.def Info: img/3td_teo_obs.png  used on input line 606.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
- [22] [23 <./img/3td_teo_obs.png>] [24]
-<img/alea4td.png, id=543, 462.528pt x 346.896pt>
+ [22] [23 <./img/3td_teo_obs.png>]
+<img/alea4td.png, id=539, 462.528pt x 346.896pt>
 File: img/alea4td.png Graphic file (type png)
 <use img/alea4td.png>
-Package pdftex.def Info: img/alea4td.png  used on input line 654.
+Package pdftex.def Info: img/alea4td.png  used on input line 662.
 (pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
-<img/4td_bondad.png, id=547, 381.67593pt x 371.88937pt>
+ [24 <./img/alea4td.png>]
+<img/4td_bondad.png, id=549, 381.67593pt x 371.88937pt>
 File: img/4td_bondad.png Graphic file (type png)
 <use img/4td_bondad.png>
-Package pdftex.def Info: img/4td_bondad.png  used on input line 671.
+Package pdftex.def Info: img/4td_bondad.png  used on input line 682.
 (pdftex.def)             Requested size: 226.48395pt x 220.67825pt.
- [25 <./img/alea4td.png>]
-<img/4td_fdp.png, id=554, 332.74312pt x 284.56313pt>
+<img/4td_fdp.png, id=550, 332.74312pt x 284.56313pt>
 File: img/4td_fdp.png Graphic file (type png)
 <use img/4td_fdp.png>
-Package pdftex.def Info: img/4td_fdp.png  used on input line 686.
+Package pdftex.def Info: img/4td_fdp.png  used on input line 697.
 (pdftex.def)             Requested size: 271.7835pt x 232.44446pt.
-
-[26 <./img/4td_bondad.png> <./img/4td_fdp.png>] [27] [28] [29]
-<img/4td_teo_obs.png, id=613, 462.528pt x 346.896pt>
-File: img/4td_teo_obs.png Graphic file (type png)
-<use img/4td_teo_obs.png>
-Package pdftex.def Info: img/4td_teo_obs.png  used on input line 870.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 866--874
-
- []
-
+ [25 <./img/4td_bondad.png>] [26 <./img/4td_fdp.png>] [27] [28]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30]
-<img/alea5td.png, id=621, 462.528pt x 346.896pt>
-File: img/alea5td.png Graphic file (type png)
-<use img/alea5td.png>
-Package pdftex.def Info: img/alea5td.png  used on input line 911.
-(pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
- [31 <./img/4td_teo_obs.png>]
-<img/5td_bondad.png, id=630, 376.40625pt x 372.64218pt>
-File: img/5td_bondad.png Graphic file (type png)
-<use img/5td_bondad.png>
-Package pdftex.def Info: img/5td_bondad.png  used on input line 928.
-(pdftex.def)             Requested size: 226.48395pt x 224.22386pt.
+<img/4td_teo_obs.png, id=589, 462.528pt x 346.896pt>
+File: img/4td_teo_obs.png Graphic file (type png)
+<use img/4td_teo_obs.png>
+Package pdftex.def Info: img/4td_teo_obs.png  used on input line 878.
+(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Overfull \hbox (18.06749pt too wide) in paragraph at lines 933--934
-[]\OT1/cmr/m/n/12 Como se ob-ser-va en la fi-gu-ra [][]2.16[][], pa-ra los tres
- m^^Seto-dos de bon-dad de ajus-te (Kolmogorov-
+Underfull \hbox (badness 10000) in paragraph at lines 874--882
+
  []
 
+[29]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <./img/4td_teo_obs.png>]
+<img/alea5td.png, id=622, 462.528pt x 346.896pt>
+File: img/alea5td.png Graphic file (type png)
+<use img/alea5td.png>
+Package pdftex.def Info: img/alea5td.png  used on input line 919.
+(pdftex.def)             Requested size: 185.71849pt x 139.29054pt.
+ [31 <./img/alea5td.png>]
+<img/5td_bondad.png, id=631, 376.40625pt x 372.64218pt>
+File: img/5td_bondad.png Graphic file (type png)
+<use img/5td_bondad.png>
+Package pdftex.def Info: img/5td_bondad.png  used on input line 938.
+(pdftex.def)             Requested size: 226.48395pt x 224.22386pt.
 <img/5td_fdp.png, id=632, 399.74344pt x 436.63126pt>
 File: img/5td_fdp.png Graphic file (type png)
 <use img/5td_fdp.png>
-Package pdftex.def Info: img/5td_fdp.png  used on input line 939.
+Package pdftex.def Info: img/5td_fdp.png  used on input line 949.
 (pdftex.def)             Requested size: 226.48395pt x 247.38335pt.
-[32 <./img/alea5td.png>] [33 <./img/5td_bondad.png>] [34 <./img/5td_fdp.png>]
-<img/5td_teo_obs.png, id=670, 462.528pt x 346.896pt>
+ [32 <./img/5td_bondad.png>] [33 <./img/5td_fdp.png>] [34]
+<img/5td_teo_obs.png, id=684, 462.528pt x 346.896pt>
 File: img/5td_teo_obs.png Graphic file (type png)
 <use img/5td_teo_obs.png>
-Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1046.
+Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1058.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1062
 
  []
 
-[35]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[35 <./img/5td_teo_obs.png>] [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1083.
+(hyperref)                removing `\@ifnextchar' on input line 1131.
 
-[36 <./img/5td_teo_obs.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1119.
-
-[37] [38]
-Cap\'{\i }tulo 3.
-[39
+[37] [38] [39
 
 ] [40] [41
 
@@ -852,16 +841,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3100AA7F00B8DFF60B20BCE4D11DD628;11204.
+(rerunfilecheck)             Checksum: 185EB5952D035F45579569A435B369AC;12306.
  ) 
 Here is how much of TeX's memory you used:
- 15952 strings out of 474486
- 264416 string characters out of 5743755
- 2141542 words of memory out of 5000000
- 37741 multiletter control sequences out of 15000+600000
+ 16016 strings out of 474486
+ 265347 string characters out of 5743755
+ 2135542 words of memory out of 5000000
+ 37803 multiletter control sequences out of 15000+600000
  565177 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,93p,1747b,2095s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,93p,2051b,2095s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ovidi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -879,9 +868,9 @@ msfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ovidi/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (45 pages, 1243885 bytes).
+Output written on main.pdf (45 pages, 1246975 bytes).
 PDF statistics:
- 869 PDF objects out of 1000 (max. 8388607)
+ 870 PDF objects out of 1000 (max. 8388607)
  257 named destinations out of 1000 (max. 500000)
  340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
