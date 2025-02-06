@@ -5,16 +5,18 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Esta triangulación sí cumple condición de Delaunay}}{13}{figure.1.4}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Triangulación de Delaunay para 10 puntos}}{14}{figure.1.5}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi \degree )}$.}}{15}{figure.1.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 3 triángulos.}}{18}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces \textit {Test} de bondad de ajuste aplicados a la distribución \textit {Johnson SB} sobre BD.1.}}{19}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Función de densidad de probabilidad de la distribución \textit {Johnson SB} para BD.1.}}{20}{figure.2.9}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{23}{figure.2.10}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Contraseña gráfica de 5 puntos con una triángulación de Delaunay de 4 triángulos}}{24}{figure.2.11}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.2.}}{25}{figure.2.12}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.2.}}{26}{figure.2.13}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I }}{30}{figure.2.14}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{31}{figure.2.15}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{32}{figure.2.16}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{33}{figure.2.17}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{35}{figure.2.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 3 triángulos.}}{18}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Contraseña gráfica de 5 puntos con 3 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{18}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \textit {Tests} de bondad de ajuste aplicados a la distribución Johnson SB sobre BD.1.}}{19}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Función de densidad de probabilidad de la distribución Johnson SB para BD.1.}}{20}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{23}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 4 triángulos.}}{25}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Contraseña gráfica de 5 puntos con 4 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{25}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Tests} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.2.}}{26}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.2.}}{27}{figure.2.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I }}{31}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{32}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{33}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{34}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{36}{figure.2.20}%
 \addvspace {10\p@ }
