@@ -15,8 +15,9 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Tests} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.2.}}{26}{figure.2.14}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.2.}}{27}{figure.2.15}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I }}{31}{figure.2.16}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Contraseña gráfica de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{32}{figure.2.17}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{33}{figure.2.18}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{34}{figure.2.19}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{36}{figure.2.20}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{32}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Contraseña gráfica de 5 puntos con 5 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{32}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{33}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{34}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I. }}{36}{figure.2.21}%
 \addvspace {10\p@ }
