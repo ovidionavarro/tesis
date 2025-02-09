@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  7 FEB 2025 06:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  9 FEB 2025 02:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -673,7 +673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
  []
 
 [9]
-<img/passpoint.png, id=364, 269.50688pt x 200.24812pt>
+<img/passpoint.png, id=361, 269.50688pt x 200.24812pt>
 File: img/passpoint.png Graphic file (type png)
 <use img/passpoint.png>
 Package pdftex.def Info: img/passpoint.png  used on input line 244.
@@ -681,7 +681,7 @@ Package pdftex.def Info: img/passpoint.png  used on input line 244.
  [10
 
  <./img/passpoint.png>] [11]
-<img/DIAG_LINE.png, id=402, 389.65575pt x 193.32225pt>
+<img/DIAG_LINE.png, id=399, 389.65575pt x 193.32225pt>
 File: img/DIAG_LINE.png Graphic file (type png)
 <use img/DIAG_LINE.png>
 Package pdftex.def Info: img/DIAG_LINE.png  used on input line 313.
@@ -696,17 +696,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
-<img/no_td.png, id=423, 223.43475pt x 224.63925pt>
+<img/no_td.png, id=420, 223.43475pt x 224.63925pt>
 File: img/no_td.png Graphic file (type png)
 <use img/no_td.png>
 Package pdftex.def Info: img/no_td.png  used on input line 353.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
-<img/si_td.png, id=424, 231.264pt x 210.18526pt>
+<img/si_td.png, id=421, 231.264pt x 210.18526pt>
 File: img/si_td.png Graphic file (type png)
 <use img/si_td.png>
 Package pdftex.def Info: img/si_td.png  used on input line 360.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-<img/td_10pts.png, id=426, 228.855pt x 235.47975pt>
+<img/td_10pts.png, id=423, 228.855pt x 235.47975pt>
 File: img/td_10pts.png Graphic file (type png)
 <use img/td_10pts.png>
 Package pdftex.def Info: img/td_10pts.png  used on input line 371.
@@ -720,7 +720,7 @@ File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 390.
-<img/grafosviel.png, id=452, 860.013pt x 428.3202pt>
+<img/grafosviel.png, id=450, 860.013pt x 428.3202pt>
 File: img/grafosviel.png Graphic file (type png)
 <use img/grafosviel.png>
 Package pdftex.def Info: img/grafosviel.png  used on input line 399.
@@ -734,47 +734,47 @@ Overfull \hbox (1.30746pt too wide) in paragraph at lines 446--452
 [17
 
 ]
-<img/alea3td.png, id=473, 462.528pt x 346.896pt>
+<img/alea3td.png, id=472, 462.528pt x 346.896pt>
 File: img/alea3td.png Graphic file (type png)
 <use img/alea3td.png>
 Package pdftex.def Info: img/alea3td.png  used on input line 468.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/3td30.png, id=474, 462.528pt x 346.896pt>
+<img/3td30.png, id=473, 462.528pt x 346.896pt>
 File: img/3td30.png Graphic file (type png)
 <use img/3td30.png>
 Package pdftex.def Info: img/3td30.png  used on input line 475.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/3td_BONDAD.png, id=479, 383.18156pt x 375.65344pt>
+<img/3td_BONDAD.png, id=478, 383.18156pt x 375.65344pt>
 File: img/3td_BONDAD.png Graphic file (type png)
 <use img/3td_BONDAD.png>
 Package pdftex.def Info: img/3td_BONDAD.png  used on input line 495.
 (pdftex.def)             Requested size: 271.7835pt x 266.45786pt.
  [18 <./img/alea3td.png> <./img/3td30.png>]
-<img/3td_fdp.png, id=488, 420.82219pt x 436.63126pt>
+<img/3td_fdp.png, id=487, 420.82219pt x 436.63126pt>
 File: img/3td_fdp.png Graphic file (type png)
 <use img/3td_fdp.png>
 Package pdftex.def Info: img/3td_fdp.png  used on input line 513.
 (pdftex.def)             Requested size: 226.48395pt x 234.9912pt.
  [19 <./img/3td_BONDAD.png>]
-Overfull \hbox (47.41588pt too wide) in paragraph at lines 526--527
+Overfull \hbox (15.6374pt too wide) in paragraph at lines 526--527
 \OT1/cmr/m/n/12 nay de con-tra-se~nas de 5 pun-tos con 3 tri^^Sangu-los en su t
-rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =(AMADT[]\OMS/cmsy/m/
-n/12 f\OT1/cmr/m/n/12 TD=3\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ). 
+rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =$\OML/cmm/m/it/12 AM
+ADT[]$\OT1/cmr/m/n/12 . 
  []
 
 [20 <./img/3td_fdp.png>] [21] [22]
-<img/3td_teo_obs.png, id=554, 462.528pt x 346.896pt>
+<img/3td_teo_obs.png, id=553, 462.528pt x 346.896pt>
 File: img/3td_teo_obs.png Graphic file (type png)
 <use img/3td_teo_obs.png>
 Package pdftex.def Info: img/3td_teo_obs.png  used on input line 631.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
  [23 <./img/3td_teo_obs.png>]
-<img/alea4td.png, id=564, 462.528pt x 346.896pt>
+<img/alea4td.png, id=563, 462.528pt x 346.896pt>
 File: img/alea4td.png Graphic file (type png)
 <use img/alea4td.png>
 Package pdftex.def Info: img/alea4td.png  used on input line 698.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/4td30.png, id=565, 462.528pt x 346.896pt>
+<img/4td30.png, id=564, 462.528pt x 346.896pt>
 File: img/4td30.png Graphic file (type png)
 <use img/4td30.png>
 Package pdftex.def Info: img/4td30.png  used on input line 705.
@@ -784,31 +784,31 @@ Package pdftex.def Info: img/4td30.png  used on input line 705.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24]
-<img/4td_bondad.png, id=574, 381.67593pt x 371.88937pt>
+<img/4td_bondad.png, id=573, 381.67593pt x 371.88937pt>
 File: img/4td_bondad.png Graphic file (type png)
 <use img/4td_bondad.png>
 Package pdftex.def Info: img/4td_bondad.png  used on input line 728.
-(pdftex.def)             Requested size: 226.48395pt x 220.67825pt.
-<img/4td_fdp.png, id=575, 332.74312pt x 284.56313pt>
+(pdftex.def)             Requested size: 271.7835pt x 264.82639pt.
+<img/4td_fdp.png, id=574, 332.74312pt x 284.56313pt>
 File: img/4td_fdp.png Graphic file (type png)
 <use img/4td_fdp.png>
-Package pdftex.def Info: img/4td_fdp.png  used on input line 743.
-(pdftex.def)             Requested size: 271.7835pt x 232.44446pt.
+Package pdftex.def Info: img/4td_fdp.png  used on input line 735.
+(pdftex.def)             Requested size: 181.18439pt x 154.95139pt.
  [25 <./img/alea4td.png> <./img/4td30.png>]
-Overfull \hbox (51.52834pt too wide) in paragraph at lines 756--757
+Overfull \hbox (19.74986pt too wide) in paragraph at lines 755--756
 \OT1/cmr/m/n/12 nay en un con-jun-to de 5 pun-tos, con 4 tri^^Sangu-los en su t
-rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =(AMADT[]\OMS/cmsy/m/
-n/12 f\OT1/cmr/m/n/12 TD=4\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ). 
+rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =$\OML/cmm/m/it/12 AM
+ADT[]$\OT1/cmr/m/n/12 . 
  []
 
 [26 <./img/4td_bondad.png>] [27 <./img/4td_fdp.png>] [28] [29]
-<img/4td_teo_obs.png, id=640, 462.528pt x 346.896pt>
+<img/4td_teo_obs.png, id=639, 462.528pt x 346.896pt>
 File: img/4td_teo_obs.png Graphic file (type png)
 <use img/4td_teo_obs.png>
-Package pdftex.def Info: img/4td_teo_obs.png  used on input line 929.
+Package pdftex.def Info: img/4td_teo_obs.png  used on input line 928.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 925--933
+Underfull \hbox (badness 10000) in paragraph at lines 924--932
 
  []
 
@@ -816,50 +816,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 925--933
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [30] [31 <./img/4td_teo_obs.png>]
-<img/alea5td.png, id=654, 462.528pt x 346.896pt>
+<img/alea5td.png, id=653, 462.528pt x 346.896pt>
 File: img/alea5td.png Graphic file (type png)
 <use img/alea5td.png>
-Package pdftex.def Info: img/alea5td.png  used on input line 972.
+Package pdftex.def Info: img/alea5td.png  used on input line 971.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/5td30.png, id=655, 462.528pt x 346.896pt>
+<img/5td30.png, id=654, 462.528pt x 346.896pt>
 File: img/5td30.png Graphic file (type png)
 <use img/5td30.png>
-Package pdftex.def Info: img/5td30.png  used on input line 979.
+Package pdftex.def Info: img/5td30.png  used on input line 978.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/5td_bondad.png, id=659, 376.40625pt x 372.64218pt>
+<img/5td_bondad.png, id=658, 376.40625pt x 372.64218pt>
 File: img/5td_bondad.png Graphic file (type png)
 <use img/5td_bondad.png>
-Package pdftex.def Info: img/5td_bondad.png  used on input line 1001.
-(pdftex.def)             Requested size: 226.48395pt x 224.22386pt.
+Package pdftex.def Info: img/5td_bondad.png  used on input line 1000.
+(pdftex.def)             Requested size: 271.7835pt x 269.08684pt.
  [32 <./img/alea5td.png> <./img/5td30.png>]
-<img/5td_fdp.png, id=666, 399.74344pt x 436.63126pt>
+<img/5td_fdp.png, id=665, 399.74344pt x 436.63126pt>
 File: img/5td_fdp.png Graphic file (type png)
 <use img/5td_fdp.png>
-Package pdftex.def Info: img/5td_fdp.png  used on input line 1012.
+Package pdftex.def Info: img/5td_fdp.png  used on input line 1011.
 (pdftex.def)             Requested size: 226.48395pt x 247.38335pt.
 
 [33 <./img/5td_bondad.png>]
-Overfull \hbox (51.52834pt too wide) in paragraph at lines 1027--1028
+Overfull \hbox (19.74986pt too wide) in paragraph at lines 1026--1027
 \OT1/cmr/m/n/12 nay en un con-jun-to de 5 pun-tos, con 5 tri^^Sangu-los en su t
-rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =(AMADT[]\OMS/cmsy/m/
-n/12 f\OT1/cmr/m/n/12 TD=5\OMS/cmsy/m/n/12 g\OT1/cmr/m/n/12 ). 
+rian-gu-la-ci^^Son, $\OML/cmm/m/it/12 X[]$\OT1/cmr/m/n/12 =$\OML/cmm/m/it/12 AM
+ADT[]$\OT1/cmr/m/n/12 . 
  []
 
 [34 <./img/5td_fdp.png>]
-<img/5td_teo_obs.png, id=687, 462.528pt x 346.896pt>
+<img/5td_teo_obs.png, id=688, 462.528pt x 346.896pt>
 File: img/5td_teo_obs.png Graphic file (type png)
 <use img/5td_teo_obs.png>
-Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1131.
+Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1130.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1112--1135
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1134
 
  []
 
-[35] [36 <./img/5td_teo_obs.png>]
+[35]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[36 <./img/5td_teo_obs.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -888,10 +889,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7594341181A440950F586C75A0123C01;12684.
  ) 
 Here is how much of TeX's memory you used:
- 16048 strings out of 474486
- 265753 string characters out of 5743755
+ 16046 strings out of 474486
+ 265726 string characters out of 5743755
  2140542 words of memory out of 5000000
- 37858 multiletter control sequences out of 15000+600000
+ 37857 multiletter control sequences out of 15000+600000
  565177 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,1867b,2095s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -912,9 +913,9 @@ msfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ovidi/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (46 pages, 1302176 bytes).
+Output written on main.pdf (46 pages, 1303750 bytes).
 PDF statistics:
  884 PDF objects out of 1000 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
+ 233 named destinations out of 1000 (max. 500000)
  355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
