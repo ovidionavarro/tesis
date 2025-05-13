@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  9 FEB 2025 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.19)  10 FEB 2025 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,249 +631,265 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \chapter
-              *{Resumen} [1
+l.139 \chapter
+              *{Opinión de los tutores} [1
 
 ] [2
 
-] [3
+] [3] [4
+
+] [5
 
 ] (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [4
+ [6
 
 ])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5] (main.lof
+
+[7] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [6
+ [8
 
-]
-(main.lot
+] (main.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [7
+ [9
 
-] [8
+] [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[10]
-<img/passpoint.png, id=363, 269.50688pt x 200.24812pt>
+[12]
+<img/passpoint.png, id=375, 269.50688pt x 200.24812pt>
 File: img/passpoint.png Graphic file (type png)
 <use img/passpoint.png>
-Package pdftex.def Info: img/passpoint.png  used on input line 257.
+Package pdftex.def Info: img/passpoint.png  used on input line 283.
 (pdftex.def)             Requested size: 226.48395pt x 168.28366pt.
- [11
+ [13
 
- <./img/passpoint.png>] [12]
-<img/DIAG_LINE.png, id=403, 389.65575pt x 193.32225pt>
+ <./img/passpoint.png>] [14]
+<img/DIAG_LINE.png, id=414, 389.65575pt x 193.32225pt>
 File: img/DIAG_LINE.png Graphic file (type png)
 <use img/DIAG_LINE.png>
-Package pdftex.def Info: img/DIAG_LINE.png  used on input line 326.
+Package pdftex.def Info: img/DIAG_LINE.png  used on input line 352.
 (pdftex.def)             Requested size: 226.48395pt x 112.36887pt.
- [13 <./img/DIAG_LINE.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+ [15 <./img/DIAG_LINE.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
-<img/no_td.png, id=423, 223.43475pt x 224.63925pt>
+<img/no_td.png, id=434, 223.43475pt x 224.63925pt>
 File: img/no_td.png Graphic file (type png)
 <use img/no_td.png>
-Package pdftex.def Info: img/no_td.png  used on input line 366.
+Package pdftex.def Info: img/no_td.png  used on input line 392.
 (pdftex.def)             Requested size: 89.68753pt x 90.16945pt.
-<img/si_td.png, id=424, 231.264pt x 210.18526pt>
+<img/si_td.png, id=435, 231.264pt x 210.18526pt>
 File: img/si_td.png Graphic file (type png)
 <use img/si_td.png>
-Package pdftex.def Info: img/si_td.png  used on input line 373.
+Package pdftex.def Info: img/si_td.png  used on input line 399.
 (pdftex.def)             Requested size: 101.91708pt x 92.62932pt.
-<img/td_10pts.png, id=426, 228.855pt x 235.47975pt>
+<img/td_10pts.png, id=437, 228.855pt x 235.47975pt>
 File: img/td_10pts.png Graphic file (type png)
 <use img/td_10pts.png>
-Package pdftex.def Info: img/td_10pts.png  used on input line 384.
+Package pdftex.def Info: img/td_10pts.png  used on input line 410.
 (pdftex.def)             Requested size: 135.89174pt x 139.83012pt.
-[14 <./img/no_td.png> <./img/si_td.png>] [15 <./img/td_10pts.png>]
+[16 <./img/no_td.png> <./img/si_td.png>] [17 <./img/td_10pts.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-03.
+29.
 
 (C:\Users\ovidi\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 403.
-<img/grafosviel.png, id=453, 860.013pt x 428.3202pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 429.
+<img/grafosviel.png, id=464, 860.013pt x 428.3202pt>
 File: img/grafosviel.png Graphic file (type png)
 <use img/grafosviel.png>
-Package pdftex.def Info: img/grafosviel.png  used on input line 412.
+Package pdftex.def Info: img/grafosviel.png  used on input line 438.
 (pdftex.def)             Requested size: 452.9679pt x 225.59692pt.
 
-[16 <./img/grafosviel.png>] [17]
-Overfull \hbox (1.30746pt too wide) in paragraph at lines 459--465
+[18 <./img/grafosviel.png>] [19]
+Overfull \hbox (1.30746pt too wide) in paragraph at lines 485--491
 \OT1/cmr/bx/n/20.74 Detecci^^Son de pa-tro-nes DIAG y LI-NE en Pass-
  []
 
-[18
+[20
 
 ]
-<img/alea3td.png, id=476, 462.528pt x 346.896pt>
+<img/alea3td.png, id=487, 462.528pt x 346.896pt>
 File: img/alea3td.png Graphic file (type png)
 <use img/alea3td.png>
-Package pdftex.def Info: img/alea3td.png  used on input line 481.
+Package pdftex.def Info: img/alea3td.png  used on input line 507.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/3td30.png, id=477, 462.528pt x 346.896pt>
+<img/3td30.png, id=488, 462.528pt x 346.896pt>
 File: img/3td30.png Graphic file (type png)
 <use img/3td30.png>
-Package pdftex.def Info: img/3td30.png  used on input line 488.
+Package pdftex.def Info: img/3td30.png  used on input line 514.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/3td_BONDAD.png, id=482, 383.18156pt x 375.65344pt>
+<img/3td_BONDAD.png, id=493, 383.18156pt x 375.65344pt>
 File: img/3td_BONDAD.png Graphic file (type png)
 <use img/3td_BONDAD.png>
-Package pdftex.def Info: img/3td_BONDAD.png  used on input line 508.
+Package pdftex.def Info: img/3td_BONDAD.png  used on input line 534.
 (pdftex.def)             Requested size: 271.7835pt x 266.45786pt.
-<img/3td_fdp.png, id=483, 420.82219pt x 436.63126pt>
+<img/3td_fdp.png, id=494, 420.82219pt x 436.63126pt>
 File: img/3td_fdp.png Graphic file (type png)
 <use img/3td_fdp.png>
-Package pdftex.def Info: img/3td_fdp.png  used on input line 517.
-(pdftex.def)             Requested size: 271.7835pt x 281.99477pt.
- [19 <./img/alea3td.png> <./img/3td30.png>] [20 <./img/3td_BONDAD.png> <./img/3
-td_fdp.png>] [21] [22] [23]
-<img/3td_teo_obs.png, id=564, 462.528pt x 346.896pt>
+Package pdftex.def Info: img/3td_fdp.png  used on input line 543.
+(pdftex.def)             Requested size: 249.13371pt x 258.4963pt.
+ [21 <./img/alea3td.png> <./img/3td30.png>] [22 <./img/3td_BONDAD.png> <./img/3
+td_fdp.png>] [23] [24] [25]
+<img/3td_teo_obs.png, id=576, 462.528pt x 346.896pt>
 File: img/3td_teo_obs.png Graphic file (type png)
 <use img/3td_teo_obs.png>
-Package pdftex.def Info: img/3td_teo_obs.png  used on input line 653.
+Package pdftex.def Info: img/3td_teo_obs.png  used on input line 679.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
- [24 <./img/3td_teo_obs.png>] [25]
-<img/alea4td.png, id=581, 462.528pt x 346.896pt>
+ [26 <./img/3td_teo_obs.png>] [27]
+<img/alea4td.png, id=592, 462.528pt x 346.896pt>
 File: img/alea4td.png Graphic file (type png)
 <use img/alea4td.png>
-Package pdftex.def Info: img/alea4td.png  used on input line 722.
+Package pdftex.def Info: img/alea4td.png  used on input line 748.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/4td30.png, id=582, 462.528pt x 346.896pt>
+<img/4td30.png, id=593, 462.528pt x 346.896pt>
 File: img/4td30.png Graphic file (type png)
 <use img/4td30.png>
-Package pdftex.def Info: img/4td30.png  used on input line 729.
+Package pdftex.def Info: img/4td30.png  used on input line 755.
 (pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/4td_bondad.png, id=586, 381.67593pt x 371.88937pt>
+<img/4td_bondad.png, id=597, 381.67593pt x 371.88937pt>
 File: img/4td_bondad.png Graphic file (type png)
 <use img/4td_bondad.png>
-Package pdftex.def Info: img/4td_bondad.png  used on input line 752.
-(pdftex.def)             Requested size: 271.7835pt x 264.82639pt.
- [26 <./img/alea4td.png> <./img/4td30.png>]
-<img/4td_fdp.png, id=593, 332.74312pt x 284.56313pt>
+Package pdftex.def Info: img/4td_bondad.png  used on input line 778.
+(pdftex.def)             Requested size: 262.7222pt x 255.99677pt.
+ [28 <./img/alea4td.png> <./img/4td30.png>]
+<img/4td_fdp.png, id=604, 332.74312pt x 284.56313pt>
 File: img/4td_fdp.png Graphic file (type png)
 <use img/4td_fdp.png>
-Package pdftex.def Info: img/4td_fdp.png  used on input line 767.
-(pdftex.def)             Requested size: 271.7835pt x 232.44446pt.
- [27 <./img/4td_bondad.png>] [28 <./img/4td_fdp.png>] [29] [30] [31]
-<img/4td_teo_obs.png, id=669, 462.528pt x 346.896pt>
+Package pdftex.def Info: img/4td_fdp.png  used on input line 787.
+(pdftex.def)             Requested size: 231.01112pt x 197.56454pt.
+ [29 <./img/4td_bondad.png> <./img/4td_fdp.png>]
+[30] [31] [32]
+<img/4td_teo_obs.png, id=662, 462.528pt x 346.896pt>
 File: img/4td_teo_obs.png Graphic file (type png)
 <use img/4td_teo_obs.png>
-Package pdftex.def Info: img/4td_teo_obs.png  used on input line 962.
+Package pdftex.def Info: img/4td_teo_obs.png  used on input line 987.
 (pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 958--966
+Underfull \hbox (badness 10000) in paragraph at lines 967--991
+
+ []
+
+[33] [34 <./img/4td_teo_obs.png>]
+<img/alea5td.png, id=690, 462.528pt x 346.896pt>
+File: img/alea5td.png Graphic file (type png)
+<use img/alea5td.png>
+Package pdftex.def Info: img/alea5td.png  used on input line 1031.
+(pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
+<img/5td30.png, id=691, 462.528pt x 346.896pt>
+File: img/5td30.png Graphic file (type png)
+<use img/5td30.png>
+Package pdftex.def Info: img/5td30.png  used on input line 1038.
+(pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/5td_bondad.png, id=693, 376.40625pt x 372.64218pt>
+File: img/5td_bondad.png Graphic file (type png)
+<use img/5td_bondad.png>
+Package pdftex.def Info: img/5td_bondad.png  used on input line 1060.
+(pdftex.def)             Requested size: 271.7835pt x 269.08684pt.
+[35] [36 <./img/alea5td.png> <./img/5td30.png> <./img/5td_bondad.png>]
+<img/5td_fdp.png, id=708, 399.74344pt x 436.63126pt>
+File: img/5td_fdp.png Graphic file (type png)
+<use img/5td_fdp.png>
+Package pdftex.def Info: img/5td_fdp.png  used on input line 1071.
+(pdftex.def)             Requested size: 226.48395pt x 247.38335pt.
+ [37 <./img/5td_fdp.png>]
+<img/5td_teo_obs.png, id=724, 462.528pt x 346.896pt>
+File: img/5td_teo_obs.png Graphic file (type png)
+<use img/5td_teo_obs.png>
+Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1195.
+(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1199
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32] [33 <./img/4td_teo_obs.png>]
-<img/alea5td.png, id=682, 462.528pt x 346.896pt>
-File: img/alea5td.png Graphic file (type png)
-<use img/alea5td.png>
-Package pdftex.def Info: img/alea5td.png  used on input line 1006.
-(pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/5td30.png, id=683, 462.528pt x 346.896pt>
-File: img/5td30.png Graphic file (type png)
-<use img/5td30.png>
-Package pdftex.def Info: img/5td30.png  used on input line 1013.
-(pdftex.def)             Requested size: 183.4495pt x 137.58614pt.
-<img/5td_bondad.png, id=687, 376.40625pt x 372.64218pt>
-File: img/5td_bondad.png Graphic file (type png)
-<use img/5td_bondad.png>
-Package pdftex.def Info: img/5td_bondad.png  used on input line 1035.
-(pdftex.def)             Requested size: 271.7835pt x 269.08684pt.
- [34 <./img/alea5td.png> <./img/5td30.png>]
-<img/5td_fdp.png, id=694, 399.74344pt x 436.63126pt>
-File: img/5td_fdp.png Graphic file (type png)
-<use img/5td_fdp.png>
-Package pdftex.def Info: img/5td_fdp.png  used on input line 1046.
-(pdftex.def)             Requested size: 271.7835pt x 296.87868pt.
+[38] [39 <./img/5td_teo_obs.png>]
+<img/histograma.jpg, id=739, 722.7pt x 433.62pt>
+File: img/histograma.jpg Graphic file (type jpg)
+<use img/histograma.jpg>
+Package pdftex.def Info: img/histograma.jpg  used on input line 1239.
+(pdftex.def)             Requested size: 407.66833pt x 244.59877pt.
 
-[35 <./img/5td_bondad.png>] [36 <./img/5td_fdp.png>]
-<img/5td_teo_obs.png, id=718, 462.528pt x 346.896pt>
-File: img/5td_teo_obs.png Graphic file (type png)
-<use img/5td_teo_obs.png>
-Package pdftex.def Info: img/5td_teo_obs.png  used on input line 1166.
-(pdftex.def)             Requested size: 362.37569pt x 271.79521pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1170
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
-
-[37] [38 <./img/5td_teo_obs.png>] [39]
+[40] [41 <./img/histograma.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1290.
+(hyperref)                removing `\@ifnextchar' on input line 1326.
 
-[40] [41] [42
+[42] [43] [44
 
-] [43] [44
+] [45] [46
 
-] [45] [46]
+] [47] [48]
 Ap\'{e}ndice A.
-[47
+[49
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -884,13 +900,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3312C4AA91DBF97AB6A374B66F97652A;12687.
+(rerunfilecheck)             Checksum: 4AAA46C9B1448DFEB1A4E42359603035;12692.
  ) 
 Here is how much of TeX's memory you used:
- 17482 strings out of 474486
- 293755 string characters out of 5743755
+ 17497 strings out of 474486
+ 294039 string characters out of 5743755
  2164542 words of memory out of 5000000
- 39267 multiletter control sequences out of 15000+600000
+ 39277 multiletter control sequences out of 15000+600000
  565177 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,93p,1989b,2099s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -911,9 +927,9 @@ msfonts/cm/cmsy10.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb><C:/Users/ovidi/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ovidi/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (48 pages, 1313550 bytes).
+Output written on main.pdf (50 pages, 1575170 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 250 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 934 PDF objects out of 1000 (max. 8388607)
+ 255 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 

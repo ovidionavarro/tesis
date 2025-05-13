@@ -1,23 +1,24 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces PassPoint.}}{11}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces DIAG-LINE.}}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Esta triangulación no cumple condición de Delaunay}}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Esta triangulación sí cumple condición de Delaunay}}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Triangulación de Delaunay para 10 puntos}}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi \degree )}$.}}{16}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 3 triángulos.}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Contraseña gráfica de 5 puntos con 3 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces \textit {Tests} de bondad de ajuste aplicados a la distribución Johnson SB sobre BD.1.}}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Función de densidad de probabilidad de la distribución Johnson SB para BD.1.}}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 1. }}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 4 triángulos.}}{26}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Contraseña gráfica de 5 puntos con 4 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{26}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Tests} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.2.}}{27}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.2.}}{28}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 2}}{33}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Contraseña gráfica de 5 puntos con 5 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos entre 15$\degree $ y 30$\degree $.}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{35}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{36}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 3. }}{38}{figure.caption.33}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces PassPoint.}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces DIAG-LINE.}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Esta triangulación no cumple condición de Delaunay}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Esta triangulación sí cumple condición de Delaunay}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Triangulación de Delaunay para 10 puntos}}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Frecuencia de falsos positivos vs falsos negativos según ${D(\varphi \degree )}$.}}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 3 triángulos.}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Contraseña gráfica de 5 puntos con 3 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos de 15$\degree $ a 30$\degree $.}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \textit {Tests} de bondad de ajuste aplicados a la distribución Johnson SB sobre BD.1.}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Función de densidad de probabilidad de la distribución Johnson SB para BD.1.}}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 1. }}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 4 triángulos.}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Contraseña gráfica de 5 puntos con 4 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos de 15$\degree $ a 30$\degree $.}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \textit {Tests} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.2.}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.2.}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 2}}{34}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Contraseña gráfica aleatoria de 5 puntos con una triangulación de Delaunay de 5 triángulos.}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Contraseña gráfica de 5 puntos con 5 triángulos en su triangulación, que sigue un patrón DIAG, con ángulos entre segmentos de 15$\degree $ a 30$\degree $.}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces \textit {Test} de bondad de ajuste para la distribución Log-Logistic (3P) sobre BD.3}}{36}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Función de densidad de probabilidad de la distribución Log-Logistic (3P) para BD.3}}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Comparación entre las probabilidades teóricas ($\alpha $) y estimadas ($\hat {\alpha }$) de cometer un error de tipo I por el \textit {test} 3. }}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Histograma de frecuencias de BD.1, BD.2 y BD.3.}}{41}{figure.caption.36}%
 \addvspace {10\p@ }
